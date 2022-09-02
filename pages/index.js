@@ -4,6 +4,7 @@ import Circular from "../components/Circular"
 import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton"
 import Counter from "../components/Counter"
 import Outro from "../components/Outro"
+import FullPageImage from "../components/FullPageImage"
 const toptext = {
   top: "fremtidsrettet forretningsutvikling",
   middle: "Vi er  endringsarkitekter",
@@ -40,11 +41,11 @@ export default function Home() {
       <ThreeMiddleTextTwoButton props={toptext} />
       <Circular/>
       <ThreeMiddleTextTwoButton props={midtext} />
-        {/* <Stories/> */}
+        
         {/* <BlogHome/> */}
         <ThreeMiddleTextTwoButton props={tmbttext} />
         <Counter />
-        {/* <FullPageImage/> */}
+        <FullPageImage/>
         
         <Outro/>
       

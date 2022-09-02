@@ -14,6 +14,11 @@ module.exports = {
         "admit-blue-pressed": "#075985",
   
       },
+      backgroundImage: {
+        'studio': "url('/studio.png')",
+        
+       },
+
     }
   },
   plugins: [],
