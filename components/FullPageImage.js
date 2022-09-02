@@ -5,7 +5,7 @@ const FullPageImage = () => {
   return (
     <>
       <section
-        className="text-white h-screen body-font flex bg-studio"
+        className="text-white h-screen body-font flex bg-studio bg-cover"
         
       >
         <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">

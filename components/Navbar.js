@@ -35,7 +35,7 @@ const navigation = [
                 </div>
                 <Link
                   href="/"
-                  className="flex-shrink-0 translate-x-10 items-start justify-center left-0 sm:hidden md:flex md:translate-x-5"
+                  className="flex-shrink-0 cursor-pointer translate-x-10 items-start justify-center left-0 sm:hidden md:flex md:translate-x-5"
                 >
                   {/* <img
                     className="block lg:hidden h-6 w-auto"
@@ -43,7 +43,7 @@ const navigation = [
                     alt="Workflow"
                   /> */}
                   <img
-                    className="hidden lg:block h-8 w-auto"
+                    className="hidden cursor-pointer lg:block h-8 w-auto"
                     src="https://uploads-ssl.webflow.com/602535e288aec462623e79b5/608168cc4904e8cfd98c68fe_Admit%20logo%202020%20farger.png"
                     alt="Workflow"
                   />
