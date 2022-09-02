@@ -5,6 +5,8 @@ import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton"
 import Counter from "../components/Counter"
 import Outro from "../components/Outro"
 import FullPageImage from "../components/FullPageImage"
+import BlogPreview from "../components/BlogPreview"
+import {getPosts} from "../services"
 const toptext = {
   top: "fremtidsrettet forretningsutvikling",
   middle: "Vi er  endringsarkitekter",
@@ -29,7 +31,9 @@ const tmbttext = {
 
 
 
-export default function Home() {
+export default function Home({posts}) {
+ 
+  
   return (
     <div className="">
       <Head>
@@ -42,7 +46,7 @@ export default function Home() {
       <Circular/>
       <ThreeMiddleTextTwoButton props={midtext} />
         
-        {/* <BlogHome/> */}
+        <BlogPreview/>
         <ThreeMiddleTextTwoButton props={tmbttext} />
         <Counter />
         <FullPageImage/>
@@ -55,4 +59,10 @@ export default function Home() {
       
     </div>
   )
+}
+export async function getStaticProps() {
+  const posts = (await getPosts());
+  return {
+    props: { posts }
+  };
 }
