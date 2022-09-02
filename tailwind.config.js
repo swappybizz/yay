@@ -5,7 +5,16 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'admit-red': '#FF595A',
+        "admit-blue": "#002856",
+        "admit-dark-blue": "#002A3A",
+  
+        "admit-blue-pressed": "#075985",
+  
+      },
+    }
   },
   plugins: [],
 }
