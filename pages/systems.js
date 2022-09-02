@@ -7,7 +7,6 @@ const text1 = {
   middle: "Systemtenkning",
   bottom: "Admit jobber med å utvikle lærende ",
 };
-
 const text2 = {
   middle: "Grunnleggende systemtenkning",
   bottom:
