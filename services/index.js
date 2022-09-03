@@ -247,6 +247,7 @@ export const getRecentPosts = async () => {
         }
         createdAt
         slug
+        excerpt
       }
     }
   `;
