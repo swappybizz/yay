@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="text-center lg:w-2/3 w-full">
           <div >
             <h1
-            data-cursor-size="80px"
+            data-cursor-size="10rem"
             data-cursor-exclusion 
             className="title-font sm:text-9xl text-8xl mb-4 text-center text-gray-900">
               <span className="font-thin">#</span>
@@ -20,7 +20,7 @@ const Hero = () => {
               
               className="font-serif font-base">weadmit</span>
             </h1>
-            <div className="">
+            <div >
               <p
               data-cursor-exclusion 
               className="mb-8 leading-relaxed sm:text-lg text-lg sm:font-normal font-medium text-gray-900 sm:p-12 p-6">
@@ -29,10 +29,17 @@ const Hero = () => {
                 bærekraftig vekst gjennom innovasjon og bruk av fremtidsrettet
                 verktøy.
               </p>
-              <div className="flex justify-center">
+              <div 
+              
+              data-cursor-exclusion 
+              // data-cursor-stick="#stick-title"
+
+              // style={{ display:"block", text:"center" }}
+              
+              >
                 <button
-                data-cursor-size="10px"
-                data-cursor-color="#FF595A"
+                
+                
                 
                   
                   className="inline-flex text-white bg-admit-blue border-0 py-2 px-12 focus:outline-none hover:bg-admit-blue-pressed rounded-full text-lg"

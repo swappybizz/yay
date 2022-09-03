@@ -36,7 +36,8 @@ const poster = [
 
 const BlogPreview = ({posts}) => {
   return (
-    <>
+    <div div
+    data-cursor-exclusion style={{backgroundColor: '#fff'}} >
    <section className="text-gray-600 body-font">
    <div className="container px-5 py-24 mx-auto">
      <div className="flex flex-wrap -m-4">
@@ -80,7 +81,7 @@ const BlogPreview = ({posts}) => {
   </div>
 </section>
     
-    </>
+    </div>
   )
 }
 export default BlogPreview

@@ -3,7 +3,9 @@ import React from "react";
 
 const FullPageImage = () => {
   return (
-    <>
+    <div
+    data-cursor-exclusion 
+    >
       <section
         className="text-white h-screen body-font flex bg-studio bg-cover"
         
@@ -31,7 +33,7 @@ const FullPageImage = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
