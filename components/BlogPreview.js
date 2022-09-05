@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { getRecentPosts } from "../services";
 
-const BlogPreview = ({ posts }) => {
+const BlogPreview = () => {
   const [relatedPosts, setRelatedPosts] = useState([]);
 
   useEffect(() => {

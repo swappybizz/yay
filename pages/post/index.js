@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useState, useEffect }from "react";
 import { getPosts } from "../../services";
 
 export default function ({ posts }) {
-  
+  const [blogPost,setBlogPosts ] =  useState([])
+
+  useEffect(() =>{
+    getPosts().then((result)=>
+    setBlogPosts(result)
+    )
+
+
+
+  },[])
   return (
     // <>
     // {posts?.map((post)=>(
@@ -17,7 +26,7 @@ export default function ({ posts }) {
     // ))}
     // </>
     <>
-      {posts.map((post) => (
+      {blogPost.map((post) => (
         <div key={post.node.title}>
           <section className="text-gray-600 body-font ">
             <section className="text-gray-600 body-font">
