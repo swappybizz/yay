@@ -24,3 +24,9 @@ html,body{
   background: darkgrey;
   border-radius: 10px;
 }
+
+.heroText{
+font-size: 96px;
+background-color:transparent;
+
+}

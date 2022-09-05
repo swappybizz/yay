@@ -37,7 +37,7 @@ export default function Home({ posts }) {
     <div className="">
       <Cursor 
       isGelly={true}
-      cursorBackgrounColor="#FFF"
+      cursorBackgrounColor="#FF595A"
       cursorSize = "10"
       />
       <Head>
