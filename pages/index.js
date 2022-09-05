@@ -38,7 +38,7 @@ export default function Home({ posts }) {
       <Cursor 
       isGelly={true}
       cursorBackgrounColor="#FFF"
-      cursorSize = "15"
+      cursorSize = "10"
       />
       <Head>
         <title>Admit AS</title>
