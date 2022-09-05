@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="text-center lg:w-2/3 w-full">
           <div >
             <h1
-            data-cursor-size="10rem"
+            data-cursor-size="20rem"
             data-cursor-exclusion 
             className="title-font sm:text-9xl text-8xl mb-4 text-center text-gray-900">
               <span className="font-thin">#</span>
