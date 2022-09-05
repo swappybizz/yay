@@ -3,10 +3,21 @@ import { getPosts } from "../../services";
 
 export default function ({ posts }) {
   
-
   return (
+    // <>
+    // {posts?.map((post)=>(
+      
+    //   <>
+    //   <h2>{post.node.title}</h2>
+    //   <h2>{post.node.slug}</h2>
+    //   <img src={post.node.featuredImage.url} ></img>
+      
+
+    //   </>
+    // ))}
+    // </>
     <>
-      {posts?.map((post, index) => (
+      {posts.map((post) => (
         <div key={post.node.title}>
           <section className="text-gray-600 body-font ">
             <section className="text-gray-600 body-font">
@@ -23,62 +34,46 @@ export default function ({ posts }) {
                         </span>
                       </div>
                       <div className="flex-grow pl-6">
-                        {post.node.category?.map((cat) => (
-                          <h2 className="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">
-                            {cat.name}
-                            {/* fix this */}
-                          </h2>
-                        ))}
+                        {/* {post.node.category.map((cat) => ( */}
+                        <h2 className="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">
+                          {/* {cat.name} */}
+                          {/* fix this */}
+                        </h2>
+                        {/* ))} */}
 
                         <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
-
                           {post.node.title}
                         </h1>
                         <p className="leading-relaxed mb-5">
                           {post.node.excerpt}
                         </p>
-                        <a 
-                        
-                        className="inline-flex items-center cursor-pointer">
-                          <img
+                        <a className="inline-flex items-center cursor-pointer">
+                          {/* <img
                             alt="blog"
                             src={post.node.author.photo.url}
                             className="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center"
-                          />
+                          /> */}
                           {/* improve the performance of this image */}
-                          <span className="flex-grow flex flex-col pl-3">
+                          {/* <span className="flex-grow flex flex-col pl-3">
                             <span className="title-font font-medium text-gray-900">
-                             
                               {post.node.author.name}
                             </span>
-                            
-
-                          </span>
-                          
+                          </span> */}
                         </a>
-                        
-
-
                       </div>
-                      
                     </div>
-                    <a 
-                        href={`/post/${post.node.slug}`}
-                        className="inline-flex items-center cursor-pointer">
-                          
-                          {/* improve the performance of this image */}
-                          <span className="flex-grow flex flex-col pl-3">
-                            <span className=" hover:text-admit-red transition-all duration-700 font-thin text-gray-900">
-                              LES MER 
-                            </span>
-                            
-
-                          </span>
-                          
-                        </a>
-                    
+                    <a
+                      href={`/post/${post.node.slug}`}
+                      className="inline-flex items-center cursor-pointer"
+                    >
+                      {/* improve the performance of this image */}
+                      <span className="flex-grow flex flex-col pl-3">
+                        <span className=" hover:text-admit-red transition-all duration-700 font-thin text-gray-900">
+                          LES MER
+                        </span>
+                      </span>
+                    </a>
                   </div>
-                  
                 </div>
               </div>
             </section>
