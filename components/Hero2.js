@@ -8,7 +8,13 @@ const Hero2 = () => {
       <div className="admitHero">
         <h1 className="admitHeroText">#WeAdmit</h1>
         <p className="admitHeroSubtext">{subtext}
+        <div 
+        data-cursor-text="👀 Hvordan" 
+        data-cursor-size="100px"
+        >
+
         <Link href= "#circularSection">
+          
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -24,6 +30,7 @@ const Hero2 = () => {
           />
         </svg>
         </Link>
+        </div>
         </p>
         
       </div>
