@@ -21,7 +21,7 @@ const Circular = () => {
               </div>
               <div
 
-              // data-cursor-background-image={System} data-cursor-size="250px"
+              data-cursor-background-image="/blog1.png" data-cursor-size="250px"
               >
                 <a
                   href="/systems"
@@ -33,15 +33,16 @@ const Circular = () => {
               <div>
                 <a
                   href="/hr"
-                  // data-cursor-background-image={hms}
-                  // data-cursor-size="250px"
+                  data-cursor-background-image="/blog2.png"
+                  data-cursor-size="250px"
                   className=" flex mx-5 w-36 h-36 border-admit-blue border-2 rounded-full justify-center text-center items-center my-auto py-auto"
                 >
                   <p className="m-auto p-auto">HR/HMS</p>
                 </a>
               </div>
               <div
-              //  data-cursor-background-image={digi} data-cursor-size="250px"
+               data-cursor-background-image="./studio.png"
+               data-cursor-size="250px"
               >
                 <a
                   href="/digital"
@@ -51,7 +52,7 @@ const Circular = () => {
                 </a>
               </div>
               <div
-              // data-cursor-background-image={oko} data-cursor-size="250px"
+              data-cursor-background-image="./blog1" data-cursor-size="250px"
               >
                 <a
                   href="/economy"
@@ -61,7 +62,7 @@ const Circular = () => {
                 </a>
               </div>
               <div
-              // data-cursor-background-image={mar} data-cursor-size="250px"
+              data-cursor-background-image="./blog2.png" data-cursor-size="250px"
               >
                 <a
                   href="/marketing"
@@ -74,7 +75,7 @@ const Circular = () => {
           </div>
         </section>
         <div
-        //   data-cursor-size="10px" data-cursor-color="#61dbfb"
+          data-cursor-size="/blog2.png" data-cursor-color="#61dbfb"
         >
           <div data-cursor-size="10px" data-cursor-color="#000">
             <section className="text-gray-600 body-font">

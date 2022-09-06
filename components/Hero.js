@@ -7,16 +7,13 @@ const Hero = () => {
         <div className="container sm:p-48 mx-auto flex px-5 py-24 items-center justify-center flex-col">
           <div className="text-center lg:w-2/3 w-full">
             <div>
-              <div data-cursor-size="10rem" data-cursor-exclusion>
-                {/* <h1 className="title-font sm:text-9xl text-8xl mb-4 text-opacity-90 text-center text-gray-900">
+              <div 
+              data-cursor-size="10rem" 
+              data-cursor-exclusion
+              >
+                <h1 className="title-font sm:text-9xl text-8xl mb-4 text-opacity-90 text-center text-gray-900">
                   <span className="font-thin">#</span>
                   <span className="font-serif font-base">weadmit</span>
-                </h1> */}
-                <h1 className="heroText" >
-                  <span>{"#"}</span>
-                  <span>{"Admit"}</span>
-
-
                 </h1>
               </div>
               <div>

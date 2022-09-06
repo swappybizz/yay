@@ -7,7 +7,8 @@ import Outro from "../components/Outro";
 import FullPageImage from "../components/FullPageImage";
 import BlogPreview from "../components/BlogPreview";
 import {getRecentPosts } from "../services";
-import { Cursor } from 'react-creative-cursor';
+import {Cursor}from "react-creative-cursor"
+
 import 'react-creative-cursor/dist/styles.css';
 const toptext = {
   top: "fremtidsrettet forretningsutvikling",
