@@ -2,7 +2,7 @@ import React from "react";
 
 const Circular = () => {
   return (
-    <div>
+    <div >
       <div data-cursor-color="#000">
         <section className="text-gray-600 body-font">
           <div className="flex px-5 py-24 justify-center">

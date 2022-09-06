@@ -35,7 +35,7 @@ const tmbttext = {
 
 export default function Home({ posts }) {
   return (
-    <div className="">
+    <div className="scroll-smooth">
       <Cursor 
       isGelly={true}
       cursorBackgrounColor="#FF595A"
@@ -47,8 +47,11 @@ export default function Home({ posts }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
+      <div id="circularSection">
+
       <ThreeMiddleTextTwoButton props={toptext} />
       <Circular />
+      </div>
       <ThreeMiddleTextTwoButton props={midtext} />
       <BlogPreview posts={posts} />
       <ThreeMiddleTextTwoButton props={tmbttext} />
