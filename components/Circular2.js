@@ -15,7 +15,7 @@ const Circular2 = () => {
               <Link href="/strategy">
               <div
                data-cursor-text="👀 Hvordan" 
-               data-cursor-size="250px"
+               data-cursor-size="150px"
                data-cursor-color="#c8c8c8"
               className="md:p-2 p-1 w-1/2 cursor-pointer">
                 <img
@@ -26,7 +26,7 @@ const Circular2 = () => {
               </div>
               </Link>
               <Link href="/systems">
-              <div data-cursor-text="👀 Hvordan" 
+              <div data-cursor-text="Se Hvordan 🤌" 
                data-cursor-size="200px"
                data-cursor-color="#b3b3b3" className="md:p-2 p-1 w-1/2 cursor-pointer">
                 <img
@@ -52,7 +52,7 @@ const Circular2 = () => {
             <div className="flex flex-wrap w-1/2">
             <Link href="/hr">
               <div data-cursor-text="👀 Hvordan" 
-               data-cursor-size="250px"
+               data-cursor-size="150px"
                data-cursor-color="#DC965A" className="md:p-2 p-1 w-full cursor-pointer">
                 <img
                   alt="gallery"
@@ -64,8 +64,8 @@ const Circular2 = () => {
               </Link>
               <Link href="/economy">
               <div
-              data-cursor-text="👀 Hvordan" 
-              data-cursor-size="200px"
+              data-cursor-text="Hvordan🤌" 
+              data-cursor-size="80px"
               data-cursor-color="#f87171"
               className="md:p-2 p-1 w-1/2 cursor-pointer">
                 <img
@@ -77,8 +77,8 @@ const Circular2 = () => {
               </Link>
               <Link href="/marketing">
               <div 
-              data-cursor-text="👀 Hvordan" 
-              data-cursor-size="300px"
+              data-cursor-text="Take me there 🏃‍♀️" 
+              data-cursor-size="200px"
               data-cursor-color="#242325"
               className="md:p-2 p-1 w-1/2 cursor-pointer">
                 <img
