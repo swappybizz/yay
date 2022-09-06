@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Hero from "../components/Hero2";
-import Circular from "../components/Circular";
+import Circular from "../components/Circular2";
 import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton";
 import Counter from "../components/Counter";
 import Outro from "../components/Outro";
