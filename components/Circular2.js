@@ -91,7 +91,7 @@ const Circular2 = () => {
               </Link>
             </div>
           </div>
-          <div className="flex w-full mt-20 flex-wrap">
+          {/* <div className="flex w-full mt-20 flex-wrap">
             <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
             Vår kompetanse
             </h1>
@@ -100,7 +100,7 @@ const Circular2 = () => {
                       starte for å nå dine mål; Bestill tid her for en
                       utforpliktende kartleggings-prat,
             </p>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
