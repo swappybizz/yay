@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link"
 const subtext =
-  " #WeAdmit pil vi innrømmer, vi forplikter oss til; å dele kompetanse gjennom vårt støtte- og utviklingsmiljø og skape bærekraftig vekst gjennom innovasjon og bruk av fremtidsrettet verktøy.";
+  "#WeAdmit pil vi innrømmer, vi forplikter oss til; å dele kompetanse gjennom vårt støtte- og utviklingsmiljø og skape bærekraftig vekst gjennom innovasjon og bruk av fremtidsrettet verktøy.";
 const Hero2 = () => {
   return (
     <div>

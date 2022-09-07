@@ -85,6 +85,7 @@ const Circular2 = () => {
                   alt="gallery"
                   className="w-full rounded-xl object-cover h-full object-center block"
                   src="https://i.ibb.co/gMQ3hWy/5-2.png"
+                  // src="https://www.cybermis.com/wp-content/uploads/2021/10/006b2787627b0b67bb91d9716d6e5058.gif"
                 />
               </div>
               </Link>
