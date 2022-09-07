@@ -12,7 +12,7 @@ const ThreeMiddleTextTwoButton = (props) => {
               )}
 
               {props.props.middle && (
-                <h1 className="title-font font-admitTitle sm:text-8xl text-4xl mb-4 font-medium text-gray-900">
+                <h1 className="title-font font-admitTitle sm:text-8xl text-4xl mb-4 font-semibold text-gray-900">
                   {props.props.middle}
                 </h1>
               )}
