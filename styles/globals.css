@@ -65,7 +65,7 @@
 }
 .admitHeroText::before {
   background: white;
-  animation: typewriter 2s
+  animation: typewriter 1s
     steps(8) 1s forwards;
 }
 
@@ -73,7 +73,7 @@
   width: 0.125em;
 
   background: black;
-  animation: typewriter 2s
+  animation: typewriter 1s
       steps(8) 1s forwards,
     blink 750ms steps(8) infinite;
 }
@@ -89,7 +89,7 @@ cursor:none;
   font-weight: 400;
   opacity: 0;
   transform: translateY(3rem);
-  animation: fadeInUp 2s ease calc(2s + 2s) forwards;
+  animation: fadeInUp 1s ease calc(1s + 1s) forwards;
   display:flex;
   flex-direction: column;
   align-items:center;
