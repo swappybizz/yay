@@ -19,9 +19,10 @@ const Circular2 = () => {
                   className="md:p-2 p-1 w-1/2 cursor-pointer"
                 >
                   <img
-                    alt="gallery"
+                    alt="Strategy"
                     className="w-full rounded-xl object-cover h-full object-center block"
-                    src="https://i.ibb.co/93Xjt4d/Frame-1.png"
+                    src="https://i.ibb.co/xMhY8gv/Frame-9.png"
+                    
                   />
                 </div>
               </Link>
@@ -34,8 +35,9 @@ const Circular2 = () => {
                 >
                   <img
                     alt="gallery"
-                    className="w-full rounded-xl object-cover h-full object-center block"
-                    src="https://i.ibb.co/D4RvmZb/Frame-3.png"
+                    className="w-full rounded-xl object-contain h-full object-center block"
+                    src="https://i.ibb.co/1XHLTBK/Frame-10-1.png"
+                    
                   />
                 </div>
               </Link>
@@ -47,9 +49,9 @@ const Circular2 = () => {
                   className="md:p-2 p-1 w-full cursor-pointer"
                 >
                   <img
-                    alt="gallery"
+                    alt="Admit Digital"
                     className="w-full rounded-xl h-full object-cover object-center block"
-                    src="https://i.ibb.co/CVZ3DZn/5-1.png"
+                    src="https://i.ibb.co/c3b0PhS/Frame-12.png"
                   />
                 </div>
               </Link>
@@ -63,9 +65,10 @@ const Circular2 = () => {
                   className="md:p-2 p-1 w-full cursor-pointer"
                 >
                   <img
-                    alt="gallery"
+                    alt="hr"
                     className="w-full rounded-xl h-full object-cover object-center block"
-                    src="https://i.ibb.co/5WpZZgv/Frame-4.png"
+                    src="https://i.ibb.co/NFkm1Cr/Frame-11.png"
+                    // <img src="https://i.ibb.co/NFkm1Cr/Frame-11.png" alt="Frame-11" border="0"></img>
                   />
                 </div>
               </Link>
@@ -79,7 +82,7 @@ const Circular2 = () => {
                   <img
                     alt="gallery"
                     className="w-full rounded-xl object-cover h-full object-center block"
-                    src="https://i.ibb.co/yQtKhVf/Frame-2.png"
+                    src="https://i.ibb.co/KGGSWbW/Frame-13.png"
                   />
                 </div>
               </Link>
@@ -93,7 +96,7 @@ const Circular2 = () => {
                   <img
                     alt="gallery"
                     className="w-full rounded-xl object-cover h-full object-center block"
-                    src="https://i.ibb.co/gMQ3hWy/5-2.png"
+                    src="https://i.ibb.co/jZVb8Lt/Frame-14.png"
                     // src="https://www.cybermis.com/wp-content/uploads/2021/10/006b2787627b0b67bb91d9716d6e5058.gif"
                   />
                 </div>
