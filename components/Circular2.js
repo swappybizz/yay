@@ -15,7 +15,7 @@ const Circular2 = () => {
                 <div
                   data-cursor-text="👀 Hvordan"
                   data-cursor-size="150px"
-                  data-cursor-color="#c8c8c8"
+                  data-cursor-color="#004a98"
                   className="md:p-2 p-1 w-1/2 cursor-pointer"
                 >
                   <img
@@ -29,7 +29,7 @@ const Circular2 = () => {
                 <div
                   data-cursor-text="Se Hvordan 🤌"
                   data-cursor-size="200px"
-                  data-cursor-color="#b3b3b3"
+                  data-cursor-color="#002856"
                   className="md:p-2 p-1 w-1/2 cursor-pointer"
                 >
                   <img
@@ -43,7 +43,7 @@ const Circular2 = () => {
                 <div
                   data-cursor-text={bubbletext}
                   data-cursor-size="300px"
-                  data-cursor-color="#BBB891"
+                  data-cursor-color="#002a3a"
                   className="md:p-2 p-1 w-full cursor-pointer"
                 >
                   <img
@@ -59,7 +59,7 @@ const Circular2 = () => {
                 <div
                   data-cursor-text="👀 Hvordan"
                   data-cursor-size="150px"
-                  data-cursor-color="#DC965A"
+                  data-cursor-color="#d2dce5"
                   className="md:p-2 p-1 w-full cursor-pointer"
                 >
                   <img
@@ -73,7 +73,7 @@ const Circular2 = () => {
                 <div
                   data-cursor-text="Hvordan🤌"
                   data-cursor-size="80px"
-                  data-cursor-color="#f87171"
+                  data-cursor-color="#73c3d5"
                   className="md:p-2 p-1 w-1/2 cursor-pointer"
                 >
                   <img
@@ -87,7 +87,7 @@ const Circular2 = () => {
                 <div
                   data-cursor-text="Take me there 🏃‍♀️"
                   data-cursor-size="200px"
-                  data-cursor-color="#242325"
+                  data-cursor-color="#ff595a"
                   className="md:p-2 p-1 w-1/2 cursor-pointer"
                 >
                   <img
