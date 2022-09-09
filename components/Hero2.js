@@ -1,13 +1,12 @@
 import React from "react";
 import Link from "next/link"
-const subtext =
-  "#WeAdmit pil vi innrømmer, vi forplikter oss til; å dele kompetanse gjennom vårt støtte- og utviklingsmiljø og skape bærekraftig vekst gjennom innovasjon og bruk av fremtidsrettet verktøy.";
+const subtext =" Vi forplikter oss til: Ved hjelp av vårt støtte- og utviklingsmiljø bidrar vi til vekst og bærekraftig utvikling for SMB-markedet. Gjennom innovasjon og bruk av fremtidsrettet verktøy medvirker vi til at våre kunder får bedre kontroll og mindre bekymringer."
 const Hero2 = () => {
   return (
     <div>
       <div className="admitHero">
         <h1 className="admitHeroText">#WeAdmit</h1>
-        <p className="admitHeroSubtext">{subtext}
+        <p className="admitHeroSubtext">Vi forplikter oss til: <br></br>Ved hjelp av vårt støtte- og utviklingsmiljø bidrar vi til vekst og bærekraftig utvikling <br></br>for SMB-markedet. Gjennom innovasjon og bruk av fremtidsrettet verktøy medvirker vi <br></br>til at våre kunder får bedre kontroll og mindre bekymringer. <br></br>
         <div 
         data-cursor-text="👀 Hvordan" 
         data-cursor-size="100px"

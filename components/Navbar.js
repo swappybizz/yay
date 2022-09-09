@@ -4,11 +4,11 @@ import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const navigation = [
-  { name: "Admit Avatar", href: "/avatar", current: true },
-  { name: "Admit Studio", href: "/studio", current: false },
-  { name: "Lounge", href: "/lounge", current: false },
-  { name: "Våre rådgivere", href: "/consult", current: false },
-  { name: "Om Admit ", href: "/about", current: false },
+  { name: "ADMIT AVATAR", href: "/avatar", current: true },
+  { name: "ADMIT STUDIO", href: "/studio", current: false },
+  { name: "LOUNGE", href: "/lounge", current: false },
+  { name: "OM ADMIT ", href: "/about", current: false },
+  {name: "KONTACT OSS", href: "/kontact", current: false },
 ];
 
 function classNames(...classes) {
@@ -17,7 +17,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-white transition-all duration-400">
+    <Disclosure as="nav" className="bg-admit-white transition-all duration-400">
       {({ open }) => (
         <div
           data-cursor-size="10px"
@@ -61,16 +61,16 @@ export default function Example() {
               </a>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-center">
                 <div className="hidden sm:block sm:ml-6">
-                  <div className="flex space-x-10">
+                  <div className="flex space-x-10 text-admitText">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? " text-black hover:bg-admit-red hover:text-white border-2  "
-                            : "text-black hover:bg-admit-red hover:text-white border-2  ",
-                          "px-3 py-2 rounded-full text-sm font-medium transition-all duration-400 border-2 "
+                            ? " text-black  hover:text-gray-600 transition-all duration-400 "
+                            : "text-black  hover:text-gray-600  transition-all duration-400",
+                          "px-3 py-2 rounded-full text-sm font-medium transition-all duration-400 "
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -83,9 +83,9 @@ export default function Example() {
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <a
                   href="https://calendly.com/admitas/"
-                  className="inline-flex items-center bg-admit-red  border-0 py-2 px-6 focus:outline-none hover:outline transition-b duration-400 hover:bg-admit-blue text-white rounded-full text-sm font-base mt-0 md:mt-0"
+                  className="inline-flex items-center bg-admit-blue  border-0 py-2 px-6 focus:outline-none hover:outline transition-b duration-400 hover:bg-admit-blue-pressed active:bg-[rgba(0,40,86,0.37)] text-white rounded-full text-sm font-base mt-0 md:mt-0"
                 >
-                  Booking
+                  Snakk med oss 
                   <svg
                     fill="none"
                     stroke="currentColor"

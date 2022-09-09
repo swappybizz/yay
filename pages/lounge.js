@@ -16,7 +16,7 @@ const text2 = {
 }
 const text3 = {
   middle: "Medlemsfordeler",
-  bottom:"Adgang 24/7​​ Høyhastighets wifi​ Printer/scanner​ Ekstra skjerm​ Kaffe/te​ Rabatterte priser på studio og eventer​"
+  bottom:"Høyhastighets wifi​ Printer/scanner​ Ekstra skjerm​ Kaffe/te​ Rabatterte priser på studiotid og eventer ​"
 }
 
 
@@ -24,7 +24,7 @@ const text6 = {
   middle: "Bli medlem",
   button1: "Bli Medlem",
   button2: "Kontact Oss",
-  bottom:"Møte likesinnede for input og inspirasjon​. Ta med dine ansatte eller ditt team, for kortere eller lengre opphold."
+  bottom:"Møte likesinnede for input og inspirasjon​. Ta med dine ansatte eller ditt team, på våre events eller workshops der endringskompetanse står i fokus. Bli med i kompetansenettverket vårt !"
 }
 const ringText ={
   leftTop : "Coworking",

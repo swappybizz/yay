@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 /* @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
 /* @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
 
 /* width */
 ::-webkit-scrollbar {
@@ -15,7 +17,7 @@
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
-  color:transparent;
+  color: transparent;
 }
 
 /* Handle */
@@ -24,21 +26,23 @@
   border-radius: 10px;
 }
 
-
-.admitHero{
+.admitHero {
   margin: 0;
   font-family: "DM Serif Display", sans-serif;
   min-height: 100vh;
   display: grid;
   place-content: center;
   text-align: center;
-  background: white;
+  background: linear-gradient(
+    0deg,
+    #ff595a 0%,
+    rgba(0, 40, 86, 0.37) 26.81%,
+    rgba(255, 255, 255, 0) 50%
+  );
 
   display: flex;
   align-items: center;
   flex-direction: column;
-  
-
 }
 .admitHeroText {
   font-size: clamp(3rem, 5vw + 2rem, 7rem);
@@ -50,9 +54,9 @@
   font-weight: 800;
   font-stroke: 2px black;
   color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    transition: ease-in-out 0.5s;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  transition: ease-in-out 0.5s;
 }
 .admitHeroText::before,
 .admitHeroText::after {
@@ -65,35 +69,41 @@
 }
 .admitHeroText::before {
   background: white;
-  animation: typewriter 1s
-    steps(8) 1s forwards;
+  animation: typewriter 1s steps(8) 1s forwards;
 }
 
 .admitHeroText::after {
   width: 0.125em;
 
   background: black;
-  animation: typewriter 1s
-      steps(8) 1s forwards,
-    blink 750ms steps(8) infinite;
+  animation: typewriter 1s steps(8) 1s forwards, blink 750ms steps(8) infinite;
 }
 
 .admitHeroText:hover {
-color: black;
-cursor:none;
+  color: black;
+  cursor: none;
 }
-.admitHeroSubtext{
-  width:50%;
+.admitHeroSubtext {
+  width: 50%;
   color: hsl(0 0% 0% / 0.7);
-  font-size: 1.5rem;
-  font-weight: 400;
   opacity: 0;
   transform: translateY(3rem);
-  animation: fadeInUp 1s ease calc(1s + 1s) forwards;
-  display:flex;
+  animation: fadeInUp 1s ease calc(1s + 0.4s) forwards;
+  display: flex;
   flex-direction: column;
-  align-items:center;
-  margin-top:2rem;
+  align-items: center;
+  margin-top: 2rem;
+  font-family: "Barlow", sans-serif;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  text-align: center;
+
+  color: #000000;
 }
 
 @keyframes typewriter {
@@ -115,4 +125,28 @@ cursor:none;
   }
 }
 
+.hero3 {
+  height: 100vh;
 
+  overflow: hidden;
+  background: linear-gradient(
+    0deg,
+    #ff595a 0%,
+    rgba(0, 40, 86, 0.37) 23.41%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 50% 10%;
+}
+
+/* .hero3:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(100px);
+} */
+/* @keyframes grad {
+70%{}
+
+} */

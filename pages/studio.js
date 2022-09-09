@@ -10,7 +10,7 @@ const text1 = {
 
 const text2 = {
   middle: "Hva?",
-  bottom:"Produksjon av profesjonelt medieinnhold som webinar, salgspitch, podcast, promofilm eller annet innen lyd og bilde. Du kan selv være en del av produksjonen for å skape en tettere relasjon. Studioet gir deg tilgang til å streame direkte fra verdens fremste strømmeplatformer som Facebook, Youtube, Twitch, Vimeo, Twitter, Instagram, Zoom, Teams etc.."
+  bottom:" Produksjon av profesjonelt medieinnhold som webinar, salgspitch, podcast, promofilm eller annet innen lyd og bilde. Du kan selv være en del av produksjonen for å skape en tettere relasjon. Studioet gir deg tilgang til å streame direkte fra verdens fremste strømmeplattformer som Youtube, Twitch, Vimeo, Twitter, Instagram, Zoom, Teams etc.."
 
 }
 const text3 = {

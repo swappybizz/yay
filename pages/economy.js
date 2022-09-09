@@ -10,11 +10,11 @@ const text1 = {
 
 const text2 = {
   middle: "Få bedre kontroll",
-  bottom:"Budsjett, drift, balanse og likviditet. Regnskapsrapporter, prognose og resultatoppfølging."
+  bottom:"Våre verktøy bidrar til å gi en enda bedre oversikt og forutsigbarhet når det kommer til budsjett, drift, balanse og likviditet. I tillegg til dine vanlige regnskapsrapporter, setter vi opp prognoser og resultatoppfølging etter behov."
 }
 const text3 = {
   middle: "Optimalisering",
-  bottom:"Hjelp med overvåkning av kontantstrømmer, likviditet, Kalkulasjon og prisfastsetting vil gi deg bedre kontroll."
+  bottom:"Kalkulasjon og resultat basert på aktivitetsområder også kalt Activity Based Costing (ABC). Et viktig verktøy for å kartlegge lønnsomme og ulønnsomme aktivitetsområder, på tvers av avdelinger. Dashboard med dine viktigste overvåkningspunkt - Balanced Scorecard Ved hjelp av vår GPS for likviditet og kapital optimaliseres oversikten av, og behovet for kontantstrømmer, Kalkulasjon og prisfastsetting vil gi deg bedre kontroll. "
 }
 
 const text4 = {
