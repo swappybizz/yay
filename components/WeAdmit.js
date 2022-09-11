@@ -6,7 +6,7 @@ const WeAdmit = () => {
         <div className="container mx-auto flex px-5 items-center justify-center flex-col">
           <div className="text-center lg:w-2/3 w-full">
             {/* <p className="mb-8 leading-relaxed">COWORKING OG MEDLEMSSKAP </p> */}
-            <h1 className="title-font sm:text-8xl text-6xl mb-4 font-medium text-gray-900">
+            <h1 className="title-font sm:text-8xl font-admitTitle text-6xl mb-4 font-medium text-gray-900">
                     We Admit
             </h1>
           </div>

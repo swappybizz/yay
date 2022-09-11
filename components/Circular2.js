@@ -35,7 +35,8 @@ const Circular2 = () => {
                     alt="gallery"
                     className="w-full rounded-xl object-contain h-full object-center block"
                     // src="https://i.ibb.co/1XHLTBK/Frame-10-1.png"
-                    src="https://i.ibb.co/KGGSWbW/Frame-13.png"
+                    src="https://i.ibb.co/7gWHrX3/Frame-13.png"
+                    // <img src= alt="Frame-13" border="0"></img>
 
                   />
                 </div>
