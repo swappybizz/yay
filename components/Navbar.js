@@ -80,10 +80,10 @@ export default function Example() {
                   </div>
                 </div>
               </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 transition-colors duration-400">
                 <a
                   href="https://calendly.com/admitas/"
-                  className="inline-flex items-center bg-admit-blue  border-0 py-2 px-6 focus:outline-none hover:outline transition-b duration-400 hover:bg-admit-blue-pressed active:bg-[rgba(0,40,86,0.37)] text-white rounded-full text-sm font-base mt-0 md:mt-0"
+                  className="inline-flex items-center bg-admit-blue  border-0 py-2 px-6 focus:outline-none hover:outline transition-b duration-400 hover:bg-gradient-to-r to-admit-dark-blue from-admit-red transition-colors duration-300 active:bg-[rgba(0,40,86,0.37)] text-white rounded-full hover:transition-colors hover:duration-700 text-sm font-base mt-0 md:mt-0"
                 >
                   Snakk med oss 
                   <svg

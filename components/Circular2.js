@@ -2,8 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 const Circular2 = () => {
-  const bubbletext =
-    "Om du er klar for endring, men usikker på hvor du bør starte for å nå dine mål; Bestill tid her for en utforpliktende kartleggings-prat,";
+  const bubbletext = "se";
 
   return (
     <>
@@ -14,39 +13,39 @@ const Circular2 = () => {
               <Link href="/strategy">
                 <div
                   data-cursor-text="👀 Hvordan"
-                  data-cursor-size="150px"
+                  data-cursor-size="100px"
                   data-cursor-color="#004a98"
-                  className="md:p-2 p-1 w-1/2 cursor-pointer"
+                  className="md:p-2 p-1 w-1/2 cursor-pointer hover:scale-90 transition-transform duration-300 hover:border-none hover:opacity-60 hover:rounded-xl hover:z-10"
                 >
                   <img
                     alt="Strategy"
                     className="w-full rounded-xl object-cover h-full object-center block"
                     src="https://i.ibb.co/xMhY8gv/Frame-9.png"
-                    
                   />
                 </div>
               </Link>
               <Link href="/systems">
                 <div
                   data-cursor-text="Se Hvordan 🤌"
-                  data-cursor-size="200px"
+                  data-cursor-size="100px"
                   data-cursor-color="#002856"
-                  className="md:p-2 p-1 w-1/2 cursor-pointer"
+                  className="md:p-2 p-1 w-1/2 cursor-pointer hover:scale-90 transition-transform duration-300 hover:border-none hover:opacity-60 hover:rounded-xl hover:z-10"
                 >
                   <img
                     alt="gallery"
                     className="w-full rounded-xl object-contain h-full object-center block"
-                    src="https://i.ibb.co/1XHLTBK/Frame-10-1.png"
-                    
+                    // src="https://i.ibb.co/1XHLTBK/Frame-10-1.png"
+                    src="https://i.ibb.co/KGGSWbW/Frame-13.png"
+
                   />
                 </div>
               </Link>
               <Link href="/digital">
                 <div
                   data-cursor-text={bubbletext}
-                  data-cursor-size="300px"
+                  data-cursor-size="100px"
                   data-cursor-color="#002a3a"
-                  className="md:p-2 p-1 w-full cursor-pointer"
+                  className="md:p-2 p-1 w-full cursor-pointer hover:scale-90 transition-transform duration-300 hover:border-none hover:opacity-60 hover:rounded-xl hover:z-10"
                 >
                   <img
                     alt="Admit Digital"
@@ -60,14 +59,16 @@ const Circular2 = () => {
               <Link href="/hr">
                 <div
                   data-cursor-text="👀 Hvordan"
-                  data-cursor-size="150px"
+                  data-cursor-size="100px"
                   data-cursor-color="#d2dce5"
-                  className="md:p-2 p-1 w-full cursor-pointer"
+                  className="md:p-2 p-1 w-full cursor-pointer hover:scale-90 transition-transform duration-300 hover:border-none hover:opacity-60 hover:rounded-xl hover:z-10"
                 >
                   <img
                     alt="hr"
                     className="w-full rounded-xl h-full object-cover object-center block"
-                    src="https://i.ibb.co/NFkm1Cr/Frame-11.png"
+                    // src="https://i.ibb.co/KGGSWbW/Frame-13.png"
+                    src="https://i.ibb.co/1XHLTBK/Frame-10-1.png"
+
                     // <img src="https://i.ibb.co/NFkm1Cr/Frame-11.png" alt="Frame-11" border="0"></img>
                   />
                 </div>
@@ -75,23 +76,25 @@ const Circular2 = () => {
               <Link href="/economy">
                 <div
                   data-cursor-text="Hvordan🤌"
-                  data-cursor-size="80px"
+                  data-cursor-size="100px"
                   data-cursor-color="#73c3d5"
-                  className="md:p-2 p-1 w-1/2 cursor-pointer"
+                  className="md:p-2 p-1 w-1/2 cursor-pointer hover:scale-190transition-transform duration-300 hover:border-2none hover:opacity-60 hover:rounded-xl hover:z-10"
                 >
                   <img
                     alt="gallery"
                     className="w-full rounded-xl object-cover h-full object-center block"
-                    src="https://i.ibb.co/KGGSWbW/Frame-13.png"
+                    // src="https://i.ibb.co/KGGSWbW/Frame-13.png"
+                    src="https://i.ibb.co/NFkm1Cr/Frame-11.png"
+
                   />
                 </div>
               </Link>
               <Link href="/marketing">
                 <div
                   data-cursor-text="Take me there 🏃‍♀️"
-                  data-cursor-size="200px"
+                  data-cursor-size="100px"
                   data-cursor-color="#ff595a"
-                  className="md:p-2 p-1 w-1/2 cursor-pointer"
+                  className="md:p-2 p-1 w-1/2 cursor-pointer hover:scale-90 transition-transform duration-300 hover:border-none hover:opacity-60 hover:rounded-xl hover:z-10"
                 >
                   <img
                     alt="gallery"

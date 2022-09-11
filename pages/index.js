@@ -29,10 +29,12 @@ const tmbttext = {
     "Admit Avatar er vår samhandlingsplattform ut mot kunde. En digital medarbeider som gir umiddelbar tilgang til relevant og ønsket kompetanse.Avlaster og frigir verdifull tid i en hektisk hverdag. Aldri mer enn et tastetrykk unna.",
 
   button1: "LES MER",
+  link1: "/avatar",
   button2: "SE VIDEO",
 };
 
 export default function Home({ posts }) {
+  
   return (
     <div className="scroll-smooth">
       <Cursor 
