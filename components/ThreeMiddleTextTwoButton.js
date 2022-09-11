@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link"
 
 const ThreeMiddleTextTwoButton = (props) => {
-  console.log(props.props.link1)
+ 
   return (
     <>
       <section className="text-gray-600 body-font">
@@ -28,11 +28,11 @@ const ThreeMiddleTextTwoButton = (props) => {
               <div className="flex justify-center">
                 {props.props.button1 && (
                   <div data-cursor-size="10px">
-                    {props.link1 &&<a href={props.props.link1}>
+                    <a href={props.props.link1}>
                       <button className="inline-flex text-white  bg-admit-blue border-0 py-2 px-12 focus:outline-none hover:bg-admit-blue-pressed rounded-full text-lg">
                         {props.props.button1}
                       </button>
-                    </a>}
+                    </a>
                   </div>
                 )}
 

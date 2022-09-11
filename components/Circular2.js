@@ -24,7 +24,7 @@ const Circular2 = () => {
                   />
                 </div>
               </Link>
-              <Link href="/systems">
+              <Link href="/economy">
                 <div
                   data-cursor-text="Se Hvordan 🤌"
                   data-cursor-size="100px"
@@ -40,7 +40,7 @@ const Circular2 = () => {
                   />
                 </div>
               </Link>
-              <Link href="/digital">
+              <Link href="/systems">
                 <div
                   data-cursor-text={bubbletext}
                   data-cursor-size="100px"
@@ -56,7 +56,7 @@ const Circular2 = () => {
               </Link>
             </div>
             <div className="flex flex-wrap w-1/2">
-              <Link href="/hr">
+              <Link href="/digital">
                 <div
                   data-cursor-text="👀 Hvordan"
                   data-cursor-size="100px"
@@ -73,7 +73,7 @@ const Circular2 = () => {
                   />
                 </div>
               </Link>
-              <Link href="/economy">
+              <Link href="/hr">
                 <div
                   data-cursor-text="Hvordan🤌"
                   data-cursor-size="100px"
