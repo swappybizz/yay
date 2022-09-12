@@ -28,7 +28,7 @@ const tmbttext = {
   top: "DIGITAL MEDARBEIDER",
   middle: "Admit Avatar",
   bottom:
-    "Admit Avatar er vår samhandlingsplattform ut mot kunde. En digital medarbeider som gir umiddelbar tilgang til relevant og ønsket kompetanse.Avlaster og frigir verdifull tid i en hektisk hverdag. Aldri mer enn et tastetrykk unna.",
+    "Admit Avatar er vår samhandlingsplattform ut mot kunde. En digital medarbeider som gir umiddelbar tilgang til relevant og ønsket kompetanse. Den avlaster og frigir verdifull tid i en hektisk hverdag. Aldri mer enn et tastetrykk unna.",
 
   button1: "LES MER",
   link1: "/avatar",

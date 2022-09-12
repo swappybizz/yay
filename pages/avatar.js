@@ -7,7 +7,7 @@ import WeAdmit from "../components/WeAdmit"
 const text1 ={
     top : "HVORDAN OG HVORFOR VELGE",
     middle : "Admit Avatar",
-    bottom : "Vår samhandlingsplattform fungerer både som en digital medarbeider for deg og som distribusjonskanal for levering av våre tjenester.Slik fungerer det",
+    bottom : "Vår samhandlingsplattform fungerer både som en digital medarbeider for deg og som distribusjonskanal for levering av våre tjenester. Slik fungerer det",
 }
 
 const text2 ={
