@@ -26,7 +26,7 @@ const Circular2 = () => {
               </Link>
               <Link href="/systems">
                 <div
-                  data-cursor-text="Se Hvordan 🤌"
+                  data-cursor-text="Se hvordan 🤌"
                   data-cursor-size="100px"
                   data-cursor-color="#002856"
                   className="md:p-2 p-1 w-1/2 cursor-pointer hover:scale-105 transition-transform duration-300 hover:border-none hover:opacity-60 hover:rounded-xl hover:z-10"
@@ -86,7 +86,7 @@ const Circular2 = () => {
               </Link>
               <Link href="/marketing">
                 <div
-                  data-cursor-text="Take me there 🏃‍♀️"
+                  data-cursor-text="Lar Mer"
                   data-cursor-size="100px"
                   data-cursor-color="#ff595a"
                   className="md:p-2 p-1 w-1/2 cursor-pointer hover:scale-105 transition-transform duration-300 hover:border-none hover:opacity-60 hover:rounded-xl hover:z-10"
