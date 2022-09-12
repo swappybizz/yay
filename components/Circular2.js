@@ -15,7 +15,7 @@ const Circular2 = () => {
                   data-cursor-text="👀 Hvordan"
                   data-cursor-size="100px"
                   data-cursor-color="#004a98"
-                  className="md:p-2 p-1 w-1/2 cursor-pointer hover:scale-95 transition-transform duration-300 hover:border-none hover:opacity-60 hover:rounded-xl hover:z-10"
+                  className="md:p-2 p-1 w-1/2 cursor-pointer hover:scale-105 transition-transform duration-300 hover:border-none hover:opacity-60 hover:rounded-xl hover:z-10"
                 >
                   <img
                     alt="Strategy"
@@ -29,7 +29,7 @@ const Circular2 = () => {
                   data-cursor-text="Se Hvordan 🤌"
                   data-cursor-size="100px"
                   data-cursor-color="#002856"
-                  className="md:p-2 p-1 w-1/2 cursor-pointer hover:scale-95 transition-transform duration-300 hover:border-none hover:opacity-60 hover:rounded-xl hover:z-10"
+                  className="md:p-2 p-1 w-1/2 cursor-pointer hover:scale-105 transition-transform duration-300 hover:border-none hover:opacity-60 hover:rounded-xl hover:z-10"
                 >
                   <img
                     alt="gallery"
@@ -49,7 +49,7 @@ const Circular2 = () => {
                   data-cursor-text={bubbletext}
                   data-cursor-size="100px"
                   data-cursor-color="#002a3a"
-                  className="md:p-2 p-1 w-full cursor-pointer hover:scale-95 transition-transform duration-300 hover:border-none hover:opacity-60 hover:rounded-xl hover:z-10"
+                  className="md:p-2 p-1 w-full cursor-pointer hover:scale-105 transition-transform duration-300 hover:border-none hover:opacity-60 hover:rounded-xl hover:z-10"
                 >
                   <img
                     alt="Admit Digital"
@@ -65,7 +65,7 @@ const Circular2 = () => {
                   data-cursor-text="👀 Hvordan"
                   data-cursor-size="100px"
                   data-cursor-color="#d2dce5"
-                  className="md:p-2 p-1 w-full cursor-pointer hover:scale-95 transition-transform duration-300 hover:border-none hover:opacity-60 hover:rounded-xl hover:z-10"
+                  className="md:p-2 p-1 w-full cursor-pointer hover:scale-105 transition-transform duration-300 hover:border-none hover:opacity-60 hover:rounded-xl hover:z-10"
                 >
                   <img
                     alt="hr"
@@ -82,7 +82,7 @@ const Circular2 = () => {
                   data-cursor-text="Hvordan🤌"
                   data-cursor-size="100px"
                   data-cursor-color="#73c3d5"
-                  className="md:p-2 p-1 w-1/2 cursor-pointer hover:scale-95 transition-transform duration-300 hover:border-2none hover:opacity-60 hover:rounded-xl hover:z-10"
+                  className="md:p-2 p-1 w-1/2 cursor-pointer hover:scale-105 transition-transform duration-300 hover:border-2none hover:opacity-60 hover:rounded-xl hover:z-10"
                 >
                   <img
                     alt="gallery"
@@ -98,7 +98,7 @@ const Circular2 = () => {
                   data-cursor-text="Take me there 🏃‍♀️"
                   data-cursor-size="100px"
                   data-cursor-color="#ff595a"
-                  className="md:p-2 p-1 w-1/2 cursor-pointer hover:scale-90 transition-transform duration-300 hover:border-none hover:opacity-60 hover:rounded-xl hover:z-10"
+                  className="md:p-2 p-1 w-1/2 cursor-pointer hover:scale-105 transition-transform duration-300 hover:border-none hover:opacity-60 hover:rounded-xl hover:z-10"
                 >
                   <img
                     alt="gallery"
