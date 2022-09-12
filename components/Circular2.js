@@ -20,7 +20,7 @@ const Circular2 = () => {
                   <img
                     alt="Strategy"
                     className="w-full rounded-xl object-cover h-full object-center block"
-                    src="https://i.ibb.co/xMhY8gv/Frame-9.png"
+                    src="https://i.ibb.co/T8sXbSs/Frame-9-1.png"
                   />
                 </div>
               </Link>
@@ -71,7 +71,7 @@ const Circular2 = () => {
                     alt="hr"
                     className="w-full rounded-xl h-full object-cover object-center block"
                     // src="https://i.ibb.co/KGGSWbW/Frame-13.png"
-                    src="https://i.ibb.co/L6H1Bzd/Frame-13-1.png"
+                    src="https://i.ibb.co/mqJX6jb/Frame-13-2.png"
 
                     // <img src="https://i.ibb.co/NFkm1Cr/Frame-11.png" alt="Frame-11" border="0"></img>
                   />
