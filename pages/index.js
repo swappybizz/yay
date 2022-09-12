@@ -54,7 +54,7 @@ export default function Home({ posts }) {
       <Circular />
       </div>
       <ThreeMiddleTextTwoButton props={midtext} />
-      {/* <BlogPreview posts={posts} /> */}
+      <BlogPreview posts={posts} />
       <ThreeMiddleTextTwoButton props={tmbttext} />
       <Counter />
       <FullPageImage />
