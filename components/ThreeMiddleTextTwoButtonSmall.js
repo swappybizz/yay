@@ -9,11 +9,11 @@ const ThreeMiddleTextTwoButtonSmall = props => {
         <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
           <div className="text-center lg:w-2/3 w-full flex flex-col items-center">
             {props.props.top && (
-              <p className="mb-8 leading-relaxed ">{props.props.top}</p>
+              <p className="mb-8 leading-relaxed font-admitTitle ">{props.props.top}</p>
             )}
 
             {props.props.middle && (
-              <h1 className="title-font font-admitTitle sm:text-6xl text-4xl mb-4 font-semibold text-gray-900">
+              <h1 className="title-font font-admitTitle sm:text-6xl text-4xl mb-4 font-medium  text-gray-900">
                 {props.props.middle}
               </h1>
             )}
