@@ -10,7 +10,7 @@ const text1 = {
 
 const text2 = {
   middle: "Sticos",
-  bottom:"Vi er Sticos-partner og kan bistå ved implementering av dette.Sticos er et digitalt personalsystem som gjør oppfølging av ansatte enklere og i hhld til oppdatert regelverk. Bidrar til enkel håndtering av lovpålagt HMS-arbeid, og har integrasjon mot de fleste regnskapssystem."
+  bottom:"Vi er Sticos-partner og kan bistå ved implementering av dette. Sticos er et digitalt personalsystem som gjør oppfølging av ansatte enklere og i hhld til oppdatert regelverk. Bidrar til enkel håndtering av lovpålagt HMS-arbeid, og har integrasjon mot de fleste regnskapssystem."
   
 }
 const text3 = {
@@ -20,7 +20,7 @@ const text3 = {
 }
 const text4 = {
   middle: "Systematisk HMS-arbeid",
-  bottom:"Vi leverer systematisk helse, miljø og sikkerhetsarbeid (internkontroll) til bedrifter, inkludert kursing og opplæring. Link systemtenkning",
+  bottom:"Vi leverer systematisk helse, miljø og sikkerhetsarbeid (internkontroll) til bedrifter, inkludert kursing og opplæring.",
   
   button1: "TA KONTAKT",
 }

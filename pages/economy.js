@@ -14,7 +14,7 @@ const text2 = {
 }
 const text3 = {
   middle: "Optimalisering",
-  bottom:"Kalkulasjon og resultat basert på aktivitetsområder også kalt Activity Based Costing (ABC). Et viktig verktøy for å kartlegge lønnsomme og ulønnsomme aktivitetsområder, på tvers av avdelinger. Dashboard med dine viktigste overvåkningspunkt - Balanced Scorecard Ved hjelp av vår GPS for likviditet og kapital optimaliseres oversikten av, og behovet for kontantstrømmer, Kalkulasjon og prisfastsetting vil gi deg bedre kontroll. "
+  bottom:"Kalkulasjon og resultat basert på aktivitetsområder også kalt Activity Based Costing (ABC). Et viktig verktøy for å kartlegge lønnsomme og ulønnsomme aktivitetsområder, på tvers av avdelinger. Dashboard med dine viktigste overvåkningspunkt - Balanced Scorecard. Ved hjelp av vår GPS for likviditet og kapital optimaliseres oversikten av, og behovet for kontantstrømmer. Kalkulasjon og prisfastsetting vil gi deg bedre kontroll. "
 }
 
 const text4 = {
