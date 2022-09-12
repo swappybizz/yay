@@ -5,7 +5,7 @@ import WeAdmit from "../components/WeAdmit";
 const text1 = {
   top: "SYSTEM SOM BASE FOR SUKSESS",
   middle: "Systemtenkning",
-  bottom: "Admit jobber med å utvikle lærende ",
+  // bottom: "Admit jobber med å utvikle lærende ",
 };
 const text2 = {
   middle: "Grunnleggende systemtenkning",
