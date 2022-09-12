@@ -3,7 +3,7 @@ import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton"
 import ThreeMiddleTextTwoButtonSmall from "../components/ThreeMiddleTextTwoButtonSmall"
 import WeAdmit from "../components/WeAdmit"
 const text1 = {
-  top: "kontroll på økonomi og likviditet",
+  top: "Kontroll på økonomi og likviditet",
   middle: "Økonomi",
   bottom:"Har du tenkt over at mangel på penger - også kalt dårlig likviditet - er årsak til nesten alle konkurser? Med  Admit på laget, skal du oppleve å ha bedre oversikt og kontroll med økonomi og likviditet. Med en økonom på laget fra Admit som følger med på tallene, lager resultatprognoser, og beregner fremtidig saldo på din bankkonto, oppdages eventuelle trusler på et tidligere tidspunkt. Det gir deg mer tid til å iverksette tiltak. Kanskje det til og med er god “sovemedisin” ?"
 }
@@ -22,6 +22,7 @@ const text4 = {
   bottom:"Kalkulasjon og resultat basert på aktivitetsområder også kalt Activity Based Costing (ABC). Dashboard med dine viktigste overvåkningspunkt - Balanced Scorecard",
 
   button1: "TA KONTAKT",
+  link1:"/contact"
 }
 
 const economy = () => {

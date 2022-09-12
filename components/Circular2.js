@@ -24,7 +24,7 @@ const Circular2 = () => {
                   />
                 </div>
               </Link>
-              <Link href="/digital">
+              <Link href="/systems">
                 <div
                   data-cursor-text="Se Hvordan 🤌"
                   data-cursor-size="100px"
@@ -44,7 +44,7 @@ const Circular2 = () => {
                   />
                 </div>
               </Link>
-              <Link href="/systems">
+              <Link href="/digital">
                 <div
                   data-cursor-text={bubbletext}
                   data-cursor-size="100px"
