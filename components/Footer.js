@@ -40,7 +40,7 @@ const Footer = () => {
               </div>
               <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                 <div href="/lounge" className="title-font font-medium text-gray-200 tracking-widest text-base mb-3 ">
-                Finn rådgiver 
+                Ressurser
                 </div>
                 <nav className="list-none mb-10">
                   <li>
