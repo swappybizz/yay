@@ -48,7 +48,7 @@
 .admitHeroText {
   font-size: clamp(3rem, 5vw + 2rem, 7rem);
   position: relative;
-  font-family: "Source Code Pro", monospace;
+  font-family: "Barlow", serif;
   position: relative;
   width: max-content;
 
