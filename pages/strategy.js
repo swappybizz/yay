@@ -15,13 +15,14 @@ const text2 = {
 const text3 = {
   middle: "Hvordan bygge strategi ?",
   bottom:
-    "En strategiprosess må gjennom ulike faser og må være godkjent av styret.Den starter med kartlegging som viser bedriftens behov for endringer nå og i årene fremover (“as is” og “to be”). Hvor står man i forhold til konkurrenter, produktportefølje, digitalisering, bærekraft mm. Prosessen fortsetter med en kreativ del som bør holdes utenfor de vante lokalene for å stimulere til mest mulig kreativitet og nye tanker. Til slutt går man inn i en konsoliderings- og gjennomføringsfase der man tar i bruk de verktøyene man har utviklet i løpet av prosessen.",
+    "En strategiprosess må gjennom ulike faser og må være godkjent av styret. Den starter med kartlegging som viser bedriftens behov for endringer nå og i årene fremover (“as is” og “to be”). Hvor står man i forhold til konkurrenter, produktportefølje, digitalisering, bærekraft mm. Prosessen fortsetter med en kreativ del som bør holdes utenfor de vante lokalene for å stimulere til mest mulig kreativitet og nye tanker. Til slutt går man inn i en konsoliderings- og gjennomføringsfase der man tar i bruk de verktøyene man har utviklet i løpet av prosessen.",
 }
 const text4 = {
   middle: "Preferanser, team og kreativitet",
   bottom:
     "Preferanser handler om å kartlegge «våre automatiserte vaner». Skal man tenke strategi må det legges til rette for kreativitet. For å få til det på en god måte, må det legges til rette for samtaler og refleksjoner. Admit’s teambygging baserer seg på Jungiansk typologi som karlegger preferanser og gir veiledning om hvilke funksjoner i et team som passer best for den enkelte. Et verktøy for å bygge effektive og velfungerende team, samt bedre samhandling mellom de ulike teamene i bedriften.",
   button1: "BOOK MØTE",
+  link1 : "https://calendly.com/admitas/"
 }
 
 const strategy = () => {
