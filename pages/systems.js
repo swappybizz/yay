@@ -10,7 +10,7 @@ const text1 = {
 const text2 = {
   middle: "Grunnleggende systemtenkning",
   bottom:
-    "Admit jobber med å utvikle lærende organisasjoner gjennom prosessledelse. Prosessledelse bidrar til at enkeltpersoner ser seg selv som en del av en helhet og forstår at deres måte å være på/handle på, bidrar til at andre og organisasjonen når ønsket resultat på en bedre måte. (Peter Senge)Arkivsystem og valg av samhandlingsplattform er med andre ord et strategisk valg og helt grunnleggende for systemtenkning.",
+    "Admit jobber med å utvikle lærende organisasjoner gjennom prosessledelse. Prosessledelse bidrar til at enkeltpersoner ser seg selv som en del av en helhet og forstår at deres måte å være på/handle på, bidrar til at andre og organisasjonen når ønsket resultat på en bedre måte (Peter Senge). Arkivsystem og valg av samhandlingsplattform er med andre ord et strategisk valg og helt grunnleggende for systemtenkning.",
 };
 const text3 = {
   middle: "ISO",

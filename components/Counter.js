@@ -19,7 +19,7 @@ const Counter = () => {
                 </p>
               </div>
               <div className="p-4 sm:w-1/3 w-1/2">
-                <h2 className="title-font font-medium sm:text-8xl text-3xl text-gray-900">
+                <h2 className="title-font font-medium font-admitTitle sm:text-8xl text-3xl text-gray-900">
                   6
                 </h2>
                 <p className="leading-relaxed font-medium mt-5">
@@ -27,7 +27,7 @@ const Counter = () => {
                 </p>
               </div>
               <div className="p-4 sm:w-1/3 w-1/2">
-                <h2 className="title-font font-medium sm:text-8xl text-3xl text-gray-900">
+                <h2 className="title-font font-medium sm:text -8xl font-admitTitle text-3xl text-gray-900">
                   12
                 </h2>
                 <p className="leading-relaxed font-medium mt-5">
