@@ -34,13 +34,8 @@ const Circular2 = () => {
                   <img
                     alt="gallery"
                     className="w-full rounded-xl object-contain h-full object-center block"
-                    
-                    
                     //  src="https://i.ibb.co/L6H1Bzd/Frame-13-1.png"
-                     src="https://i.ibb.co/1XHLTBK/Frame-10-1.png"
-
-                    
-
+                    src="https://i.ibb.co/1XHLTBK/Frame-10-1.png"
                   />
                 </div>
               </Link>
@@ -70,10 +65,7 @@ const Circular2 = () => {
                   <img
                     alt="hr"
                     className="w-full rounded-xl h-full object-cover object-center block"
-                    // src="https://i.ibb.co/KGGSWbW/Frame-13.png"
                     src="https://i.ibb.co/mqJX6jb/Frame-13-2.png"
-
-                    // <img src="https://i.ibb.co/NFkm1Cr/Frame-11.png" alt="Frame-11" border="0"></img>
                   />
                 </div>
               </Link>
@@ -89,12 +81,10 @@ const Circular2 = () => {
                     className="w-full rounded-xl object-cover h-full object-center block"
                     // src="https://i.ibb.co/KGGSWbW/Frame-13.png"
                     src="https://i.ibb.co/NFkm1Cr/Frame-11.png"
-
                   />
                 </div>
               </Link>
               <Link href="/marketing">
-                
                 <div
                   data-cursor-text="Take me there 🏃‍♀️"
                   data-cursor-size="100px"
@@ -116,9 +106,9 @@ const Circular2 = () => {
             Vår kompetanse
             </h1> */}
             <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
-            Om du er klar for endring, men usikker på hvor du bør
-                      starte for å nå dine mål; Bestill tid her for en
-                      utforpliktende kartleggings-prat,
+              Om du er klar for endring, men usikker på hvor du bør starte for å
+              nå dine mål; Bestill tid her for en utforpliktende
+              kartleggings-prat,
             </p>
           </div>
         </div>
