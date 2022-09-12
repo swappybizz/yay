@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Hero from "../components/Hero2";
+// import Hero2 from "../components/Hero";
 import Circular from "../components/Circular2";
+// import Circular2 from "../components/Circular";
 import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton";
 import Counter from "../components/Counter";
 import Outro from "../components/Outro";
@@ -48,10 +50,12 @@ export default function Home({ posts }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
+      {/* <Hero2/> */}
       <div id="circularSection">
 
       <ThreeMiddleTextTwoButton props={toptext} />
       <Circular />
+      {/* <Circular2/> */}
       </div>
       {/* <ThreeMiddleTextTwoButton props={midtext} /> */}
       <BlogPreview posts={posts} />
