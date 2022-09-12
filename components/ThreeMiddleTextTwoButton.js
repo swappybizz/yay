@@ -8,13 +8,13 @@ const ThreeMiddleTextTwoButton = (props) => {
       <section className="text-gray-600 body-font">
         <div data-cursor-exclusion style={{ backgroundColor: "#fff" }}>
           <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-            <div className="text-center lg:w-2/3 flex flex-col justify-center items-center w-full">
+            <div className="text-center lg:w-2/3 flex flex-col  justify-center items-center w-full">
               {props.props.top && (
                 <p className="mb-8 leading-relaxed ">{props.props.top}</p>
               )}
 
               {props.props.middle && (
-                <h1 className="title-font font-admitTitle sm:text-8xl text-4xl mb-4 font-semibold text-gray-900">
+                <h1 className="title-font sm:text-8xl text-4xl mb-6 font-medium font-admitTitle text-gray-900">
                   {props.props.middle}
                 </h1>
               )}
