@@ -26,8 +26,8 @@ const text5 ={
     middle : "Hva er Admit Avatar?",
 }
 const text6 ={
-    button1 : "SE VIDEO",
-    button2 : "FAGFELT",
+    
+    button1 : "FAGFELT",
 }
 const ringText ={
     leftTop : "Samhandlings-plattform",

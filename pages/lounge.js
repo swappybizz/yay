@@ -4,11 +4,10 @@ import ThreeMiddleTextTwoButtonSmall from "../components/ThreeMiddleTextTwoButto
 import WeAdmit from "../components/WeAdmit"
 import ThreeColorRings from "../components/ThreeColorRings"
 const text1 = {
-  top: "PRODUSER KVALITETSINNHOLD HOS",
+  top: "DER MULIGHETER DELES",
   middle: "Admit Lounge",
   bottom:
-    "Bruksområdene for vårt Smart studio er uendelige og det er enkelt og intuitiv i bruk. Ønsker du å livestreame et webinar for en stor forsamling? Null problem. Spill inn forklaringsvideoer til dine kunder, blås konkurrentene dine av banen i salgsmøter, eller spill inn videoer til intern opplæring av dine ansatte.",
-}
+"Samarbeidsvekst betyr å komme sammen, for å vokse sammen. Admit Lounge er en hub for kompetansedeling og fasilitering. Et sted med kontorfellesskap for både fjernarbeid og nærarbeid, som motiverer og legger til rette for bærekraftig utvikling  og innovasjon."}
 
 const text2 = {
   middle: "Fasiliteter ved Stordal Lounge",
