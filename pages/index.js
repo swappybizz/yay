@@ -11,7 +11,7 @@ import {Cursor}from "react-creative-cursor"
 
 import 'react-creative-cursor/dist/styles.css';
 const toptext = {
-  top: "fremtidsrettet forretningsutvikling",
+  top: "Fremtidsrettet forretningsutvikling",
   middle: "Vi er  endringsarkitekter",
   bottom:
 "Den økonomiske og teknologiske omstillingsfasen som pågår, gjør at næringslivet utforsker nye muligheter og markeder. Både samfunn, næringsliv og forbrukere har nye sett med forventninger og utfordringer. Behovet for endringskompetanse er stor og det kan være utfordrende å vite hvor en skal starte. "};
@@ -53,7 +53,7 @@ export default function Home({ posts }) {
       <ThreeMiddleTextTwoButton props={toptext} />
       <Circular />
       </div>
-      <ThreeMiddleTextTwoButton props={midtext} />
+      {/* <ThreeMiddleTextTwoButton props={midtext} /> */}
       <BlogPreview posts={posts} />
       <ThreeMiddleTextTwoButton props={tmbttext} />
       <Counter />
