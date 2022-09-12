@@ -10,36 +10,27 @@ const text1 = {
 }
 
 const text2 = {
-  middle: "Fasiliteter ved Stordal Lounge",
-  bottom:"Flexplass i åpent landska\nCellekontor stort/lite\nLounge-område \n Møterom for 12 personer \n Konferanseutstyr \nKjøkken \nIn-house Smartstudio \nTreningsstudio"
+  middle: "Markedsavdeling",
+  bottom:"Vår markedsavdeling består av både inhouse-kompetanse og eksterne leverandører. Til sammen dekker vi  fagfelt som digital annonsering, søkemotoroptimalisering, tekstredigering, webdesign, sosiale medier, videoredigering, grafisk design etc.."
+  
 }
 const text3 = {
-  middle: "Medlemsfordeler",
-  bottom:"Adgang 24/7​​ Høyhastighets wifi​ Printer/scanner​ Ekstra skjerm​ Kaffe/te​ Rabatterte priser på studio og eventer​"
+  middle: "Admit Studio",
+  bottom:"Bruksområdene for Admit Studio er mange. En arena for produksjon av profesjonelt medieinnhold for dine markedsføringskanaler. Livestreaming av webinar, innspilling av forklaringsvideoer, salgsmøter, intern opplæring osv..   ​"
 }
 
 
 const text6 = {
-  middle: "Bli medlem",
-  button1: "Bli Medlem",
-  button2: "Kontact Oss",
-  bottom:"Møte likesinnede for input og inspirasjon​. Ta med dine ansatte eller ditt team, for kortere eller lengre opphold."
+  button1: "Kontakt oss",
+  link1:"https://calendly.com/admitas/",
 }
-const ringText ={
-  leftTop : "Coworking",
-  leftBottom :"Fleksibelt kontorfellesskap for deg som ser etter et større fellesskap, for deg med hybridløsning på jobben, fjernarbeidere eller andre.",
-  middleTop: "Workstation",
-  middleBottom: "Møt likesinnede for input og inspirasjon, eller få ro og tid til å løse utfordrende oppgaver. Noen dager på workation gir frihet og fleksibilitet til å jobbe og leve.Velg blant utallige naturopplevelser og aktiviteter, tilgjengelig rett utenfor døren.",
-  rightTop: "Workretreat",
-  rightBottom: "Hos Admit Lounge kan bedrifter ta med sine ansatte og team, for opphold i sammenheng med strategi-, innovasjonsarbeid e.l. Kombiner arbeidet med  Ute til lunsj aktiviteter, naturopplevingerog teambuilding. "
 
-}
 
 const lounge = () => {
   return (
     <>
       <ThreeMiddleTextTwoButton props={text1} />
-      <ThreeColorRings props={ringText}/>
+      {/* <ThreeColorRings props={ringText}/> */}
       <ThreeMiddleTextTwoButtonSmall props={text2} />
       <ThreeMiddleTextTwoButtonSmall props={text3} />
       <ThreeMiddleTextTwoButton props={text6} />

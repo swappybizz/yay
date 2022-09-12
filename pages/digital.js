@@ -37,8 +37,8 @@ const digital = () => {
       <ThreeMiddleTextTwoButton props={text1} />
       <ThreeMiddleTextTwoButtonSmall props={text2} />
       <ThreeMiddleTextTwoButtonSmall props={text3} />
-      <ThreeMiddleTextTwoButton props={text5} />
-      <ThreeMiddleTextTwoButton props={text4} />
+      <ThreeMiddleTextTwoButtonSmall props={text5} />
+      <ThreeMiddleTextTwoButtonSmall props={text4} />
       <WeAdmit/>
     </>
   )

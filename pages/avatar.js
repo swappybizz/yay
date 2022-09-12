@@ -27,7 +27,8 @@ const text5 ={
 }
 const text6 ={
     
-    button1 : "FAGFELT",
+    button1 : "Kom i gang",
+    link1: "https://calendly.com/admitas/"
 }
 const ringText ={
     leftTop : "Samhandlings-plattform",
