@@ -15,14 +15,14 @@ const text2 = {
 }
 const text3 = {
   middle: "Medlemsfordeler",
-  bottom:"Høyhastighets wifi​ Printer/scanner​ Ekstra skjerm​ Kaffe/te​ Rabatterte priser på studiotid og eventer ​"
+  bottom:"Høyhastighets wifi​--Printer/scanner​--Ekstra skjerm​Kaffe/te​ Rabatterte priser på studiotid og eventer ​"
 }
 
 
 const text6 = {
   middle: "Bli medlem",
-  button1: "Bli Medlem",
-  button2: "Kontact Oss",
+  // button1: "Bli Medlem",
+  button1: "Kontakt Oss",
   bottom:"Møte likesinnede for input og inspirasjon​. Ta med dine ansatte eller ditt team, på våre events eller workshops der endringskompetanse står i fokus. Bli med i kompetansenettverket vårt !"
 }
 const ringText ={
