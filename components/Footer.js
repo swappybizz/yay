@@ -39,9 +39,9 @@ const Footer = () => {
                 </nav>
               </div>
               <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-medium text-gray-200 tracking-widest text-base mb-3 ">
-                  Ressurser
-                </h2>
+                <a href="/lounge" className="title-font font-medium text-gray-200 tracking-widest text-base mb-3 ">
+                 Admit Lounge
+                </a>
                 <nav className="list-none mb-10">
                   <li>
                     <a href="/kontact" className="text-white hover:text-gray-300 cursor-pointer text-sm">
@@ -102,7 +102,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a href="/" className="text-white hover:text-gray-300 cursor-pointer text-sm">
-                      Juridisk Vercel
+                      Betingelser
                     </a>
                   </li>
                 </nav>

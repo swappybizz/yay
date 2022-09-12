@@ -30,7 +30,7 @@ const tmbttext = {
 
   button1: "LES MER",
   link1: "/avatar",
-  button2: "SE VIDEO",
+  // button2: "SE VIDEO",
 };
 
 export default function Home({ posts }) {
