@@ -10,10 +10,10 @@ const Counter = () => {
           <div className="container px-5 md:py-48 py-24 mx-auto">
             <div className="flex flex-wrap -m-4 text-center">
               <div className="p-4 sm:w-1/3 w-1/2">
-                <h2 className="title-font font-medium sm:text-8xl text-3xl text-gray-900">
+                <h2 className="title-font font-medium font-admitTitle sm:text-8xl text-3xl text-gray-900">
                   22
                 </h2>
-                <p className="leading-relaxed font-medium">
+                <p className="leading-relaxed font-medium mt-5">
                   konsulenter innen <br></br> ulike fagområder <br></br> som er
                   klar til å hkelpe deg.
                 </p>
