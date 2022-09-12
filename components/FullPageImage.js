@@ -15,7 +15,7 @@ const FullPageImage = () => {
             <p className="mb-8 leading-relaxed">
               PROFESJONELT SMARTSTUDIO TIL LEIE
             </p>
-            <h1 className="title-font sm:text-8xl text-4xl font-admitTitle mb-4 font-semibold text-white">
+            <h1 className="title-font sm:text-8xl text-4xl font-admitTitle mb-4 font-medium  text-white">
               Admit Studio
             </h1>
             <p className="mb-8 leading-relaxed">
