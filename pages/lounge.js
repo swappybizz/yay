@@ -22,7 +22,7 @@ const text3 = {
 const text6 = {
   middle: "Bli medlem",
   // button1: "Bli Medlem",
-  button1: "Kontakt oss",
+  button1: "KONTAKT OSS",
   bottom:"Møte likesinnede for input og inspirasjon​. Ta med dine ansatte eller ditt team, på våre events eller workshops der endringskompetanse står i fokus. Bli med i kompetansenettverket vårt !"
 }
 const ringText ={

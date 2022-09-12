@@ -27,7 +27,7 @@ const text5 ={
 }
 const text6 ={
     
-    button1 : "Kom i gang",
+    button1 : "KOM I GANG",
     link1: "https://calendly.com/admitas/"
 }
 const ringText ={
