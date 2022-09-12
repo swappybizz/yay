@@ -94,6 +94,7 @@ const Circular2 = () => {
                 </div>
               </Link>
               <Link href="/marketing">
+                
                 <div
                   data-cursor-text="Take me there 🏃‍♀️"
                   data-cursor-size="100px"
