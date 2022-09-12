@@ -4,10 +4,9 @@ import ThreeMiddleTextTwoButtonSmall from "../components/ThreeMiddleTextTwoButto
 import WeAdmit from "../components/WeAdmit"
 import ThreeColorRings from "../components/ThreeColorRings"
 const text1 = {
-  top: "PRODUSER KVALITETSINNHOLD HOS",
-  middle: "Admit Lounge",
-  bottom:
-    "Bruksområdene for vårt Smart studio er uendelige og det er enkelt og intuitiv i bruk. Ønsker du å livestreame et webinar for en stor forsamling? Null problem. Spill inn forklaringsvideoer til dine kunder, blås konkurrentene dine av banen i salgsmøter, eller spill inn videoer til intern opplæring av dine ansatte.",
+  top: "Få oversikt over mulighetene",
+  middle: "Markedsføring",
+  bottom:"I dagens jungel av salgs- og markedsføringskanaler, kan det være vanskelig å velge ut de mest relevante for sin bedrift og produktportefølje. Den viktigste forutsetningen for å lykkes er å ha en gjennomarbeidet bedriftsstrategi i bunnen, som følges opp av digital strategi og  markedsplan."
 }
 
 const text2 = {
