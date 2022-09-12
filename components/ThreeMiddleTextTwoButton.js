@@ -30,7 +30,7 @@ const ThreeMiddleTextTwoButton = (props) => {
                   <div data-cursor-size="10px">
                     <a href={props.props.link1}>
                       <button className="inline-flex text-white uppercase  bg-admit-blue border-0 py-2 px-12 focus:outline-none hover:bg-admit-blue-pressed rounded-full text-lg">
-                        {props.props.button1}
+                        {props.props.button1.toUpperCase()}
                       </button>
                     </a>
                   </div>

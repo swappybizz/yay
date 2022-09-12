@@ -24,7 +24,7 @@ const text4 = {
 
 const text6 = {
   middle :"Kom i gang",
-  button1: "Book Studio",
+  button1: "BOOK STUDIO",
   link1:"https://calendly.com/admitas/"
   
 }
