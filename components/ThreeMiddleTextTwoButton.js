@@ -29,8 +29,8 @@ const ThreeMiddleTextTwoButton = (props) => {
                 {props.props.button1 && (
                   <div data-cursor-size="10px">
                     <a href={props.props.link1}>
-                      <button className="inline-flex text-white  bg-admit-blue border-0 py-2 px-12 focus:outline-none hover:bg-admit-blue-pressed rounded-full text-lg">
-                        {props.props.button1.toUpperCase()}
+                      <button className="inline-flex text-white uppercase  bg-admit-blue border-0 py-2 px-12 focus:outline-none hover:bg-admit-blue-pressed rounded-full text-lg">
+                        {props.props.button1}
                       </button>
                     </a>
                   </div>
@@ -39,8 +39,8 @@ const ThreeMiddleTextTwoButton = (props) => {
                 {props.props.button2 && (
                   <div data-cursor-size="10px">
                     <a href={props.props.link1}>
-                    <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-12 focus:outline-none hover:bg-gray-200 rounded-full text-lg">
-                      {props.props.button2.toUpperCase()}
+                    <button className="ml-4 inline-flex uppercase text-gray-700 bg-gray-100 border-0 py-2 px-12 focus:outline-none hover:bg-gray-200 rounded-full text-lg">
+                      {props.props.button2}
                     </button>
                     </a>
                   </div>
