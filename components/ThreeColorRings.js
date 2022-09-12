@@ -13,7 +13,7 @@ const ThreeColorRings = (props) => {
                     {props.props.leftTop}
                   </h2>{" "}
                 <div className="px-8 h-full rounded-full py-10   relative z-10 w-full border-4 border-admit-blue bg-white opacity-0 hover:opacity-100 transition-opacity duration-700">
-                  <h2 className="tracking-widest text-3xl py-8  title-font text-center font-medium text-black mb-1 font-heroSubText">
+                  <h2 className="tracking-widest text-3xl py-10  title-font text-center font-medium text-black mb-1 font-heroSubText">
                     {props.props.leftTop}
                   </h2>{" "}
                   <p className="leading-relaxed text-center">
@@ -30,7 +30,7 @@ const ThreeColorRings = (props) => {
                   </h2>{" "}
                 
                 <div className="px-8 h-full rounded-full py-10 relative z-10 w-full border-4 border-orange-500 bg-white opacity-0 hover:opacity-100 transition-opacity duration-700">
-                  <h2 className="tracking-widest text-3xl py-8 title-font text-center font-medium text-black mb-1 font-admitText">
+                  <h2 className="tracking-widest text-3xl py-10 title-font text-center font-medium text-black mb-1 font-admitText">
                     {props.props.middleTop}
                   </h2>{" "}
                   <p className="leading-relaxed text-center">
@@ -50,7 +50,7 @@ const ThreeColorRings = (props) => {
                     {props.props.rightTop}
                   </h2>{" "}
                 <div className="px-8 h-full rounded-full py-10 relative z-10 w-full border-4 border-teal-500 bg-white opacity-0 hover:opacity-100 transition-opacity duration-700">
-                  <h2 className="tracking-widest text-3xl py-8 title-font text-center font-medium text-black mb-1 font-admitText">
+                  <h2 className="tracking-widest text-3xl py-10 title-font text-center font-medium text-black mb-1 font-admitText">
                     {props.props.rightTop}
                   </h2>{" "}
                   <p className="leading-relaxed text-center">

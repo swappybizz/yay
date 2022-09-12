@@ -19,17 +19,17 @@ const Footer = () => {
                 </h2>
                 <nav className="list-none mb-10">
                   <li>
-                    <a href="/" className="text-white hover:text-gray-300 cursor-pointer text-sm">
+                    <a href="/avatar" className="text-white hover:text-gray-300 cursor-pointer text-sm">
                       Admit Avatar
                     </a>
                   </li>
                   <li>
-                    <a href="/" className="text-white hover:text-gray-300 cursor-pointer text-sm">
+                    <a href="/studio" className="text-white hover:text-gray-300 cursor-pointer text-sm">
                       Admit Studio
                     </a>
                   </li>
                   <li>
-                    <a href="/" className="text-white hover:text-gray-300 cursor-pointer text-sm">
+                    <a href="/lounge" className="text-white hover:text-gray-300 cursor-pointer text-sm">
                       Admit Lounge
                     </a>
                   </li>
@@ -44,17 +44,17 @@ const Footer = () => {
                 </h2>
                 <nav className="list-none mb-10">
                   <li>
-                    <a href="/" className="text-white hover:text-gray-300 cursor-pointer text-sm">
+                    <a href="/kontact" className="text-white hover:text-gray-300 cursor-pointer text-sm">
                       Finn rådgiver
                     </a>
                   </li>
                   <li>
-                    <a href="/" className="text-white hover:text-gray-300 cursor-pointer text-sm">
+                    <a href="/blog" className="text-white hover:text-gray-300 cursor-pointer text-sm">
                       Blogg
                     </a>
                   </li>
                   <li>
-                    <a href="/" className="text-white hover:text-gray-300 cursor-pointer text-sm">
+                    <a href="/kontact" className="text-white hover:text-gray-300 cursor-pointer text-sm">
                       Kontakt
                     </a>
                   </li>
@@ -115,7 +115,7 @@ const Footer = () => {
               <p className="text-gray-200 text-sm text-center sm:text-left">
                 © 2022 Admit AS —
                 <a
-                  href="https://twitter.com/knyttneve"
+                  href="/"
                   rel="noopener noreferrer"
                   className="text-gray-600 ml-1"
                   target="_blank"
@@ -123,7 +123,7 @@ const Footer = () => {
                   @monica
                 </a>
                 <a
-                  href="https://twitter.com/knyttneve"
+                  href="/"
                   rel="noopener noreferrer"
                   className="text-gray-600 ml-1"
                   target="_blank"

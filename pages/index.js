@@ -54,7 +54,7 @@ export default function Home({ posts }) {
       <Circular />
       </div>
       <ThreeMiddleTextTwoButton props={midtext} />
-      <BlogPreview posts={posts} />
+      {/* <BlogPreview posts={posts} /> */}
       <ThreeMiddleTextTwoButton props={tmbttext} />
       <Counter />
       <FullPageImage />
@@ -63,9 +63,9 @@ export default function Home({ posts }) {
     </div>
   );
 }
-export async function getStaticProps() {
-  const posts = await getRecentPosts();
-  return {
-    props: { posts },
-  };
-}
+// export async function getStaticProps() {
+//   const posts = await getRecentPosts();
+//   return {
+//     props: { posts },
+//   };
+// }

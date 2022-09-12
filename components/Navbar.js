@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
@@ -17,13 +16,13 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-admit-white transition-all duration-400">
+    <Disclosure as="nav" className="bg-admit-white transition-all duration-700">
       {({ open }) => (
         <div
           data-cursor-size="10px"
           data-cursor-color="#FF595A"
           data-cursor-exclusion
-          className="transition-colors duration-400"
+          className="transition-colors duration-700"
         >
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16">
@@ -33,12 +32,12 @@ export default function Example() {
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon
-                      className="block h-6 w-6 transition-all duration-400"
+                      className="block h-6 w-6 transition-all duration-700"
                       aria-hidden="true"
                     />
                   ) : (
                     <MenuIcon
-                      className="block h-6 w-6 transition-all duration-400"
+                      className="block h-6 w-6 transition-all duration-700"
                       aria-hidden="true"
                     />
                   )}
@@ -68,9 +67,9 @@ export default function Example() {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? " text-black  hover:text-gray-600 transition-all duration-400 "
-                            : "text-black  hover:text-gray-600  transition-all duration-400",
-                          "px-3 py-2 rounded-full text-sm font-medium transition-all duration-400 "
+                            ? " text-black  hover:text-gray-600 transition-all duration-700 "
+                            : "text-black  hover:text-gray-600  transition-all duration-700",
+                          "px-3 py-2 rounded-full text-sm font-medium transition-all duration-700 "
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -80,10 +79,10 @@ export default function Example() {
                   </div>
                 </div>
               </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 transition-colors duration-400">
+              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 transition-colors duration-700">
                 <a
                   href="https://calendly.com/admitas/"
-                  className="inline-flex items-center bg-admit-blue  border-0 py-2 px-6 focus:outline-none hover:outline transition-b duration-400 hover:bg-gradient-to-r to-admit-dark-blue from-admit-red transition-colors duration-300 active:bg-[rgba(0,40,86,0.37)] text-white rounded-full hover:transition-colors hover:duration-700 text-sm font-base mt-0 md:mt-0"
+                  className="inline-flex items-center bg-admit-blue  border-0 py-2 px-6 focus:outline-none hover:outline transition-b duration-700 hover:bg-gradient-to-r to-admit-dark-blue from-admit-red transition-colors duration-700 active:bg-[rgba(0,40,86,0.37)] text-white rounded-full hover:transition-colors hover:duration-700 text-sm font-base mt-0 md:mt-0"
                 >
                   Snakk med oss 
                   <svg
@@ -102,7 +101,7 @@ export default function Example() {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden bg-admit-blue flex flex-row rounded-br-2xl transition-all duration-400">
+          <Disclosure.Panel className="sm:hidden bg-admit-blue flex flex-row rounded-br-2xl transition-all duration-700">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
                 <a
@@ -111,7 +110,7 @@ export default function Example() {
                   className={classNames(
                     item.current
                       ? "text-white"
-                      : "text-white hover:bg-admit-red hover:text-gray-300 transition-colors duration-400",
+                      : "text-white hover:bg-admit-red hover:text-gray-700 transition-colors duration-700",
                     "block px-3 py-2 rounded-md text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}

@@ -24,7 +24,7 @@ const Circular2 = () => {
                   />
                 </div>
               </Link>
-              <Link href="/economy">
+              <Link href="/digital">
                 <div
                   data-cursor-text="Se Hvordan 🤌"
                   data-cursor-size="100px"
@@ -34,9 +34,12 @@ const Circular2 = () => {
                   <img
                     alt="gallery"
                     className="w-full rounded-xl object-contain h-full object-center block"
-                    // src="https://i.ibb.co/1XHLTBK/Frame-10-1.png"
-                    src="https://i.ibb.co/7gWHrX3/Frame-13.png"
-                    // <img src= alt="Frame-13" border="0"></img>
+                    
+                    
+                    //  src="https://i.ibb.co/L6H1Bzd/Frame-13-1.png"
+                     src="https://i.ibb.co/1XHLTBK/Frame-10-1.png"
+
+                    
 
                   />
                 </div>
@@ -57,7 +60,7 @@ const Circular2 = () => {
               </Link>
             </div>
             <div className="flex flex-wrap w-1/2">
-              <Link href="/digital">
+              <Link href="/economy">
                 <div
                   data-cursor-text="👀 Hvordan"
                   data-cursor-size="100px"
@@ -68,7 +71,7 @@ const Circular2 = () => {
                     alt="hr"
                     className="w-full rounded-xl h-full object-cover object-center block"
                     // src="https://i.ibb.co/KGGSWbW/Frame-13.png"
-                    src="https://i.ibb.co/1XHLTBK/Frame-10-1.png"
+                    src="https://i.ibb.co/L6H1Bzd/Frame-13-1.png"
 
                     // <img src="https://i.ibb.co/NFkm1Cr/Frame-11.png" alt="Frame-11" border="0"></img>
                   />
@@ -107,16 +110,16 @@ const Circular2 = () => {
               </Link>
             </div>
           </div>
-          {/* <div className="flex w-full mt-20 flex-wrap">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
+          <div className="flex w-full mt-20 flex-wrap">
+            {/* <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
             Vår kompetanse
-            </h1>
+            </h1> */}
             <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
             Om du er klar for endring, men usikker på hvor du bør
                       starte for å nå dine mål; Bestill tid her for en
                       utforpliktende kartleggings-prat,
             </p>
-          </div> */}
+          </div>
         </div>
       </section>
     </>
