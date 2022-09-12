@@ -13,7 +13,7 @@ const Hero = () => {
               >
                 <h1 className="title-font sm:text-9xl text-8xl mb-4 text-opacity-90 text-center text-gray-900">
                   <span className="font-thin">#</span>
-                  <span className="font-serif font-base">weadmit</span>
+                  <span className="font-serif font-semibold">weadmit</span>
                 </h1>
               </div>
               <div>
