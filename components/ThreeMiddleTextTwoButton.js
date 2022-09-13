@@ -10,7 +10,7 @@ const ThreeMiddleTextTwoButton = (props) => {
           <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
             <div className="text-center lg:w-2/3 flex flex-col  justify-center items-center w-full">
               {props.props.top && (
-                <p className="mb-8 leading-relaxed ">{props.props.top.toUpperCase()}</p>
+                <p className="mb-8 leading-relaxed font-heroSubText ">{props.props.top.toUpperCase()}</p>
               )}
 
               {props.props.middle && (
@@ -20,7 +20,7 @@ const ThreeMiddleTextTwoButton = (props) => {
               )}
 
               {props.props.bottom && (
-                <p className="mb-8 w-3/4 leading-relaxed">
+                <p className="mb-8 w-3/4 leading-relaxed font-heroSubText ">
                   {props.props.bottom}
                 </p>
               )}
@@ -29,7 +29,7 @@ const ThreeMiddleTextTwoButton = (props) => {
                 {props.props.button1 && (
                   <div data-cursor-size="10px">
                     <a href={props.props.link1}>
-                      <button className="inline-flex text-white uppercase  bg-admit-blue border-0 py-2 px-12 focus:outline-none hover:bg-admit-blue-pressed rounded-full text-lg">
+                      <button className="inline-flex text-white uppercase font-heroSubText bg-admit-blue border-0 py-2 px-12 focus:outline-none hover:bg-admit-blue-pressed rounded-full text-lg">
                         {props.props.button1.toUpperCase()}
                       </button>
                     </a>
@@ -39,7 +39,7 @@ const ThreeMiddleTextTwoButton = (props) => {
                 {props.props.button2 && (
                   <div data-cursor-size="10px">
                     <a href={props.props.link1}>
-                    <button className="ml-4 inline-flex uppercase text-gray-700 bg-gray-100 border-0 py-2 px-12 focus:outline-none hover:bg-gray-200 rounded-full text-lg">
+                    <button className="ml-4 inline-flex uppercase text-gray-700 bg-gray-100 border-0 font-heroSubText py-2 px-12 focus:outline-none hover:bg-gray-200 rounded-full text-lg">
                       {props.props.button2}
                     </button>
                     </a>
