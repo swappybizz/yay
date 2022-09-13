@@ -45,8 +45,8 @@ const Circular4 = () => {
                     HR/HMS
                   </h1>
                   <p className="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                  For oss i Admit handler HR og HMS om å bygge sterke og velfungerende team, sett i sammenheng med systemtenkning.
+                    
                   </p>
                 </div>
               </div>
@@ -68,8 +68,8 @@ const Circular4 = () => {
                     Systemtenkning
                   </h1>
                   <p className="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                  Admit jobber med å utvikle lærende organisasjoner gjennom prosessledelse.
+                    
                   </p>
                 </div>
               </div>
@@ -96,8 +96,7 @@ const Circular4 = () => {
                     Digitalisering
                   </h1>
                   <p className="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                  Digitalisering handler om å bruke datamaskiner og annen digital teknologi til å fornye, forenkle og forbedre prosesser.
                   </p>
                 </div>
               </div>
@@ -119,8 +118,7 @@ const Circular4 = () => {
                     Økonomi
                   </h1>
                   <p className="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    Få bedre oversikt og kontroll over din økonomi og likviditet.
                   </p>
                 </div>
               </div>
@@ -142,8 +140,7 @@ const Circular4 = () => {
                     Markedsføring
                   </h1>
                   <p className="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    Besøk vår markedsavdeling.
                   </p>
                 </div>
               </div>
