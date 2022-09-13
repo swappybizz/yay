@@ -15,14 +15,6 @@ const text2={
   middle:"Bærekraftsmål",
 }
 
-const ringText={
-  leftTop:"8: ANSTENDIG ARBEID OG ØKONOMISK VEKST",
-leftBottom:"#8 Fremme varig, inkluderende og bærekraftig økonomisk vekst, full sysselsetting og anstendig arbeid for alle. Admit sitt hovedmål er å oppnå varig, inkluderende og bærekraftig økonomisk vekst for egen og andres bedrifter, samt personlig utvikling for den enkelte arbeidstaker. ",
-middleTop:"9: INDUSTRI, INNOVATION OG INFRASTRUKTUR",
-middleBottom:"#9 Bygge solid infrastruktur og fremme inkluderende og bærekraftig industrialisering og innovasjon. Gjennom vår Admit Avatar  skaper vi relevante arbeidsplasser i distriktene med klar miljøvennlig virkning. Samtidig får kunden, bedriftene i endring, den kompetansehjelpen de trenger levert digitalt via vår plattform.",
-rightTop:"17: SAMARBEID FOR Å NÅ MÅLENE ",
-rightBottom:"#17 Styrke virkemidlene som trengs for å gjennomføre arbeidet, og fornye globale partnerskap for bærekraftig utvikling. Vårt støtte- og utviklingsmiljø gir grobunn for samskaping og kompetansedeling med mål om fremtidsretta utvikling og bærekraftig vekst."
-}
 const about = () => {
   return (
     <>
