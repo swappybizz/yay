@@ -8,7 +8,7 @@ import Counter from "../components/Counter";
 import Outro from "../components/Outro";
 import FullPageImage from "../components/FullPageImage";
 import BlogPreview from "../components/BlogPreview";
-import {getRecentPosts } from "../services";
+// import {getRecentPosts } from "../services";
 import {Cursor}from "react-creative-cursor"
 
 import 'react-creative-cursor/dist/styles.css';
@@ -60,7 +60,7 @@ export default function Home({ posts }) {
       {/* <ThreeMiddleTextTwoButton props={midtext} /> */}
       <BlogPreview posts={posts} />
       <ThreeMiddleTextTwoButton props={tmbttext} />
-      <Counter />
+      {/* <Counter /> */}
       <FullPageImage />
 
       <Outro />

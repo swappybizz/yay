@@ -35,9 +35,9 @@ const ringText ={
     leftTop : "Samhandlings-plattform",
     leftBottom : "Plattform for både levering og “uttak” av kompetanse. En distribusjonskanal for levering av tjenester og din digitale medarbeider.",
     middleTop: "Teknisk",
-    middleBottom: "Abonnement på teknisk løsning inkludert support og sikkerhetMicrosoft 365 (skybasert) som base Arkivstruktur basert på ISO-system Automatiserte prosesser",
+    middleBottom: "Abonnement på teknisk løsning inkludert support og sikkerhet. Microsoft 365 (skybasert) som base og arkivstruktur basert på ISO-system. Automatiserte prosesser",
     rightTop: "Verdi",
-    rightBottom: "Kompetanse “on demand”Forbedred tidsbruk Sparringpartner Empowerment Nettverk"
+    rightBottom: "Kompetanse “on demand” / Forbedret tidsbruk / Sparringpartne / Empowerment  / Nettverk"
 
 }
 
