@@ -24,7 +24,9 @@ const ThreeMiddleTextTwoButtonSmall = props => {
 
             <div className="flex justify-center">
               {props.props.button1 && (
-                <a href={props.props.link1}>
+                <a 
+                target="_blank"
+                rel="noopener noreferrer"href={props.props.link1}>
                 <div data-cursor-size="10px" >
                 <button className="inline-flex text-white bg-admit-blue border-0 py-2 my-10 px-12 font-heroSubText focus:outline-none hover:bg-admit-blue-pressed rounded-full text-lg">
                   {props.props.button1}
@@ -34,7 +36,9 @@ const ThreeMiddleTextTwoButtonSmall = props => {
               )}
 
               {props.props.button2 && (
-                <a href={props.props.link2}>
+                <a
+                target="_blank"
+                rel="noopener noreferrer" href={props.props.link2}>
                 <div data-cursor-size="10px" >
                 <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 my-10 py-2 px-12 font-heroSubText focus:outline-none hover:bg-gray-200 rounded-full text-lg">
                   {props.props.button2}

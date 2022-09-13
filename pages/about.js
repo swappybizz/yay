@@ -1,8 +1,9 @@
 import React from "react"
-import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton"
+// import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton"
 import ThreeMiddleTextTwoButtonSmall from "../components/ThreeMiddleTextTwoButtonSmall"
 import WeAdmit from "../components/WeAdmit"
-import ThreeColorRings from "../components/ThreeColorRings"
+// import ThreeColorRings from "../components/ThreeColorRings"
+import UnitedNations from "../components/UnitedNations"
 
 const text1={
   top: "#weadmit",
@@ -27,7 +28,8 @@ const about = () => {
     <>
       <ThreeMiddleTextTwoButtonSmall props={text1} />
       <ThreeMiddleTextTwoButtonSmall props={text2} />
-      <ThreeColorRings props={ringText}/>
+      {/* <ThreeColorRings props={ringText}/> */}
+      <UnitedNations/>
    <WeAdmit/> 
     </>
   )
