@@ -13,7 +13,7 @@ const Counter = () => {
                 <h2 className="title-font font-medium font-admitTitle sm:text-8xl text-3xl text-gray-900">
                   22
                 </h2>
-                <p className="leading-relaxed font-medium mt-5 font-heroSubText">
+                <p className="leading-relaxed font-medium mt-5 font-heroSubText text-black">
                   konsulenter innen <br></br> ulike fagområder <br></br> som er
                   klar til å hkelpe deg.
                 </p>
@@ -22,7 +22,7 @@ const Counter = () => {
                 <h2 className="title-font font-medium font-admitTitle sm:text-8xl text-3xl text-gray-900">
                   6
                 </h2>
-                <p className="leading-relaxed font-medium mt-5 font-heroSubText ">
+                <p className="leading-relaxed font-medium mt-5 font-heroSubText text-black ">
                   ulike fagfelt du <br></br>kan få hjelp innen
                 </p>
               </div>
@@ -30,7 +30,7 @@ const Counter = () => {
                 <h2 className="title-font font-medium sm:text-8xl font-admitTitle text-3xl text-gray-900">
                   12
                 </h2>
-                <p className="leading-relaxed font-medium mt-5 font-heroSubText">
+                <p className="leading-relaxed font-medium mt-5 font-heroSubText  text-black">
                   timer er maks ventetid <br></br> for rådgivning
                 </p>
               </div>
