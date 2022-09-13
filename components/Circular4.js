@@ -16,7 +16,9 @@ const Circular4 = () => {
           <div className="px-2 py-2 relative z-10 text-center flex flex-col items-center justify-center w-72 h-72 rounded-full border-4 transition-all duration-400 border-admit-blue bg-white opacity-0 hover:opacity-100">
             {/* <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2> */}
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Strategi</h1>
-            <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            <p className="leading-relaxed">
+              
+            For å sette forretningsidéen og visjonen ut i livet må bedriften jobbe frem en overordnet strategi.</p>
           </div>
         </div>
       </a>
