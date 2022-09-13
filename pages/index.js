@@ -4,7 +4,6 @@ import Hero from "../components/Hero2";
 // import Circular from "../components/Circular2";
 import Circular3 from "../components/Circular4";
 import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton";
-import Counter from "../components/Counter";
 import Outro from "../components/Outro";
 import FullPageImage from "../components/FullPageImage";
 import BlogPreview from "../components/BlogPreview";
@@ -19,7 +18,7 @@ const toptext = {
 "Den økonomiske og teknologiske omstillingsfasen som pågår, gjør at næringslivet utforsker nye muligheter og markeder. Både samfunn, næringsliv og forbrukere har nye sett med forventninger og utfordringer. Behovet for endringskompetanse er stor og det kan være utfordrende å vite hvor en skal starte. "};
 const midtext = {
   top: "DETTE SKJER",
-  middle: "Aktuelt",
+  middle: "Blogg",
   bottom:
     "Bli med på våre events der kompetansedeling og samhandling står i fokus.",
 };
@@ -57,7 +56,7 @@ export default function Home({ posts }) {
       {/* <Circular /> */}
       <Circular3/>
       </div>
-      {/* <ThreeMiddleTextTwoButton props={midtext} /> */}
+      <ThreeMiddleTextTwoButton props={midtext} />
       <BlogPreview posts={posts} />
       <ThreeMiddleTextTwoButton props={tmbttext} />
       {/* <Counter /> */}
