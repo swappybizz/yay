@@ -13,10 +13,10 @@ const Circular4 = () => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-48 h-48 p-5 md:w-72 md:h-72 rounded-full object-cover object-center transition-all duration-400"
+                  className="absolute inset-0 w-48 h-48 p-5 md:w-72 md:h-72 rounded-full object-cover object-center transition-all duration-500"
                   src="https://i.ibb.co/dmYsRWB/4-1-3.png"
                 />
-                <div className="px-2 py-2 relative w-48 h-48 p-5 md:w-72 md:h-72 z-10 text-center flex flex-col items-center justify-center  rounded-full border-4 transition-all duration-400 border-admit-blue bg-white opacity-0 hover:opacity-100">
+                <div className="px-2 py-2 relative w-48 h-48 p-5 md:w-72 md:h-72 z-10 text-center flex flex-col items-center justify-center  rounded-full border-4 transition-all duration-500 border-admit-blue bg-white opacity-0 hover:opacity-100">
                   {/* <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2> */}
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Strategi
@@ -36,10 +36,10 @@ const Circular4 = () => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-48 h-48 p-5 md:w-72 md:h-72 rounded-full object-cover object-center transition-all duration-400"
+                  className="absolute inset-0 w-48 h-48 p-5 md:w-72 md:h-72 rounded-full object-cover object-center transition-all duration-500"
                   src="https://i.ibb.co/gj8Vhv2/6-1.png"
                 />
-                <div className="px-2 py-2 relative z-10 text-center flex flex-col w-48 h-48 p-5 md:w-72 md:h-72 items-center justify-center rounded-full border-4 transition-all duration-400 border-admit-blue bg-white opacity-0 hover:opacity-100">
+                <div className="px-2 py-2 relative z-10 text-center flex flex-col w-48 h-48 p-5 md:w-72 md:h-72 items-center justify-center rounded-full border-4 transition-all duration-500 border-admit-blue bg-white opacity-0 hover:opacity-100">
                   {/* <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2> */}
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                     HR/HMS
@@ -59,10 +59,10 @@ const Circular4 = () => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-48 h-48 p-5 md:w-72 md:h-72 rounded-full object-cover object-center transition-all duration-400"
+                  className="absolute inset-0 w-48 h-48 p-5 md:w-72 md:h-72 rounded-full object-cover object-center transition-all duration-500"
                   src="https://i.ibb.co/RcQJjMk/5-1.png"
                 />
-                <div className="px-2 py-2 relative z-10 text-center flex flex-col items-center justify-center w-48 h-48 p-5 md:w-72 md:h-72 rounded-full border-4 transition-all duration-400 border-admit-blue bg-white opacity-0 hover:opacity-100">
+                <div className="px-2 py-2 relative z-10 text-center flex flex-col items-center justify-center w-48 h-48 p-5 md:w-72 md:h-72 rounded-full border-4 transition-all duration-500 border-admit-blue bg-white opacity-0 hover:opacity-100">
                   {/* <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2> */}
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Systemtenkning
@@ -87,10 +87,10 @@ const Circular4 = () => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-48 h-48 p-5 md:w-72 md:h-72 rounded-full object-cover object-center transition-all duration-400"
+                  className="absolute inset-0 w-48 h-48 p-5 md:w-72 md:h-72 rounded-full object-cover object-center transition-all duration-500"
                   src="https://i.ibb.co/jL7TmnY/Frame-16.png"
                 />
-                <div className="px-2 py-2 relative z-10 text-center flex flex-col items-center justify-center w-48 h-48 p-5 md:w-72 md:h-72 rounded-full border-4 transition-all duration-400 border-admit-blue bg-white opacity-0 hover:opacity-100">
+                <div className="px-2 py-2 relative z-10 text-center flex flex-col items-center justify-center w-48 h-48 p-5 md:w-72 md:h-72 rounded-full border-4 transition-all duration-500 border-admit-blue bg-white opacity-0 hover:opacity-100">
                   {/* <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2> */}
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Digitalisering
@@ -110,10 +110,10 @@ const Circular4 = () => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-48 h-48 p-5 md:w-72 md:h-72 rounded-full object-cover object-center transition-all duration-400"
+                  className="absolute inset-0 w-48 h-48 p-5 md:w-72 md:h-72 rounded-full object-cover object-center transition-all duration-500"
                   src="https://i.ibb.co/DWd7Zpg/Frame-17-1.png"
                 />
-                <div className="px-2 py-2 relative z-10 text-center flex flex-col items-center justify-center w-48 h-48 p-5 md:w-72 md:h-72 rounded-full border-4 transition-all duration-400 border-admit-blue bg-white opacity-0 hover:opacity-100">
+                <div className="px-2 py-2 relative z-10 text-center flex flex-col items-center justify-center w-48 h-48 p-5 md:w-72 md:h-72 rounded-full border-4 transition-all duration-500 border-admit-blue bg-white opacity-0 hover:opacity-100">
                   {/* <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2> */}
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Økonomi
@@ -133,10 +133,10 @@ const Circular4 = () => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-48 h-48 p-5 md:w-72 md:h-72 rounded-full object-cover object-center transition-all duration-400"
+                  className="absolute inset-0 w-48 h-48 p-5 md:w-72 md:h-72 rounded-full object-cover object-center transition-all duration-500"
                   src="https://i.ibb.co/0cw9SGF/Frame-18-1.png"
                 />
-                <div className="px-2 py-2 relative z-10 text-center flex flex-col items-center justify-center w-48 h-48 p-5 md:w-72 md:h-72 rounded-full border-4 transition-all duration-400 border-admit-blue bg-white opacity-0 hover:opacity-100">
+                <div className="px-2 py-2 relative z-10 text-center flex flex-col items-center justify-center w-48 h-48 p-5 md:w-72 md:h-72 rounded-full border-4 transition-all duration-500 border-admit-blue bg-white opacity-0 hover:opacity-100">
                   {/* <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2> */}
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Markedsføring
