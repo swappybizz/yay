@@ -12,7 +12,7 @@ const Outro = () => {
             </h1>
 
             <div className="flex justify-center ">
-              <button className="mt-12 inline-flex uppercase  text-black bg-white font-admitText outline-black outline-2 py-2 px-6 focus:outline-none hover:bg-gray-200 hover:outline-none  rounded-full text-lg">
+              <button className="mt-12 inline-flex uppercase  text-black bg-white font-heroSubText outline-black outline-2 py-2 px-6 focus:outline-none hover:bg-gray-200 hover:outline-none  rounded-full text-lg">
                 Bli med i Admit Lounge{" "}
               </button>
             </div>
