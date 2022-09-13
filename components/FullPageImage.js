@@ -15,10 +15,10 @@ const FullPageImage = () => {
             <p className="mb-8 leading-relaxed">
               PROFESJONELT SMARTSTUDIO TIL LEIE
             </p>
-            <h1 className="title-font sm:text-8xl text-4xl font-admitTitle mb-4 font-medium  text-white">
+            <h1 className="title-font sm:text-8xl text-4xl font-admitTitle mb-4 font-semibold  text-white">
               Admit Studio
             </h1>
-            <p className="mb-8 leading-relaxed drop-shadow-sm">
+            <p className="mb-8 leading-relaxed font-heroSubText drop-shadow-sm">
               I dag kreves det høy kvalitet på bilde og lyd. I Admit Studio kan
               du produsere profesjonelt medieinnhold til eget bruk, inkludert
               hjelp av teknikere som gjør tiden din i studio til en drøm. Vi
