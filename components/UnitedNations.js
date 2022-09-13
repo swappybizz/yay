@@ -4,13 +4,13 @@ const UnitedNations = () => {
   return (
     <>
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-2 w-1/2 mx-auto">
+        <div class="container px-5 py-2 md:w-1/2 mx-auto">
           <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-            <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+            <div class="p-4 w-full md:w-1/3 sm:mb-0 mb-6">
               <div class="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  class="object-cover object-center h-full w-full"
+                  class="object-contain object-center h-full w-full"
                   src="https://i.ibb.co/87NjGpG/Frame-23.png"
                 />
               </div>
@@ -19,11 +19,11 @@ const UnitedNations = () => {
               #8 Fremme varig, inkluderende og bærekraftig økonomisk vekst, full sysselsetting og anstendig arbeid for alle. Admit sitt hovedmål er å oppnå varig, inkluderende og bærekraftig økonomisk vekst​ for egen og andres bedrifter, samt personlig utvikling for den enkelte arbeidstaker.
               </p>
             </div>
-            <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+            <div class="p-4 w-full md:w-1/3 sm:mb-0 mb-6">
               <div class="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  class="object-cover object-center h-full w-full"
+                  class="object-contain object-center h-full w-full"
                   src="https://i.ibb.co/r20d3J5/mal-9-bokmal.png"
                 />
               </div>
@@ -32,11 +32,11 @@ const UnitedNations = () => {
               #9 Bygge solid infrastruktur og fremme inkluderende og bærekraftig industrialisering og innovasjon. Gjennom vår Admit Avatar skaper vi relevante arbeidsplasser i distriktene med klar miljøvennlig virkning. Samtidig får kunden, bedriftene i endring, den kompetansehjelpen de trenger levert digitalt via vår plattform.
               </p>
             </div>
-            <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+            <div class="p-4 w-full md:w-1/3 sm:mb-0 mb-6">
               <div class="rounded-lg h-64 overflow-hidden ">
                 <img
                   alt="content"
-                  class="object-cover object-center h-full w-full "
+                  class="object-contain object-center h-full w-full "
                   src="https://i.ibb.co/yXmqQnm/mal-17-bokmal.png"
                 />
               </div>
