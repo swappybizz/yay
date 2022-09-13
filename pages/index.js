@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Hero from "../components/Hero2";
 // import Hero2 from "../components/Hero";
-import Circular from "../components/Circular2";
-// import Circular2 from "../components/Circular";
+// import Circular from "../components/Circular2";
+import Circular3 from "../components/Circular4";
 import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton";
 import Counter from "../components/Counter";
 import Outro from "../components/Outro";
@@ -54,8 +54,8 @@ export default function Home({ posts }) {
       <div id="circularSection">
 
       <ThreeMiddleTextTwoButton props={toptext} />
-      <Circular />
-      {/* <Circular2/> */}
+      {/* <Circular /> */}
+      <Circular3/>
       </div>
       {/* <ThreeMiddleTextTwoButton props={midtext} /> */}
       <BlogPreview posts={posts} />
