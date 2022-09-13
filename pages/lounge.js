@@ -2,7 +2,8 @@ import React from "react"
 import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton"
 import ThreeMiddleTextTwoButtonSmall from "../components/ThreeMiddleTextTwoButtonSmall"
 import WeAdmit from "../components/WeAdmit"
-import ThreeColorRings from "../components/ThreeColorRings"
+// import ThreeColorRings from "../components/ThreeColorRings"
+import Tcr from "../components/Tcr"
 const text1 = {
   top: "DER MULIGHETER DELES",
   middle: "Admit Lounge",
@@ -23,6 +24,7 @@ const text6 = {
   middle: "Bli medlem",
   // button1: "Bli Medlem",
   button1: "KONTAKT OSS",
+  link1: "https://calendly.com/admitas/",
   bottom:"Møte likesinnede for input og inspirasjon​. Ta med dine ansatte eller ditt team, på våre events eller workshops der endringskompetanse står i fokus. Bli med i kompetansenettverket vårt !"
 }
 const ringText ={
@@ -39,7 +41,7 @@ const lounge = () => {
   return (
     <>
       <ThreeMiddleTextTwoButton props={text1} />
-      <ThreeColorRings props={ringText}/>
+      <Tcr props={ringText}/>
       <ThreeMiddleTextTwoButtonSmall props={text2} />
       <ThreeMiddleTextTwoButtonSmall props={text3} />
       <ThreeMiddleTextTwoButton props={text6} />

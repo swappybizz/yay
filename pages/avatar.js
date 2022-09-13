@@ -2,6 +2,7 @@ import React from 'react'
 import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton"
 import ThreeMiddleTextTwoButtonSmall from "../components/ThreeMiddleTextTwoButtonSmall"
 import ThreeColorRings from "../components/ThreeColorRings"
+import Tcr from '../components/Tcr'
 import WeAdmit from "../components/WeAdmit"
 
 const text1 ={
@@ -54,7 +55,7 @@ const Avatar = () => {
         props= {text4}/>
         <ThreeMiddleTextTwoButton
         props= {text5}/>
-        <ThreeColorRings
+        <Tcr
         props={ringText}/>
         <ThreeMiddleTextTwoButton
         props= {text6}/>
