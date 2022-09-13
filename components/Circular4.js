@@ -7,6 +7,8 @@ const Circular4 = () => {
         <div className="flex justify-evenly items-center px-5 py-2 mx-auto">
           <div className="flex justify-center w-3/4 items-center flex-col lg:flex-row ">
             <a
+            target="_blank"
+            rel="noopener noreferrer"
               href="/strategy"
               className="lg:w-1/3 sm:w-1/2 flex justify-center items-center mr-auto translate-x-[70%] md:translate-x-0"
             >
@@ -30,6 +32,8 @@ const Circular4 = () => {
             </a>
 
             <a
+            target="_blank"
+            rel="noopener noreferrer"
               href="/hr"
               className="lg:w-1/3 sm:w-1/2 flex justify-center items-center mr-auto translate-x-[-30%] md:translate-x-0"
             >
@@ -53,6 +57,8 @@ const Circular4 = () => {
             </a>
 
             <a
+            target="_blank"
+            rel="noopener noreferrer"
               href="/systems"
               className="lg:w-1/3 sm:w-1/2 flex justify-center items-center mr-auto translate-x-[70%] md:translate-x-0"
             >
@@ -81,6 +87,8 @@ const Circular4 = () => {
         <div className="flex justify-evenly items-center px-5 py-2 mx-auto">
           <div className="flex justify-center w-3/4 items-center flex-col lg:flex-row ">
             <a
+            target="_blank"
+            rel="noopener noreferrer"
               href="/digital"
               className="lg:w-1/3 sm:w-1/2 flex justify-center items-center mr-auto translate-x-[-30%] md:translate-x-0"
             >
@@ -103,6 +111,8 @@ const Circular4 = () => {
             </a>
 
             <a
+            target="_blank"
+            rel="noopener noreferrer"
               href="/economy"
               className="lg:w-1/3 sm:w-1/2 flex justify-center items-center mr-auto translate-x-[70%] md:translate-x-0"
             >
@@ -125,6 +135,8 @@ const Circular4 = () => {
             </a>
 
             <a
+            target="_blank"
+            rel="noopener noreferrer"
               href="/marketing"
               className="lg:w-1/3 sm:w-1/2 flex justify-center items-center mr-auto translate-x-[-30%] md:translate-x-0"
             >
