@@ -24,7 +24,7 @@ const contact = () => {
             <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
               <div className="lg:w-1/2 px-6">
                 <h2 className="title-font font-semibold font-admitTitle text-gray-900 tracking-widest text-s">
-                  ADDRESS
+                  ADRESSE
                 </h2>
                 <p className="mt-1">
                 Norwegian Maritime Competence Center, Borgundvegen 340, 6009 Ålesund
@@ -32,24 +32,24 @@ const contact = () => {
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                 <h2 className="title-font font-semibold font-admitTitle text-gray-900 tracking-widest text-s">
-                  EMAIL
+                  E-POST
                 </h2>
                 <a className="text-admit-blue leading-relaxed">
-                  info@admit.no
+                  post@admit.no
                 </a>
                 <h2 className="title-font font-semibold font-admitTitle text-gray-900 tracking-widest text-s mt-4">
-                  PHONE
+                  TELEFONE
                 </h2>
-                <p className="leading-relaxed">123-456-7890</p>
+                <p className="leading-relaxed">+47 70 32 93 80</p>
               </div>
             </div>
           </div>
           <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
             <h2 className="text-gray-900 text-3xl mb-1 font-admitTitle  font-semibold title-font">
-              Feedback
+            Kontakt oss
             </h2>
             <p className="leading-relaxed mb-5 text-gray-600">
-              Post-ironic portland shabby chic echo park, banjo fashion axe
+            Har du spørsmål om våre tjenester eller Admit som bedrift? Ta gjerne kontakt.
             </p>
             <div className="relative mb-4">
               <label for="name" className="leading-7 text-sm text-gray-600">
@@ -87,7 +87,7 @@ const contact = () => {
               Sende
             </button>
             <p className="text-xs text-gray-500 mt-3">
-              Tussen Takk
+              Tusen takk
             </p>
           </div>
         </div>
