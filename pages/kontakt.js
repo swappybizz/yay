@@ -53,7 +53,7 @@ const contact = () => {
             </p>
             <div className="relative mb-4">
               <label for="name" className="leading-7 text-sm text-gray-600">
-                Name
+                Navn
               </label>
               <input
                 type="text"
@@ -64,7 +64,7 @@ const contact = () => {
             </div>
             <div className="relative mb-4">
               <label for="email" className="leading-7 text-sm text-gray-600">
-                Email
+                E-Post
               </label>
               <input
                 type="email"
@@ -75,7 +75,7 @@ const contact = () => {
             </div>
             <div className="relative mb-4">
               <label for="message" className="leading-7 text-sm text-gray-600">
-                Message
+                Melding
               </label>
               <textarea
                 id="message"
@@ -84,11 +84,10 @@ const contact = () => {
               ></textarea>
             </div>
             <button className="text-white bg-admit-blue border-0 py-2 px-6 focus:outline-none hover:bg-admit-blue-pressed rounded text-lg">
-              Button
+              Sende
             </button>
             <p className="text-xs text-gray-500 mt-3">
-              Chicharrones blog helvetica normcore iceland tousled brook viral
-              artisan.
+              Tussen Takk
             </p>
           </div>
         </div>
