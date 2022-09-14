@@ -17,10 +17,8 @@ const toptext = {
   bottom:
 "Den økonomiske og teknologiske omstillingsfasen som pågår, gjør at næringslivet utforsker nye muligheter og markeder. Både samfunn, næringsliv og forbrukere har nye sett med forventninger og utfordringer. Behovet for endringskompetanse er stor og det kan være utfordrende å vite hvor en skal starte. "};
 const midtext = {
-  top: "DETTE SKJER",
+ 
   middle: "Blogg",
-  bottom:
-    "Bli med på våre events der kompetansedeling og samhandling står i fokus.",
 };
 
 const tmbttext = {

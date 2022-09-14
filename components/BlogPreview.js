@@ -28,14 +28,14 @@ const BlogPreview = () => {
                   />
                   <div className="p-6">
                     {/* <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">{post.author.name}</h2> */}
-                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                    <h1 className="title-font text-2xl  font-admitTitle font-semibold text-gray-900 mb-3">
                       {post.title}{" "}
                     </h1>
-                    <p className="leading-relaxed mb-3">{post.excerpt} </p>
+                    <p className="leading-relaxed font-heroSubText text-xl mb-3">{post.excerpt} </p>
                     <div className="flex items-center flex-wrap ">
                       <a
                         href={"/post/" + post.slug}
-                        className="text-admit-blue hover:scale-105 hover:text-admit-dark-blue inline-flex items-center md:mb-2 lg:mb-0"
+                        className="text-admit-blue hover:scale-105 hover:text-admit-dark-blue font-heroSubText inline-flex items-center md:mb-2 lg:mb-0"
                       >
                         {" "}
                         Les Mer

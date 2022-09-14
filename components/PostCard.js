@@ -21,11 +21,11 @@ const PostCard = ({ post }) => (
       <img src={post.featuredImage.url} alt="" className="object-top absolute h-80 w-full object-cover  shadow-lg rounded-t-lg lg:rounded-lg" />
     </div>
 
-    <h1 className="transition duration-700 text-center mb-8 cursor-pointer hover:text-pink-600 text-3xl font-semibold">
+    <h1 className="transition duration-700 text-center mb-8 font-admitTitle cursor-pointer hover:text-pink-600 text-3xl font-semibold">
       <Link href={`/post/${post.slug}`}>{post.title}</Link>
     </h1>
     <div className="block lg:flex text-center items-center justify-center mb-8 w-full">
-      <div className="flex items-center justify-center mb-4 lg:mb-0 w-full lg:w-auto mr-8 items-center">
+      <div className="flex items-center justify-center mb-4 lg:mb-0 w-full lg:w-auto mr-8">
         <Image
           unoptimized
           loader={grpahCMSImageLoader}
@@ -44,7 +44,7 @@ const PostCard = ({ post }) => (
         <span className="align-middle">{moment(post.createdAt).format('MMM DD, YYYY')}</span>
       </div>
     </div>
-    <p className="text-center text-lg text-gray-700 font-normal px-4 lg:px-20 mb-8">
+    <p className="text-center text-xl font-heroSubText  text-gray-700 font-normal px-4 lg:px-20 mb-8">
       {post.excerpt}
     </p>
     <div className="text-center">

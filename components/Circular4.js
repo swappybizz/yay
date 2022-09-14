@@ -71,7 +71,7 @@ const Circular4 = () => {
                 <div className="px-2 py-2 relative z-10 text-center flex flex-col items-center justify-center w-48 h-48 p-5 md:w-72 md:h-72 rounded-full border-4 transition-all duration-500 border-admit-blue bg-white opacity-0 hover:opacity-100">
                   {/* <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2> */}
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Systems
+                    System
                   </h1>
                   <p className="leading-relaxed font-heroSubText">
                   Admit jobber med å utvikle lærende organisasjoner gjennom prosessledelse.
