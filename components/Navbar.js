@@ -7,7 +7,7 @@ const navigation = [
   { name: "ADMIT STUDIO", href: "/studio", current: false },
   { name: "ADMIT LOUNGE", href: "/lounge", current: false },
   { name: "OM ADMIT ", href: "/about", current: false },
-  {name: "KONTAKT OSS", href: "/kontact", current: false },
+  {name: "KONTAKT OSS", href: "/kontakt", current: false },
 ];
 
 function classNames(...classes) {

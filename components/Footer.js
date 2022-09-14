@@ -44,7 +44,7 @@ const Footer = () => {
                 </div>
                 <nav className="list-none mb-10">
                   <li>
-                    <a href="/kontact" className="text-white hover:text-gray-300 cursor-pointer text-sm">
+                    <a href="/lounge" className="text-white hover:text-gray-300 cursor-pointer text-sm">
                       Admit Lounge
                     </a>
                   </li>
@@ -74,12 +74,12 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="/" className="text-white hover:text-gray-300 cursor-pointer text-sm">
+                    <a href="/https://www.instagram.com/admit.no/" className="text-white hover:text-gray-300 cursor-pointer text-sm">
                       instagram
                     </a>
                   </li>
                   <li>
-                    <a href="/" className="text-white hover:text-gray-300 cursor-pointer text-sm">
+                    <a href="/https://www.linkedin.com/company/admit-no" className="text-white hover:text-gray-300 cursor-pointer text-sm">
                       LinkedIn
                     </a>
                   </li>
@@ -115,7 +115,7 @@ const Footer = () => {
               <p className="text-gray-200 text-sm text-center sm:text-left">
                 © 2022 Admit AS —
                 <a
-                  href="/"
+                  href="/https://www.monicamyklebust.no/"
                   rel="noopener noreferrer"
                   className="text-gray-600 ml-1"
                   target="_blank"
@@ -123,7 +123,7 @@ const Footer = () => {
                   @monica
                 </a>
                 <a
-                  href="/"
+                  href="/https://www.instagram.com/cavepuppy/"
                   rel="noopener noreferrer"
                   className="text-gray-600 ml-1"
                   target="_blank"
@@ -131,7 +131,7 @@ const Footer = () => {
                   @swapnil
                 </a>
               </p>
-              <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+              <span className=" sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start hidden">
                 <a href="/" className="text-gray-500">
                   <svg
                     fill="currentColor"
