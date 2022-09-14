@@ -38,7 +38,7 @@ const contact = () => {
                   post@admit.no
                 </a>
                 <h2 className="title-font font-semibold font-admitTitle text-gray-900 tracking-widest text-s mt-4">
-                  TELEFONE
+                  TELEFON
                 </h2>
                 <p className="leading-relaxed">+47 70 32 93 80</p>
               </div>
@@ -84,7 +84,7 @@ const contact = () => {
               ></textarea>
             </div>
             <button className="text-white bg-admit-blue border-0 py-2 px-6 focus:outline-none hover:bg-admit-blue-pressed rounded text-lg">
-              Sende
+              Send Melding
             </button>
             <p className="text-xs text-gray-500 mt-3">
               Tusen takk
