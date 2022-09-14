@@ -10,7 +10,7 @@ const ThreeMiddleTextTwoButton = (props) => {
           <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
             <div className="text-center lg:w-2/3 flex flex-col  justify-center items-center w-full">
               {props.props.top && (
-                <p className="mb-8 leading-relaxed font-heroSubText ">{props.props.top.toUpperCase()}</p>
+                <p className="mb-8 leading-relaxed text-xl font-heroSubText ">{props.props.top.toUpperCase()}</p>
               )}
 
               {props.props.middle && (
@@ -20,7 +20,7 @@ const ThreeMiddleTextTwoButton = (props) => {
               )}
 
               {props.props.bottom && (
-                <p className="mb-8 w-3/4 leading-relaxed font-heroSubText ">
+                <p className="mb-8 w-3/4 leading-relaxed text-xl font-heroSubText ">
                   {props.props.bottom}
                 </p>
               )}
