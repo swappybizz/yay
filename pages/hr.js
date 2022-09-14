@@ -9,8 +9,8 @@ const text1 = {
   }
 
 const text2 = {
-  middle: "Sticos",
-  bottom:"Vi er Sticos-partner og kan bistå ved implementering av dette. Sticos er et digitalt personalsystem som gjør oppfølging av ansatte enklere og i hhld til oppdatert regelverk. Bidrar til enkel håndtering av lovpålagt HMS-arbeid, og har integrasjon mot de fleste regnskapssystem."
+  middle: "Personalsystem",
+  bottom:"Vi bistår med implementering av digitalt personalsystem, som gjør oppfølging av ansatte enklere og i hhld til oppdatert regelverk. Systemet bidrar til enkel håndtering av lovpålagt HMS-arbeid, og har integrasjon mot de fleste regnskapssystem."
   
 }
 const text3 = {

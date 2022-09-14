@@ -10,12 +10,14 @@ const text1 = {
 
 const text2 = {
   middle: "Hva?",
-  bottom:" Produksjon av profesjonelt medieinnhold som webinar, salgspitch, podcast, promofilm eller annet innen lyd og bilde. Du kan selv være en del av produksjonen for å skape en tettere relasjon. Studioet gir deg tilgang til å streame direkte fra verdens fremste strømmeplattformer som Youtube, Twitch, Vimeo, Twitter, Instagram, Zoom, Teams etc.."
+  bottom:"Produksjon av profesjonelt medieinnhold som webinar, salgspitch, podcast, promofilm eller annet innen lyd og bilde. Du kan selv være en del av produksjonen for å skape en tettere relasjon. Studioet gir deg tilgang til å streame direkte fra verdens fremste strømmeplattformer som Youtube, Twitch, Vimeo, Twitter, Instagram, Zoom, Teams etc.."
+  
 
 }
 const text3 = {
   middle: "Hvor?",
-  bottom:"Admit Studio er lokalisert i Stordal. Adresse: Stordal Lounge, Strandgaten 27, 6250 Stordal."
+  bottom:"Admit Studio er lokalisert i Stordal. Innovasjon og kreativitet preger den tidligere møbelbygda og her satset det på nye næringer i gamle kullisser. Stordal Lounge, Strandgaten 27, 6250 Stordal."
+  
 }
 const text4 = {
   middle: "Teknisk",

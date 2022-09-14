@@ -7,12 +7,11 @@ import Tcr from "../components/Tcr"
 const text1 = {
   top: "DER MULIGHETER DELES",
   middle: "Admit Lounge",
-  bottom:
-"Samarbeidsvekst betyr å komme sammen, for å vokse sammen. Admit Lounge er en hub for kompetansedeling og fasilitering. Et sted med kontorfellesskap for både fjernarbeid og nærarbeid, som motiverer og legger til rette for bærekraftig utvikling  og innovasjon."}
-
+  bottom:"Samarbeidsvekst betyr å komme sammen, for å vokse sammen. Admit Lounge er vårt kompetansenettverk og utviklingsmiljø, Vår misjon er å bidra til fremtidsretta utvikling og bærekraftig vekst for SMB-markedet. Vi har et fysisk sted med kontorfellesskap for både fjernarbeid og nærarbeid på Stordal Lounge, og et fellesskap der vi kan møtes både fysisk og digitalt, for kompetansedeling og fasilitering."
+}
 const text2 = {
   middle: "Fasiliteter ved Stordal Lounge",
-  bottom:"Flexplass i åpent landska\nCellekontor stort/lite\nLounge-område \n Møterom for 12 personer \n Konferanseutstyr \nKjøkken \nIn-house Smartstudio \nTreningsstudio"
+  bottom:"Flexplass i åpent landska /Cellekontor stort/lite /Lounge-område / Møterom for 12 personer / Konferanseutstyr \nKjøkken \nIn-house Smartstudio \nTreningsstudio"
 }
 const text3 = {
   middle: "Medlemsfordeler",
@@ -26,6 +25,7 @@ const text6 = {
   button1: "KONTAKT OSS",
   link1: "https://calendly.com/admitas/",
   bottom:"Møte likesinnede for input og inspirasjon​. Ta med dine ansatte eller ditt team, på våre events eller workshops der endringskompetanse står i fokus. Bli med i kompetansenettverket vårt !"
+  
 }
 const ringText ={
   leftTop : "Coworking",
@@ -33,7 +33,8 @@ const ringText ={
   middleTop: "Workstation",
   middleBottom: "Møt likesinnede for input og inspirasjon, eller få ro og tid til å løse utfordrende oppgaver. Noen dager på workation gir frihet og fleksibilitet til å jobbe og leve.Velg blant utallige naturopplevelser og aktiviteter, tilgjengelig rett utenfor døren.",
   rightTop: "Workretreat",
-  rightBottom: "Hos Admit Lounge kan bedrifter ta med sine ansatte og team, for opphold i sammenheng med strategi-, innovasjonsarbeid e.l. Kombiner arbeidet med  Ute til lunsj aktiviteter, naturopplevingerog teambuilding. "
+  rightBottom: "Hos Admit Lounge kan bedrifter melde på sine ansatte og team, for strategi-, innovasjonsarbeid e.l. Prosessene kan også kombineres med aktiviteter, naturopplevinger og annen type teambuilding."
+
 
 }
 

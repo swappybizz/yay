@@ -19,7 +19,14 @@ const toptext = {
 const midtext = {
  
   middle: "Blogg",
-};
+}
+const text2 = {
+  bottom: "Om du er klar for å møte endringene, men usikker på hvor du bør starte for å nå dine mål og visjoner; bestill tid her for en utforpliktende kartleggings-prat",
+  button1: "KONTAKT OSS",
+  link1: "https://calendly.com/admitas/"
+ 
+  
+}
 
 const tmbttext = {
   top: "DIGITAL MEDARBEIDER",
@@ -54,6 +61,7 @@ export default function Home({ posts }) {
       {/* <Circular /> */}
       <Circular3/>
       </div>
+      <ThreeMiddleTextTwoButton props={text2} />
       <ThreeMiddleTextTwoButton props={midtext} />
       <BlogPreview posts={posts} />
       <ThreeMiddleTextTwoButton props={tmbttext} />

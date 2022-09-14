@@ -9,8 +9,8 @@ const text1 = {
 };
 const text2 = {
   middle: "Grunnleggende systemtenkning",
-  bottom:
-    "Admit jobber med å utvikle lærende organisasjoner gjennom prosessledelse. Prosessledelse bidrar til at enkeltpersoner ser seg selv som en del av en helhet og forstår at deres måte å være på/handle på, bidrar til at andre og organisasjonen når ønsket resultat på en bedre måte (Peter Senge). Arkivsystem og valg av samhandlingsplattform er med andre ord et strategisk valg og helt grunnleggende for systemtenkning.",
+  bottom:"“Når mørke skyer dekker himmelen blir det snart regn og storm”"
+  
 };
 const text3 = {
   middle: "ISO",
@@ -19,8 +19,7 @@ const text3 = {
 };
 const text4 = {
   middle: "Microsoft 365",
-  bottom:
-    "Admit har gjort et strategisk valg om å bruke Microsoft sin skybaserte løsning som vår prefererte samhandlingsplattform. tekst om system og strategivalg",
+  bottom:"Admit har gjort et strategisk valg om å bruke Microsoft sin skybaserte løsning som vår prefererte samhandlingsplattform.",
   button1: "BOOK MØTE",
   link1: "https://calendly.com/admitas/"
 };
