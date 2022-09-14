@@ -5,11 +5,12 @@ import WeAdmit from "../components/WeAdmit";
 const text1 = {
   top: "SYSTEM SOM BASE FOR SUKSESS",
   middle: "Systemtenkning",
-  // bottom: "Admit jobber med å utvikle lærende ",
+  bottom:"“Når mørke skyer dekker himmelen blir det snart regn og storm”"
 };
 const text2 = {
   middle: "Grunnleggende systemtenkning",
-  bottom:"“Når mørke skyer dekker himmelen blir det snart regn og storm”"
+  bottom:"Admit jobber med å utvikle lærende organisasjoner gjennom prosessledelse. Prosessledelse bidrar til at enkeltpersoner ser seg selv som en del av en helhet og forstår at deres måte å være på/handle på, bidrar til at andre og organisasjonen når ønsket resultat på en bedre måte. (Peter Senge) Arkivsystem og valg av samhandlingsplattform er med andre ord et strategisk valg og helt grunnleggende for systemtenkning."
+ 
   
 };
 const text3 = {
