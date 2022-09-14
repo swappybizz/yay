@@ -8,12 +8,12 @@ const Tcr = (props) => {
           <div className="flex justify-center w-3/4 items-center flex-col lg:flex-row ">
             <div className="lg:w-1/3 sm:w-1/2 flex justify-center items-center mr-auto translate-x-[0%]  mb-12 md:translate-x-0">
               <div className="flex relative ">
-                <div className="px-2 py-2 relative z-10 text-center flex flex-col w-48 h-48 p-5 md:w-[20rem] md:h-[20rem] items-center justify-center rounded-full border-4 transition-all duration-500 border-admit-blue bg-white ">
+                <div className="px-2 py-2 relative z-10 text-center flex flex-col w-48 h-48 p-5 md:w-[20rem] md:h-[20rem] items-center  pt-16 rounded-full border-4 transition-all duration-500 border-admit-blue bg-white ">
                   {/* <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2> */}
-                  <h1 className="title-font font-admitTitle text-[1.5rem] font-semibold text-gray-900 mb-3">
+                  <h1 className="title-font font-admitTitle text-2xl font-semibold text-gray-900 mb-3">
                     {props.props.leftTop}
                   </h1>
-                  <p className=" hidden md:flex leading-relaxed">
+                  <p className=" hidden md:flex font-heroSubText px-6  leading-relaxed">
                     {props.props.leftBottom}
                   </p>
                 </div>
@@ -21,11 +21,11 @@ const Tcr = (props) => {
             </div>
             <div className="lg:w-1/3 sm:w-1/2 flex justify-center items-center mr-auto translate-x-[-0%] mb-12 md:translate-x-0">
               <div className="flex relative">
-                <div className="px-2 py-2 relative z-10 text-center flex flex-col w-48 h-48 p-5 md:w-[20rem] md:h-[20rem] items-center justify-center rounded-full border-4 transition-all duration-500 border-admit-red bg-white  ">
-                  <h1 className="title-font font-admitTitle text-[1.5rem] font-semibold text-gray-900 mb-3">
+                <div className="px-2 py-2 relative z-10 text-center flex flex-col w-48 h-48 p-5 md:w-[20rem] md:h-[20rem] items-center  pt-16 rounded-full border-4 transition-all duration-500 border-admit-red bg-white  ">
+                <h1 className="title-font font-admitTitle text-2xl font-semibold text-gray-900 mb-3">
                     {props.props.middleTop}
                   </h1>
-                  <p className="leading-relaxed hidden md:flex p-4">
+                  <p className="leading-relaxed font-heroSubText px-6  hidden md:flex">
                     {props.props.middleBottom}
                   </p>
                 </div>
@@ -37,11 +37,11 @@ const Tcr = (props) => {
               className="lg:w-1/3 sm:w-1/2 flex justify-center items-center mr-auto translate-x-[0%] mb-12 md:translate-x-0"
             >
               <div className="flex relative">
-                <div className="px-2 py-2 relative z-10 text-center flex flex-col w-48 h-48 p-5 md:w-[20rem] md:h-[20rem] items-center justify-center rounded-full border-4 transition-all duration-500 border-[#73c3d5] bg-white  ">
-                  <h1 className="title-font font-admitTitle text-[1.5rem] font-semibold text-gray-900 mb-3">
+                <div className="px-2 py-2 relative z-10 text-center flex flex-col w-48 h-48 p-5 md:w-[20rem] md:h-[20rem] items-center pt-16 rounded-full border-4 transition-all duration-500 border-[#73c3d5] bg-white  ">
+                  <h1 className="title-font font-admitTitle text-2xl font-semibold text-gray-900 mb-3">
                     {props.props.rightTop}
                   </h1>
-                  <p className="leading-relaxed hidden md:flex">
+                  <p className="leading-relaxed font-heroSubText px-6  hidden md:flex">
                     {props.props.rightBottom}
                   </p>
                 </div>

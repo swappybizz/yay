@@ -17,16 +17,13 @@ const text2 = {
 const text3 = {
   middle: "Admit Studio",
   bottom:"Bruksområdene for Admit Studio er mange. En arena for produksjon av profesjonelt medieinnhold for dine markedsføringskanaler. Livestreaming av webinar, innspilling av forklaringsvideoer, salgsmøter, intern opplæring osv.",
-  button2: "LES MER",
-  link2: "/studio"
+  button1: "LES MER",
+  link1: "/studio"
 
 }
 
 
-const text6 = {
-  button1: "Kontakt oss",
-  link1:"https://calendly.com/admitas/",
-}
+
 
 
 const lounge = () => {
@@ -36,7 +33,7 @@ const lounge = () => {
       {/* <ThreeColorRings props={ringText}/> */}
       <ThreeMiddleTextTwoButtonSmall props={text2} />
       <ThreeMiddleTextTwoButtonSmall props={text3} />
-      <ThreeMiddleTextTwoButton props={text6} />
+      {/* <ThreeMiddleTextTwoButton props={text6} /> */}
       <WeAdmit />
     </>
   )

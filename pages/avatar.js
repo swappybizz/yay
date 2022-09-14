@@ -37,7 +37,7 @@ const ringText ={
     middleTop: "Teknisk",
     middleBottom: "Abonnement på teknisk løsning inkludert support og sikkerhet. Microsoft 365 (skybasert) som base og arkivstruktur basert på ISO-system. Automatiserte prosesser",
     rightTop: "Verdi",
-    rightBottom: "Kompetanse “on demand” / Forbedret tidsbruk / Sparringpartne / Empowerment  / Nettverk"
+    rightBottom: "Kompetanse “on demand” / Forbedret tidsbruk / Sparringpartner / Empowerment  / Nettverk"
 
 }
 
