@@ -215,7 +215,7 @@
 }
 .fab-dots-3 {
   right: 15px;
-  animation-delay: 0.8s;
+  animation-delay: 0.3s;
 }
 
 .fab-checkbox:checked ~ .fab .fab-dots {
@@ -275,7 +275,7 @@
   justify-content: center;
   color: White;
   box-shadow: 0 0.1rem 1rem rgba(24, 66, 154, 0.82);
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 
   opacity: 0;
 }
