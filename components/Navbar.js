@@ -67,9 +67,9 @@ export default function Example() {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? " text-black  hover:text-gray-600 transition-all duration-700 "
-                            : "text-black  hover:text-gray-600  transition-all duration-700",
-                          "px-3 py-2 rounded-full text-sm font-medium transition-all duration-700 "
+                            ? " text-black  hover:text-admit-dark-blue link link-underline link-underline-black "
+                            : "text-black  hover:text-admit-dark-blue  link link-underline link-underline-black",
+                          "px-3 py-2 text-sm font-medium link link-underline link-underline-black"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -123,7 +123,7 @@ export default function Example() {
                   className={classNames(
                     item.current
                       ? "text-white"
-                      : "text-white hover:bg-admit-red hover:text-gray-700 transition-colors duration-700",
+                      : "text-white hover:bg-admit-red  hover:text-gray-700 transition-colors duration-700",
                     "block px-3 py-2 rounded-md text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}
