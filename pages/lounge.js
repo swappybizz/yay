@@ -31,7 +31,8 @@ const ringText ={
   leftTop : "Coworking",
   leftBottom :"Fleksibelt kontorfellesskap for deg som ser etter et større fellesskap, for deg med hybridløsning på jobben, fjernarbeidere eller andre.",
   middleTop: "Workstation",
-  middleBottom: "Møt likesinnede for input og inspirasjon, eller få ro og tid til å løse utfordrende oppgaver. Noen dager på workation gir frihet og fleksibilitet til å jobbe og leve.Velg blant utallige naturopplevelser og aktiviteter, tilgjengelig rett utenfor døren.",
+  middleBottom: "Møt likesinnede for input og inspirasjon, eller få ro og tid til å løse utfordrende oppgaver. Noen dager på workation gir frihet og fleksibilitet til å jobbe og leve. Storslagen natur og aktiviteter, rett utenfor døren.",
+  
   rightTop: "Workretreat",
   rightBottom: "Hos Admit Lounge kan bedrifter melde på sine ansatte og team, for strategi-, innovasjonsarbeid e.l. Prosessene kan også kombineres med aktiviteter, naturopplevinger og annen type teambuilding."
 

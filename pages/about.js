@@ -14,14 +14,23 @@ const text2={
  
   middle:" Våre Bærekraftsmål",
 }
+const text3={
+ middle:"Klimanøytral innen år 2030",
+ bottom:"Vi har satt oss noen mål innen bærekraft, noen mål som vi ikke nødvendigvis når de første par årene, og mål som vi heller ikke når alene. Skal en lykkes må man tenke langsiktig sammen med andre og ta steg for steg. Vi har startet med å velge ut noen av FN sine bærekraftsmål som er mest kompatible med vår forretningsidè og våre strategier. For det er her vi først og fremst kan bidra med vår kompetanse og drivkraft."
+  
+}
 
 const about = () => {
   return (
     <>
       <ThreeMiddleTextTwoButtonSmall props={text1} />
       <ThreeMiddleTextTwoButtonSmall props={text2} />
+      
+
       {/* <ThreeColorRings props={ringText}/> */}
       <UnitedNations/>
+      <ThreeMiddleTextTwoButtonSmall props={text3} />
+
    <WeAdmit/> 
     </>
   )

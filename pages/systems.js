@@ -5,7 +5,7 @@ import WeAdmit from "../components/WeAdmit";
 const text1 = {
   top: "SYSTEM SOM BASE FOR SUKSESS",
   middle: "Systemtenkning",
-  bottom:"“Når mørke skyer dekker himmelen blir det snart regn og storm”"
+  bottom:"“Når mørke skyer dekker himmelen blir det snart regn og storm” -Peter Senge"
 };
 const text2 = {
   middle: "Grunnleggende systemtenkning",
