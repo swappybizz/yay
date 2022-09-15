@@ -16,7 +16,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-admit-white transition-all duration-700">
+    <Disclosure as="nav" className="bg-white transition-all duration-700">
       {({ open }) => (
         <div
           data-cursor-size="10px"

@@ -11,6 +11,7 @@
   "dependencies": {
     "@headlessui/react": "^1.6.6",
     "@heroicons/react": "^1.0.6",
+    "framer-motion": "^7.3.5",
     "graphql": "^16.6.0",
     "graphql-request": "^5.0.0",
     "html-react-parser": "^3.0.4",
@@ -19,6 +20,7 @@
     "react": "18.2.0",
     "react-creative-cursor": "^1.2.7",
     "react-dom": "18.2.0",
+    "react-intersection-observer": "^9.4.0",
     "react-multi-carousel": "^2.8.2"
   },
   "devDependencies": {

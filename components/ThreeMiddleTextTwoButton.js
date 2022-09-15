@@ -6,7 +6,9 @@ const ThreeMiddleTextTwoButton = (props) => {
   return (
     <>
       <section className="text-gray-600 body-font mt-5">
-        <div data-cursor-exclusion style={{ backgroundColor: "#fff" }}>
+        <div 
+        // data-cursor-exclusion style={{ backgroundColor: "#fff" }}
+        >
           <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
             <div className="text-center lg:w-2/3 flex flex-col  justify-center items-center w-full">
               {props.props.top && (

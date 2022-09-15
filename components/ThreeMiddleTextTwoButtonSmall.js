@@ -3,7 +3,7 @@ import React from "react"
 const ThreeMiddleTextTwoButtonSmall = props => {
   return (
     <div
-    data-cursor-exclusion 
+    // data-cursor-exclusion 
     >
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
