@@ -106,7 +106,7 @@ export default function Example() {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://calendly.com/admitas/"
-                className="btn">
+                className="btn hover:animate-pulse-once hover:scale-105 outline-offset-2  transition-all hover:duration-300">
                   Snakk med oss
                   <div class="btn2"></div>
                 </a>

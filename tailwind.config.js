@@ -23,8 +23,9 @@ module.exports = {
         'weAdmit' : [ "'Qwitcher Grypen'", "cursive"],
     },
     animation: {
-      'pulse-once': 'pulse 3s linear',
-      "wiggle-once": 'wiggle 5s ease-in-out',
+      'pulse-once': 'pulse 4s infinite',
+      'ping-once': 'ping 1s infinite',
+      "wiggle-once": 'wiggle 5s infinite',
     },
     keyframes: {
       wiggle: {
