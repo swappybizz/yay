@@ -7,7 +7,7 @@ const navigation = [
   { name: "ADMIT STUDIO", href: "/studio", current: false },
   { name: "ADMIT LOUNGE", href: "/lounge", current: false },
   { name: "OM ADMIT ", href: "/about", current: false },
-  {name: "KONTAKT OSS", href: "/kontakt", current: false },
+  { name: "KONTAKT OSS", href: "/kontakt", current: false },
 ];
 
 function classNames(...classes) {
@@ -19,10 +19,10 @@ export default function Example() {
     <Disclosure as="nav" className="  bg-white transition-all duration-700">
       {({ open }) => (
         <div
-          // data-cursor-size="10px"
-          // data-cursor-color="#FF595A"
-          // data-cursor-exclusion
-          // className="transition-colors duration-700"
+        // data-cursor-size="10px"
+        // data-cursor-color="#FF595A"
+        // data-cursor-exclusion
+        // className="transition-colors duration-700"
         >
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16">
@@ -80,14 +80,13 @@ export default function Example() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 transition-colors duration-700">
-                <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://calendly.com/admitas/"
-                  className="inline-flex items-center bg-admit-blue  border-0 py-2 px-6 focus:outline-none hover:outline transition-b duration-700 hover:bg-gradient-to-r to-admit-dark-blue from-admit-red transition-colors duration-700 active:bg-[rgba(0,40,86,0.37)] text-white rounded-full hover:transition-colors hover:duration-700 text-sm font-base mt-0 md:mt-0"
-                  
+                {/* <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://calendly.com/admitas/"
+                  className="inline-flex items-center bg-gradient-to-l to-admit-blue from-admit-red  border-0 py-2 px-6 focus:outline-none hover:border-2  hover:bg-gradient-to-r hover:to-admit-blue hover:from-admit-red transition-all duration-700 active:bg-[rgba(0,40,86,0.37)] text-white rounded-full text-sm font-base mt-0 md:mt-0"
                 >
-                  Snakk med oss 
+                  Snakk med oss
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -99,7 +98,11 @@ export default function Example() {
                   >
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
-                </a>
+                </a> */}
+                <div class="btn">
+                  Snakk med oss
+                  <div class="btn2"></div>
+                </div>
               </div>
             </div>
           </div>

@@ -307,3 +307,49 @@
   left: 0;
   bottom: -1rem;
 }
+
+.btn,
+.btn2 {
+  width: 10rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 2.5rem;
+  font:"Barlow", serif;
+  font-weight: 500;
+  color: rgba(255,255,255,0.9);
+  border-radius: 50px;
+  background: linear-gradient(-45deg, #ffa63d, #FF595A, #002856, #73C3D5);
+  background-size: 600%;
+  -webkit-animation: anime 16s linear infinite;
+          animation: anime 16s linear infinite;
+}
+body .btn2 {
+  position: absolute;
+  margin-top: 20px;
+  z-index: -1;
+  filter: blur(30px);
+  opacity: 0.0;
+}
+@-webkit-keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
