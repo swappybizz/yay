@@ -16,13 +16,13 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-white transition-all duration-700">
+    <Disclosure as="nav" className="  bg-white transition-all duration-700">
       {({ open }) => (
         <div
-          data-cursor-size="10px"
-          data-cursor-color="#FF595A"
-          data-cursor-exclusion
-          className="transition-colors duration-700"
+          // data-cursor-size="10px"
+          // data-cursor-color="#FF595A"
+          // data-cursor-exclusion
+          // className="transition-colors duration-700"
         >
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16">
