@@ -21,6 +21,16 @@ module.exports = {
         'admitText': ['"Mukta"', 'serif'],
         'heroSubText': ['Barlow','sans-serif'],
         'weAdmit' : [ "'Qwitcher Grypen'", "cursive"],
+    },
+    animation: {
+      'pulse-once': 'pulse 3s linear',
+      "wiggle-once": 'wiggle 5s ease-in-out',
+    },
+    keyframes: {
+      wiggle: {
+        '0%, 100%': { transform: 'rotate(-3deg)' },
+        '50%': { transform: 'rotate(3deg)' },
+      }
     }
     },
   },

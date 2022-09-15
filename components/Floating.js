@@ -1,9 +1,8 @@
 import React from "react";
-import { motion, AnimatePresence } from "framer-motion";
 
-const Floating = ({ isVisible }) => {
+const Floating = () => {
   return (
-    <div title="Click meg" className="fabbu">
+    <div title="Click meg" className="fabbu animate-pulse-once">
       <div className="fab-wrapper ">
         <input id="fabCheckbox" type="checkbox" className="fab-checkbox" />
         <label className="fab" for="fabCheckbox">
