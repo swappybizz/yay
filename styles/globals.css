@@ -317,9 +317,10 @@
   line-height: 2.5rem;
   font:"Barlow", serif;
   font-weight: 500;
+  cursor: pointer;
   color: rgba(255,255,255,0.9);
   border-radius: 50px;
-  background: linear-gradient(-45deg, #ffa63d, #FF595A, #002856, #73C3D5);
+  background: linear-gradient(-45deg, darkgrey, #FF595A, #002856, #73C3D5);
   background-size: 600%;
   -webkit-animation: anime 16s linear infinite;
           animation: anime 16s linear infinite;

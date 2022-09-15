@@ -99,10 +99,17 @@ export default function Example() {
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
                 </a> */}
-                <div class="btn">
+                <a
+                  
+                ></a>
+                <a 
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://calendly.com/admitas/"
+                className="btn">
                   Snakk med oss
                   <div class="btn2"></div>
-                </div>
+                </a>
               </div>
             </div>
           </div>
