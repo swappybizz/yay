@@ -29,7 +29,7 @@ const Floating = ({ isVisible }) => {
             <i className="fas fa-book">📧</i>
           </a>
           <a
-          title ="snakke på telefon"
+          title ="Ring oss"
             href="tel:+47 70 32 93 80"
             className="fab-action fab-action-3 hover:scale-150 flex items-center text-xl justify-center"
           >
