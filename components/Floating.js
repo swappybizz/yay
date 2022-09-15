@@ -3,8 +3,8 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const Floating = ({ isVisible }) => {
   return (
-    <div className="fabbu">
-      <div className="fab-wrapper">
+    <div title="Click meg" className="fabbu">
+      <div className="fab-wrapper ">
         <input id="fabCheckbox" type="checkbox" className="fab-checkbox" />
         <label className="fab" for="fabCheckbox">
           <span className="fab-dots fab-dots-1"></span>
