@@ -32,7 +32,7 @@ const text6 ={
     link1: "https://calendly.com/admitas/"
 }
 const ringText ={
-    leftTop : "Samhandlings-plattform",
+    leftTop : "Samhandling",
     leftBottom : "Plattform for både levering og “uttak” av kompetanse. En distribusjonskanal for levering av tjenester og din digitale medarbeider.",
     middleTop: "Teknisk",
     middleBottom: "Abonnement på teknisk løsning inkludert support og sikkerhet. Microsoft 365 (skybasert) som base og arkivstruktur basert på ISO-system. Automatiserte prosesser",
