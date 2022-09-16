@@ -24,8 +24,7 @@ const text6 = {
   // button1: "Bli Medlem",
   button1: "KONTAKT OSS",
   link1: "https://calendly.com/admitas/",
-  bottom:"Møte likesinnede for input og inspirasjon​. Ta med dine ansatte eller ditt team, på våre events eller workshops der endringskompetanse står i fokus. Bli med i kompetansenettverket vårt !"
-  
+  bottom:"Møte likesinnede for input og inspirasjon​. Ta med dine ansatte eller ditt team, på våre events eller workshops der endringskompetanse står i fokus. Bli med i kompetansenettverket vårt !"  
 }
 const ringText ={
   leftTop : "Coworking",

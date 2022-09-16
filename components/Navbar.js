@@ -1,6 +1,7 @@
 import React from "react";
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import Link from "next/link";
 
 const navigation = [
   { name: "ADMIT AVATAR", href: "/avatar", current: true },
@@ -43,7 +44,7 @@ export default function Example() {
                   )}
                 </Disclosure.Button>
               </div>
-              <a
+              <Link
                 href="/"
                 className="flex-shrink-0 cursor-pointer translate-x-10 items-start justify-center left-0 sm:hidden md:flex md:translate-x-5"
               >
@@ -57,24 +58,24 @@ export default function Example() {
                   src="https://uploads-ssl.webflow.com/602535e288aec462623e79b5/608168cc4904e8cfd98c68fe_Admit%20logo%202020%20farger.png"
                   alt="Workflow"
                 />
-              </a>
+              </Link>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-center">
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-10 text-admitText">
                     {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current
-                            ? " text-black  hover:text-admit-dark-blue link link-underline link-underline-black "
-                            : "text-black  hover:text-admit-dark-blue  link link-underline link-underline-black",
-                          "px-3 py-2 text-sm font-medium link link-underline link-underline-black"
-                        )}
-                        aria-current={item.current ? "page" : undefined}
-                      >
-                        {item.name}
-                      </a>
+                      <Link key={item.name} href={item.href}>
+                        <div
+                          className={classNames(
+                            item.current
+                              ? " text-black  hover:text-admit-dark-blue link link-underline link-underline-black "
+                              : "text-black  hover:text-admit-dark-blue  link link-underline link-underline-black",
+                            "px-3 py-2 text-sm font-medium link link-underline link-underline-black cursor-pointer"
+                          )}
+                          aria-current={item.current ? "page" : undefined}
+                        >
+                          {item.name}
+                        </div>
+                      </Link>
                     ))}
                   </div>
                 </div>
@@ -100,13 +101,11 @@ export default function Example() {
                   </svg>
                 </a> */}
                 <a
-                  
-                ></a>
-                <a 
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://calendly.com/admitas/"
-                className="btn hover:animate-pulse-once hover:scale-105 outline-offset-2  transition-all hover:duration-300">
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://calendly.com/admitas/"
+                  className="btn hover:animate-pulse-once hover:scale-105 outline-offset-2  transition-all hover:duration-300"
+                >
                   Snakk med oss
                   <div class="btn2"></div>
                 </a>
@@ -117,19 +116,19 @@ export default function Example() {
           <Disclosure.Panel className="sm:hidden bg-admit-blue flex flex-row rounded-br-2xl transition-all duration-700">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  className={classNames(
-                    item.current
-                      ? "text-white"
-                      : "text-white hover:bg-admit-red  hover:text-gray-700 transition-colors duration-700",
-                    "block px-3 py-2 rounded-md text-base font-medium"
-                  )}
-                  aria-current={item.current ? "page" : undefined}
-                >
-                  {item.name}
-                </a>
+                <Link key={item.name} href={item.href}>
+                  <a
+                    className={classNames(
+                      item.current
+                        ? "text-white"
+                        : "text-white hover:bg-admit-red  hover:text-gray-700 transition-colors duration-700",
+                      "block px-3 py-2 rounded-md text-base font-medium"
+                    )}
+                    aria-current={item.current ? "page" : undefined}
+                  >
+                    {item.name}
+                  </a>
+                </Link>
               ))}
             </div>
           </Disclosure.Panel>

@@ -38,7 +38,7 @@ const BlogPreview = () => {
                         className="text-admit-blue hover:scale-105 hover:text-admit-dark-blue font-heroSubText inline-flex items-center md:mb-2 lg:mb-0"
                       >
                         {" "}
-                        Les Mer
+                        Les mer
                         <svg
                           className="w-4 h-4 ml-2"
                           viewBox="0 0 24 24"
