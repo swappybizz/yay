@@ -12,7 +12,7 @@ const text1={
 }
 const text2={
  
-  middle:" Våre Bærekraftsmål",
+  middle:" Våre bærekraftsmål",
 }
 const text3={
  middle:"Klimanøytral innen år 2030",

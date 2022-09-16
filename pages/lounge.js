@@ -33,7 +33,7 @@ const ringText = {
   leftTop: "Coworking",
   leftBottom:
     "Fleksibelt kontorfellesskap for deg som ser etter et større fellesskap, for deg med hybridløsning på jobben, fjernarbeidere eller andre.",
-  middleTop: "Workstation",
+  middleTop: "Workation",
   middleBottom:
     "Møt likesinnede for input og inspirasjon, eller få ro og tid til å løse utfordrende oppgaver. Noen dager på workation gir frihet og fleksibilitet til å jobbe og leve.",
   rightTop: "Workretreat",

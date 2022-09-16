@@ -49,12 +49,12 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="/blog" className="text-white hover:text-gray-300 cursor-pointer text-sm">
+                    <a href="/post" className="text-white hover:text-gray-300 cursor-pointer text-sm">
                       Blogg
                     </a>
                   </li>
                   <li>
-                    <a href="/kontact" className="text-white hover:text-gray-300 cursor-pointer text-sm">
+                    <a href="/kontakt" className="text-white hover:text-gray-300 cursor-pointer text-sm">
                       Kontakt
                     </a>
                   </li>
@@ -74,12 +74,12 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="/https://www.instagram.com/admit.no/" className="text-white hover:text-gray-300 cursor-pointer text-sm">
+                    <a href="https://www.instagram.com/admit.no/" className="text-white hover:text-gray-300 cursor-pointer text-sm">
                       instagram
                     </a>
                   </li>
                   <li>
-                    <a href="/https://www.linkedin.com/company/admit-no" className="text-white hover:text-gray-300 cursor-pointer text-sm">
+                    <a href="https://www.linkedin.com/company/admit-no" className="text-white hover:text-gray-300 cursor-pointer text-sm">
                       LinkedIn
                     </a>
                   </li>
@@ -115,7 +115,7 @@ const Footer = () => {
               <p className="text-gray-200 text-sm text-center sm:text-left">
                 © 2022 Admit AS —
                 <a
-                  href="/https://www.monicamyklebust.no/"
+                  href="https://www.monicamyklebust.no/"
                   rel="noopener noreferrer"
                   className="text-gray-600 ml-1"
                   target="_blank"
@@ -123,7 +123,7 @@ const Footer = () => {
                   @monica
                 </a>
                 <a
-                  href="/https://www.instagram.com/cavepuppy/"
+                  href="https://www.instagram.com/cavepuppy/"
                   rel="noopener noreferrer"
                   className="text-gray-600 ml-1"
                   target="_blank"
