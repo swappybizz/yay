@@ -49,10 +49,8 @@ const lounge = () => {
       <Tcr props={ringText} />
       <ThreeMiddleTextTwoButtonSmall props={text2} />
       <ThreeMiddleTextTwoButtonSmall props={text3} />
-      <ThreeMiddleTextTwoButton props={text6} /><div className="fixed flex top-0 right-[20rem] scale-[20] md:scale-75 rotate-45 " >
-      <BgCircles/>
-
-      </div>
+      <ThreeMiddleTextTwoButton props={text6} />
+      
       <div className="fixed flex top-12 left-[2rem] scale-[20]  md:scale-50 rotate-90 " >
       <BgCircles/>
 
