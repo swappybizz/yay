@@ -9,7 +9,7 @@ const Template = ({ children }) => {
   const { ref, inView, entry } = useInView();
 
   return (
-    <div className="">
+    <div className="" style={{scrollBehavior:'smooth'}}>
       <div ref={ref}>
         <Navbar />
       </div>

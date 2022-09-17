@@ -4,11 +4,11 @@ const BgCircles = () => {
   return (
     <div className="w-full h-[100vh] overflow-hidden  ">
       <div className=" bgdot2 block absolute top-48 left-48 w-32 h-32 bg-transparent rounded-full hover:scale-95  transition-all duration-700 border border-admit-blue  "></div>
-      <div className="block absolute top-12 left-12 w-64 h-64 bg-transparent rounded-full hover:scale-90  transition-all duration-300 border border-admit-blue"></div>
+      <div className="block absolute top-12 left-12 w-64 h-64 bg-transparent rounded-full hover:scale-90  transition-all duration-1000 border border-admit-blue"></div>
       <div className=" block absolute top-24 left-48 w-96 h-96 bg-transparent rounded-full hover:scale-95  transition-all duration-1000 border border-admit-blue"></div>
       <div className=" block absolute top-72 left-12 w-96 h-96 bg-transparent rounded-full hover:scale-95  transition-all duration-1000 border border-admit-blue"></div>
-      <div className="  block absolute top-36 left-24 w-64 h-64 bg-transparent rounded-full hover:scale-105 transition-all duration-500 border-2 border-dashed border-admit-light-blue animate-spin-slow hover:animate-ping-once"></div>
-      <div className="block absolute top-64 left-64 w-64 h-64 bg-transparent rounded-full hover:origin-top-left rotate-12 transition-all duration-200  border border-admit-blue "></div>
+      <div className="  block absolute top-36 left-24 w-64 h-64 bg-transparent rounded-full hover:scale-105 transition-all duration-1000 border-2 border-dashed border-admit-light-blue animate-spin-slow hover:animate-ping-once"></div>
+      <div className="block absolute top-64 left-64 w-64 h-64 bg-transparent rounded-full hover:origin-top-left rotate-12 transition-all duration-1000  border border-admit-blue "></div>
       <div className=" bgdot3 block absolute top-36 left-36 w-3 h-3 bg-admit-blue rounded-full"></div>
       <div className=" bgdot1 block absolute top-96 left-48 w-2 h-2 bg-admit-red rounded-full"></div>
       <div className="block  absolute top-24 left-64 w-2 h-2 bg-admit-light-blue rounded-full"></div>
