@@ -42,7 +42,7 @@ const Hero2 = () => {
               className="wave waveTop"
               style={{
                
-                backgroundImage: "url(" + "http://front-end-noobs.com/jecko/img/wave-top.png" + ")",
+                backgroundImage: "url(" + "https://i.ibb.co/g3XH3HW/wave-top-1.png" + ")",
               }}
             ></div>
           </div>
@@ -50,7 +50,7 @@ const Hero2 = () => {
             <div
               className="wave waveMiddle"
               style={{
-                backgroundImage: "url(" + "http://front-end-noobs.com/jecko/img/wave-mid.png" + ")",
+                backgroundImage: "url(" + "https://i.ibb.co/YDRxKpL/wave-mid.png" + ")",
               }}
             ></div>
           </div>
@@ -58,7 +58,7 @@ const Hero2 = () => {
             <div
               className="wave waveBottom"
               style={{
-                backgroundImage: "url(" + "http://front-end-noobs.com/jecko/img/wave-bot.png" + ")",
+                backgroundImage: "url(" + "https://i.ibb.co/jvkBxSk/wave-bot-2.png" + ")",
               }}
             ></div>
           </div>
