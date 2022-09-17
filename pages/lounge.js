@@ -4,6 +4,7 @@ import ThreeMiddleTextTwoButtonSmall from "../components/ThreeMiddleTextTwoButto
 import WeAdmit from "../components/WeAdmit";
 // import ThreeColorRings from "../components/ThreeColorRings"
 import Tcr from "../components/Tcr";
+import BgCircles from "../components/BgCircles";
 const text1 = {
   top: "DER MULIGHETER DELES",
   middle: "Admit Lounge",
@@ -48,7 +49,15 @@ const lounge = () => {
       <Tcr props={ringText} />
       <ThreeMiddleTextTwoButtonSmall props={text2} />
       <ThreeMiddleTextTwoButtonSmall props={text3} />
-      <ThreeMiddleTextTwoButton props={text6} />
+      <ThreeMiddleTextTwoButton props={text6} /><div className="fixed flex top-0 right-[20rem] scale-[20] md:scale-75 rotate-45 " >
+      <BgCircles/>
+
+      </div>
+      <div className="fixed flex top-12 left-[2rem] scale-[20]  md:scale-50 rotate-90 " >
+      <BgCircles/>
+
+      </div>
+
       <WeAdmit />
     </>
   );

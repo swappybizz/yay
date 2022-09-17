@@ -2,6 +2,7 @@ import React from "react"
 import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton"
 import ThreeMiddleTextTwoButtonSmall from "../components/ThreeMiddleTextTwoButtonSmall"
 import WeAdmit from "../components/WeAdmit"
+import BgCircles from "../components/BgCircles"
 const text1 = {
   top: "EN NØDVENDIGHET",
   middle: "Digitalisering",
@@ -37,6 +38,11 @@ const digital = () => {
       <ThreeMiddleTextTwoButton props={text1} />
       <ThreeMiddleTextTwoButtonSmall props={text2} />
       <ThreeMiddleTextTwoButtonSmall props={text3} />
+      <div className="fixed flex top-72 scale-[20] md:scale-100 left-[-6rem] " >
+      <BgCircles/>
+
+      </div>
+      
       <ThreeMiddleTextTwoButtonSmall props={text5} />
       <ThreeMiddleTextTwoButtonSmall props={text4} />
       <WeAdmit/>

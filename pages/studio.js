@@ -1,4 +1,5 @@
 import React from "react"
+import BgCircles from "../components/BgCircles"
 import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton"
 import ThreeMiddleTextTwoButtonSmall from "../components/ThreeMiddleTextTwoButtonSmall"
 import WeAdmit from "../components/WeAdmit"
@@ -40,6 +41,10 @@ const studio = () => {
       <ThreeMiddleTextTwoButtonSmall props={text4} />
       <ThreeMiddleTextTwoButtonSmall props={text6} />
       <WeAdmit />
+      <div className="fixed flex top-72 scale-[20] md:scale-100 left-[-6rem] " >
+      <BgCircles/>
+
+      </div>
     </>
   )
 }

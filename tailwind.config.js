@@ -10,6 +10,7 @@ module.exports = {
         "admit-red": "#FF595A",
         "admit-blue": "#002856",
         "admit-dark-blue": "#002A3A",
+        "admit-light-blue":"#74C3D5",
 
         "admit-blue-pressed": "#075985",
       },
@@ -26,6 +27,7 @@ module.exports = {
       'pulse-once': 'pulse 4s infinite',
       'ping-once': 'ping 1s infinite',
       "wiggle-once": 'wiggle 5s infinite',
+      "spin-slow": 'spin 100s infinite',
     },
     keyframes: {
       wiggle: {

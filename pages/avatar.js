@@ -4,6 +4,7 @@ import ThreeMiddleTextTwoButtonSmall from "../components/ThreeMiddleTextTwoButto
 import ThreeColorRings from "../components/ThreeColorRings"
 import Tcr from '../components/Tcr'
 import WeAdmit from "../components/WeAdmit"
+import BgCircles from '../components/BgCircles'
 
 const text1 ={
     top : "HVORDAN OG HVORFOR VELGE",
@@ -117,6 +118,14 @@ const Avatar = () => {
         <ThreeMiddleTextTwoButton
         props= {text6}/>
         <WeAdmit/>
+        <div className="fixed flex top-0 right-[20rem] scale-[20] md:scale-75 rotate-45 " >
+      <BgCircles/>
+
+      </div>
+      <div className="fixed flex top-12 left-[2rem] scale-[20]  md:scale-50 rotate-90 " >
+      <BgCircles/>
+
+      </div>
     </>
   )
 }

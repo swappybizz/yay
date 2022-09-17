@@ -446,3 +446,54 @@ body .btn2 {
 .waveAnimation .waveBottom {
     animation: move_wave 30s linear infinite;
 }
+
+.bgdot1{
+  animation: movedot1 10s ease-in-out infinite;
+
+
+}
+.bgdot2{
+  animation: movedot1 16s ease-in-out infinite;
+
+
+}
+.bgdot3{
+  animation: movedot2 24s ease-in-out infinite;
+
+
+}
+.bgdot4{
+  animation: movedot2 10s ease-in-out infinite;
+
+
+}
+.rotateit{
+  animation:rotateitcw 16s infinite;
+}
+
+@keyframes movedot1{
+
+  25{
+    trnasform: translateX(-2rem)
+  }
+  50%{
+    transform: translateY(-2rem) translateX(2rem) 
+  }
+}
+@keyframes movedot2{
+
+  25{
+    trnasform: translateY(-5rem)
+  }
+  50%{
+    transform: translateY(-4rem) translateX(-2rem) 
+  }
+}
+
+@keyframes rotateitcw{
+
+50%{
+  transform: rotate(36deg) 
+}
+
+}

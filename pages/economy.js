@@ -2,6 +2,7 @@ import React from "react"
 import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton"
 import ThreeMiddleTextTwoButtonSmall from "../components/ThreeMiddleTextTwoButtonSmall"
 import WeAdmit from "../components/WeAdmit"
+import BgCircles from "../components/BgCircles"
 const text1 = {
   top: "Kontroll på økonomi og likviditet",
   middle: "Økonomi",
@@ -33,6 +34,14 @@ const economy = () => {
       <ThreeMiddleTextTwoButtonSmall props={text3} />
       <ThreeMiddleTextTwoButtonSmall props={text4} />
       <WeAdmit />
+      <div className="fixed flex top-0 right-[20rem] scale-[20] md:scale-75 rotate-45 " >
+      <BgCircles/>
+
+      </div>
+      <div className="fixed flex top-12 left-[2rem] scale-[20]  md:scale-50 rotate-90 " >
+      <BgCircles/>
+
+      </div>
     </>
   )
 }

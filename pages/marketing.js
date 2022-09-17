@@ -3,6 +3,7 @@ import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton"
 import ThreeMiddleTextTwoButtonSmall from "../components/ThreeMiddleTextTwoButtonSmall"
 import WeAdmit from "../components/WeAdmit"
 import ThreeColorRings from "../components/ThreeColorRings"
+import BgCircles from "../components/BgCircles"
 const text1 = {
   top: "Få oversikt over mulighetene",
   middle: "Markedsføring",
@@ -35,6 +36,14 @@ const lounge = () => {
       <ThreeMiddleTextTwoButtonSmall props={text3} />
       {/* <ThreeMiddleTextTwoButton props={text6} /> */}
       <WeAdmit />
+      <div className="fixed flex top-0 right-[20rem] scale-[20] md:scale-75 rotate-45 " >
+      <BgCircles/>
+
+      </div>
+      <div className="fixed flex top-12 left-[2rem] scale-[20]  md:scale-50 rotate-90 " >
+      <BgCircles/>
+
+      </div>
     </>
   )
 }
