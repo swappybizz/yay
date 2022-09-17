@@ -16,7 +16,7 @@ const text2 = {
 }
 const text3 = {
   middle: "Hvor?",
-  bottom:"Admit Studio er lokalisert i Stordal. Innovasjon og kreativitet preger den tidligere møbelbygda og her satset det på nye næringer i gamle kullisser. Stordal Lounge, Strandgaten 27, 6250 Stordal."
+  bottom:"Admit Studio er lokalisert i Stordal. Innovasjon og kreativitet preger den tidligere møbelbygda og her satset det på nye næringer i gamle kulisser. Stordal Lounge, Strandgaten 27, 6250 Stordal."
   
 }
 const text4 = {
