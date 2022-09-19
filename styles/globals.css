@@ -34,12 +34,12 @@
   display: grid;
   place-content: center;
   text-align: center;
-  /* background: linear-gradient(
+  background: linear-gradient(
     0deg,
     #ff595a 0%,
     rgba(0, 40, 86, 0.37) 26.81%,
     rgba(255, 255, 255, 0) 50%
-  ); */
+  );
 
   display: flex;
   align-items: center;

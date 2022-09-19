@@ -8,8 +8,8 @@ const Hero = () => {
           <div className="text-center lg:w-2/3 w-full">
             <div>
               <div 
-              data-cursor-size="10rem" 
-              data-cursor-exclusion
+              // data-cursor-size="10rem" 
+              // data-cursor-exclusion
               >
                 <h1 className="title-font sm:text-9xl text-8xl mb-4 text-opacity-90 text-center text-gray-900">
                   <span className="font-thin">#</span>
@@ -18,7 +18,7 @@ const Hero = () => {
               </div>
               <div>
                 <p
-                  data-cursor-exclusion
+                  // data-cursor-exclusion
                   className="mb-8 leading-relaxed sm:text-lg text-lg sm:font-normal font-medium text-gray-900 sm:p-12 p-6"
                 >
                   #weadmit pil vi innrømmer, vi forplikter oss til; å dele
@@ -27,7 +27,7 @@ const Hero = () => {
                   verktøy.
                 </p>
                 <div
-                  data-cursor-exclusion
+                  // data-cursor-exclusion
                   // data-cursor-stick="#stick-title"
 
                   // style={{ display:"block", text:"center" }}

@@ -41,7 +41,7 @@ const Hero2 = () => {
           </div>
         </div>
       </div>
-      <div className="wavey">
+      {/* <div className="wavey">
         <div className="waveWrapper waveAnimation">
           <div className="waveWrapperInner bgTop">
             <div
@@ -69,7 +69,7 @@ const Hero2 = () => {
             ></div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

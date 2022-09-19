@@ -84,7 +84,7 @@ const contact = () => {
               ></textarea>
             </div>
             <button className="text-white bg-admit-blue border-0 py-2 px-6 focus:outline-none hover:bg-admit-blue-pressed rounded text-lg">
-              Send Melding
+              Send melding
             </button>
             <p className="text-xs text-gray-500 mt-3">
               Tusen takk
