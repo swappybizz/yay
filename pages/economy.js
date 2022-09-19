@@ -22,8 +22,8 @@ const text4 = {
   middle: "Datadrevet innsikt",
   bottom:"Kalkulasjon og resultat basert på aktivitetsområder også kalt Activity Based Costing (ABC). Dashboard med dine viktigste overvåkningspunkt - Balanced Scorecard",
 
-  button1: "TA KONTAKT",
-  link1:"/contact"
+  button1: "BOOK MØTE",
+  link1:"https://calendly.com/admitas/"
 }
 
 const economy = () => {

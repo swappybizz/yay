@@ -69,7 +69,7 @@ const Footer = () => {
                 </h2>
                 <nav className="list-none mb-10">
                   <li>
-                    <a href="/" className="text-white hover:text-gray-300 cursor-pointer text-sm">
+                    <a href="https://www.facebook.com/admit.no" className="text-white hover:text-gray-300 cursor-pointer text-sm">
                       Facebook
                     </a>
                   </li>
