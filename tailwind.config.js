@@ -24,7 +24,7 @@ module.exports = {
         'weAdmit' : [ "'Qwitcher Grypen'", "cursive"],
     },
     animation: {
-      'pulse-once': 'pulse 4s infinite',
+      'pulse-once': 'pulse 2s ease',
       'ping-once': 'ping 1s infinite',
       "wiggle-once": 'wiggle 5s infinite',
       "spin-slow": 'spin 100s infinite',
