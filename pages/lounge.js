@@ -67,7 +67,7 @@ const lounge = () => {
             {text2.bottom && (
               <p className="mb-8 leading-relaxed text-xl w-3/4 font-heroSubText">
                 
-                Flexplass i åpent landska <br></br>
+                Flexplass i åpent landskap <br></br>
                 Cellekontor stort/lite <br></br>
                 Lounge-område <br></br>
                  Møterom for 12 personer <br></br>
