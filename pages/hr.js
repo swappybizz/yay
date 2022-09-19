@@ -24,6 +24,7 @@ const text4 = {
   bottom:"Vi leverer systematisk helse, miljø og sikkerhetsarbeid (internkontroll) til bedrifter, inkludert kursing og opplæring.",
   
   button1: "TA KONTAKT",
+  link1:"https://calendly.com/admitas/"
 }
 const hr = () => {
   return (
