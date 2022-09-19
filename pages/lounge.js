@@ -47,7 +47,68 @@ const lounge = () => {
     <>
       <ThreeMiddleTextTwoButton props={text1} />
       <Tcr props={ringText} />
-      <ThreeMiddleTextTwoButtonSmall props={text2} />
+      {/* <ThreeMiddleTextTwoButtonSmall props={text2} /> */}
+      <div
+    // data-cursor-exclusion 
+    >
+      <section className="text-gray-600 body-font">
+        <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+          <div className="text-center lg:w-2/3 w-full flex flex-col items-center">
+            {text2.top && (
+              <p className="mb-8 leading-relaxed text-xl font-heroSubText">{text2.top.toUpperCase()}</p>
+            )}
+
+            {text2.middle && (
+              <h1 className="title-font font-admitTitle sm:text-6xl text-4xl mb-4 font-semibold  text-gray-900">
+                {text2.middle}
+              </h1>
+            )}
+
+            {text2.bottom && (
+              <p className="mb-8 leading-relaxed text-xl w-3/4 font-heroSubText">
+                
+                Flexplass i åpent landska <br></br>
+                Cellekontor stort/lite <br></br>
+                Lounge-område <br></br>
+                 Møterom for 12 personer <br></br>
+                  Konferanseutstyr <br></br>
+                  Kjøkken <br></br>
+                  In-house Smartstudio <br></br>
+                Treningsstudio<br></br>
+
+              
+              </p>
+            )}
+
+            <div className="flex justify-center">
+              {text2.button1 && (
+                <a 
+                target="_blank"
+                rel="noopener noreferrer"href={text2.link1}>
+                <div data-cursor-size="10px" >
+                <button className="inline-flex text-white bg-admit-blue border-0 py-2 my-10 px-12 font-heroSubText focus:outline-none hover:bg-admit-blue-pressed rounded-full text-lg">
+                  {text2.button1}
+                </button>
+                </div>
+                </a>
+              )}
+
+              {text2.button2 && (
+                <a
+                target="_blank"
+                rel="noopener noreferrer" href={text2.link2}>
+                <div data-cursor-size="10px" >
+                <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 my-10 py-2 px-12 font-heroSubText focus:outline-none hover:bg-gray-200 rounded-full text-lg">
+                  {text2.button2}
+                </button>
+                </div>
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
       {/* <ThreeMiddleTextTwoButtonSmall props={text3} /> */}
       <ThreeMiddleTextTwoButton props={text6} />
       
