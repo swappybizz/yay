@@ -22,14 +22,12 @@ const text3 = {
 }
 const text4 = {
   middle: "Innovasjon",
-  bottom:
-    "Digitalisering av administrative prosesser gjør kompetansedeling enklere. Det legger også til rette for at du kan ta del i våre standardiserte og automatiserte prosesser. Den tiden du får frigjort kan så benyttes til innovasjon av kjerneprosesser i din egen bedrift.",
+  bottom:"Vi opplever at mange tenker på nye produkter når temaet innovasjon kommer på agendaen. Konkurransefortrinn og nye muligheter handler svært ofte om å gjøre ting smartere og enklere. Ikke nødvendigvis nye produkter, men videreutvikling av dine eksisterende produkter/tjenester. ",
   button1: "BOOK MØTE",
 }
 const text5 = {
   middle: "Samskaping",
-  bottom:
-    "Vi opplever at mange tenker på nye produkter når temaet innovasjon kommer på agendaen.  Konkurransefortrinn og nye muligheter handler svært ofte om å gjøre ting smartere og enklere. Ikke nødvendigvis nye produkter, men videreutvikling av dine eksisterende produkter/tjenester.",
+  bottom:"Har du tenkt på de nye mulighetene som skybaserte løsninger åpner for ? Kan du og dine leverandører og samarbeidspartnere samhandle bedre ? Tilbyr dere kundene løsninger som gir dere konkurransefortrinn ?"
 }
 
 const digital = () => {
