@@ -34,11 +34,11 @@ const economy = () => {
       <ThreeMiddleTextTwoButtonSmall props={text3} />
       <ThreeMiddleTextTwoButtonSmall props={text4} />
       <WeAdmit />
-      <div className="fixed flex top-0 right-[20rem] scale-[20] md:scale-75 rotate-45 " >
+      <div className="fixed flex top-0 right-[20rem] scale-[100] md:scale-75 rotate-45 " >
       <BgCircles/>
 
       </div>
-      <div className="fixed flex top-12 left-[2rem] scale-[20]  md:scale-50 rotate-90 " >
+      <div className="fixed flex top-12 left-[2rem] scale-[100]  md:scale-50 rotate-90 " >
       <BgCircles/>
 
       </div>

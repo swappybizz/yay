@@ -44,21 +44,21 @@ export default function Example() {
                   )}
                 </Disclosure.Button>
               </div>
-              <Link
+              <a
                 href="/"
                 className="flex-shrink-0 cursor-pointer translate-x-10 items-start justify-center left-0 sm:hidden md:flex md:translate-x-5"
               >
-                {/* <img
+                <img
                     className="block lg:hidden h-6 w-auto"
-                    src="https://uploads-ssl.webflow.com/602535e288aec462623e79b5/608168cc4904e8cfd98c68fe_Admit%20logo%202020%20farger.png"
+                    src="/logo.png"
                     alt="Workflow"
-                  /> */}
+                  />
                 <img
                   className="hidden cursor-pointer lg:block h-8 w-auto"
-                  src="https://uploads-ssl.webflow.com/602535e288aec462623e79b5/608168cc4904e8cfd98c68fe_Admit%20logo%202020%20farger.png"
+                  src="/logo.png"
                   alt="Workflow"
                 />
-              </Link>
+              </a>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-center">
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-10 text-admitText">
