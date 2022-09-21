@@ -46,6 +46,30 @@ const ringText ={
 const Avatar = () => {
   return (
     <>
+    <div className="overflow:hidden md:hidden w-full h-1/2 fixed opacity-70 top-96 z-[-10]">
+
+      <div className= " md:hidded fixed block w-24 h-24 bgdot3 border  border-admit-blue rounded-full z-[-10]"> </div>
+      <div className= " md:hidded fixed block w-16 h-16 bgdot3 border border-dashed border-admit-light-blue rounded-full z-[-10]"> </div>
+      <div className= " md:hidded fixed block w-20 h-20 bgdot2 border border-admit-blue rounded-full z-[-10]"> </div>
+      <div className= " md:hidded fixed block w-1 h-1 bgdot2  bg-admit-blue rounded-full z-[-10]"> </div>
+      <div className= " md:hidded fixed block w-2 h-2 bgdot3 left-12  bg-admit-red rounded-full z-[-10]"> </div>
+      <div className="md:hidden bgdot2">
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 19 19"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="block absolute top-24"
+        >
+          <path
+            d="M6.70001 0V6.70001H0V11.7H6.70001V18.3H11.7V11.7H18.3V6.70001H11.7V0H6.70001Z"
+            fill="#FF595A"
+          />
+        </svg>
+      </div>
+     
+    </div>
         <ThreeMiddleTextTwoButton
         props= {text1}/>
         <ThreeMiddleTextTwoButtonSmall
@@ -126,6 +150,7 @@ const Avatar = () => {
       <BgCircles/>
 
       </div>
+
     </>
   )
 }
