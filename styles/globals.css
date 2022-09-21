@@ -87,7 +87,7 @@
   cursor: none;
 }
 .admitHeroSubtext {
-  width: 50%;
+  width: 80%;
   color: hsl(0 0% 0% / 0.7);
   opacity: 0;
   transform: translateY(3rem);
@@ -107,6 +107,10 @@
   text-align: center;
 
   color: #000000;
+}
+@media (min-width: 256px) and (max-width:756px) {
+
+  width: 100%;
 }
 
 @keyframes typewriter {

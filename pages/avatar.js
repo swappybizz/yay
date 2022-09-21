@@ -58,8 +58,8 @@ const Avatar = () => {
         props= {text5}/>
 <>
       <section className="text-gray-600 body-font">
-        <div className="flex justify-evenly items-center px-5 py-2 mx-auto">
-          <div className="flex justify-center w-3/4 items-center flex-col lg:flex-row ">
+        <div className="flex justify-evenly  items-center px-5 py-2 mx-auto ">
+          <div className="flex justify-center w-3/4 items-center flex-col lg:flex-row translate-x-9 md:translate-x-0">
             <div className="lg:w-1/3 sm:w-1/2 flex justify-center items-center mr-auto translate-x-[0%]  mb-12 md:translate-x-0">
               <div className="flex relative ">
                 <div className="px-2 py-2 relative z-10 text-center flex flex-col w-48 h-48 p-5 md:w-[25rem] md:h-[25rem] items-center  pt-16 rounded-full border-4 transition-all duration-500 border-admit-blue bg-white ">

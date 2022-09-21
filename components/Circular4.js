@@ -23,7 +23,7 @@ const Circular4 = () => {
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Strategi
                   </h1>
-                  <p className="leading-relaxed font-heroSubText">
+                  <p className="hidden md:block leading-relaxed font-heroSubText">
                     For å sette forretningsidéen og visjonen ut i livet må
                     bedriften jobbe frem en overordnet strategi.
                   </p>
@@ -48,7 +48,7 @@ const Circular4 = () => {
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                     HR/HMS
                   </h1>
-                  <p className="leading-relaxed font-heroSubText">
+                  <p className="hidden md:block leading-relaxed font-heroSubText">
                   For oss i Admit handler HR og HMS om å bygge sterke og velfungerende team, sett i sammenheng med systemtenkning.
                     
                   </p>
@@ -73,7 +73,7 @@ const Circular4 = () => {
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                     System
                   </h1>
-                  <p className="leading-relaxed font-heroSubText">
+                  <p className="hidden md:block leading-relaxed font-heroSubText">
                   Admit jobber med å utvikle lærende organisasjoner gjennom prosessledelse.
                     
                   </p>
@@ -103,7 +103,7 @@ const Circular4 = () => {
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Digitalisering
                   </h1>
-                  <p className="leading-relaxed font-heroSubText">
+                  <p className="hidden md:block leading-relaxed font-heroSubText">
                   Digitalisering handler om å bruke datamaskiner og annen digital teknologi til å fornye, forenkle og forbedre prosesser.
                   </p>
                 </div>
@@ -127,7 +127,7 @@ const Circular4 = () => {
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Økonomi
                   </h1>
-                  <p className="leading-relaxed font-heroSubText">
+                  <p className="hidden md:block leading-relaxed font-heroSubText">
                     Få bedre oversikt og kontroll over din økonomi og likviditet.
                   </p>
                 </div>
@@ -151,7 +151,7 @@ const Circular4 = () => {
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Markedsføring
                   </h1>
-                  <p className="leading-relaxed font-heroSubText">
+                  <p className="hidden md:block leading-relaxed font-heroSubText">
                     Besøk vår markedsavdeling.
                   </p>
                 </div>
