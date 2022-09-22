@@ -66,7 +66,10 @@ export default function Home({ posts }) {
       </div>
       <ThreeMiddleTextTwoButton props={text2} />
       <ThreeMiddleTextTwoButton props={midtext} />
+      <div className="md:translate-y-[-0rem] translate-y-[-7rem]" >
+        
       <BlogPreview posts={posts} />
+      </div>
       <ThreeMiddleTextTwoButton props={tmbttext} />
       
       <FullPageImage />
