@@ -28,7 +28,10 @@ const about = () => {
       
 
       {/* <ThreeColorRings props={ringText}/> */}
+      <div className="md:translate-y-[-0rem] translate-y-[-5rem]">
+
       <UnitedNations/>
+      </div>
       <ThreeMiddleTextTwoButtonSmall props={text3} />
 
    <WeAdmit/> 
