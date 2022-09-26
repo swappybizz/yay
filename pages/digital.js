@@ -33,14 +33,14 @@ const text5 = {
 const digital = () => {
   return (
     <>
-    <div className="overflow:hidden md:hidden w-full h-1/2 fixed opacity-70 top-[90vh] z-[-10] rotate-45 left-[-10rem]">
+    <div className="overflow:hidden md:hidden w-full h-1/2 fixed opacity-70 top-[90vh] z-[-10] rotate-45 left-[-10rem] ">
 
-<div className= " md:hidded fixed block w-24 h-24 bgdot3 border  border-admit-blue rounded-full z-[-10]"> </div>
-<div className= " md:hidded fixed block w-16 h-16 bgdot3 border border-dashed border-admit-light-blue rounded-full z-[-10]"> </div>
-<div className= " md:hidded fixed block w-20 h-20 bgdot2 border border-admit-blue rounded-full z-[-10]"> </div>
-<div className= " md:hidded fixed block w-1 h-1 bgdot2  bg-admit-blue rounded-full z-[-10]"> </div>
-<div className= " md:hidded fixed block w-2 h-2 bgdot3 left-12  bg-admit-red rounded-full z-[-10]"> </div>
-<div className="md:hidden bgdot2">
+<div className= " md:hidded fixed block w-24 h-24 bgdot3 border  border-admit-blue rounded-full z-[-10] mix-blend-exclusion"> </div>
+<div className= " md:hidded fixed block w-16 h-16 bgdot3 border border-dashed border-admit-light-blue mix-blend-exclusion rounded-full z-[-10]"> </div>
+<div className= " md:hidded fixed block w-20 h-20 bgdot2 border border-admit-blue rounded-full mix-blend-exclusion z-[-10]"> </div>
+<div className= " md:hidded fixed block w-1 h-1 bgdot2  bg-admit-blue rounded-full mix-blend-exclusion z-[-10]"> </div>
+<div className= " md:hidded fixed block w-2 h-2 bgdot3 left-12  bg-admit-red rounded-full mix-blend-exclusion z-[-10]"> </div>
+<div className="md:hidden mix-blend-exclusion bgdot2">
   <svg
     width="16"
     height="16"

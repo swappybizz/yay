@@ -41,7 +41,7 @@ const Circular4 = () => {
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-48 h-48 p-5 md:w-72 md:h-72 rounded-full object-cover object-center transition-all duration-500"
-                  src="https://i.ibb.co/Wf6jghL/Frame-22.png"
+                  src="/hr.png"
                 />
                 <div className="px-2 py-2 relative z-10 text-center flex flex-col w-48 h-48 p-5 md:w-72 md:h-72 items-center justify-center rounded-full border-4 transition-all duration-500 border-admit-blue bg-white opacity-0 hover:opacity-100">
                   {/* <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2> */}
