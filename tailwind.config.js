@@ -19,9 +19,9 @@ module.exports = {
       },
       fontFamily: {
         'admitTitle': ['"DM Serif Display"', 'serif'],
-        'admitText': ['"Mukta"', 'serif'],
-        'heroSubText': ['Barlow','sans-serif'],
-        'weAdmit' : [ "'Qwitcher Grypen'", "cursive"],
+        // 'admitText': ['"Mukta"', 'serif'],
+        'heroSubText': ["'Barlow'",'sans-serif'],
+        // 'weAdmit' : [ "'Qwitcher Grypen'", "cursive"],
     },
     animation: {
       'pulse-once': 'pulse 2s ease',
