@@ -103,7 +103,7 @@ export default function Example() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://calendly.com/admitas/"
+                  href="https://outlook.office365.com/owa/calendar/Vidrivermedforretningsutvikling@admit.no/bookings/"
                   className="btn hover:animate-pulse-once hover:scale-105 outline-offset-2  transition-all hover:duration-300"
                 >
                   Snakk med oss
