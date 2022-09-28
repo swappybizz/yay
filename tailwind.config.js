@@ -15,7 +15,7 @@ module.exports = {
         "admit-blue-pressed": "#075985",
       },
       backgroundImage: {
-        studio: "url('/studio.png')",
+        studio: "url('/studio.webp')",
       },
       fontFamily: {
         'admitTitle': ['"DM Serif Display"', 'serif'],
