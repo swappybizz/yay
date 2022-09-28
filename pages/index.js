@@ -51,7 +51,7 @@ export default function Home({ posts }) {
       
       <Head>
         <title>Admit AS</title>
-        <meta name="description" content="Velcommen til Admit AS " />
+        <meta name="description" content="Velkommen til Admit AS " />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero  />
