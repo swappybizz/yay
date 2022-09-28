@@ -28,7 +28,7 @@ const text4 = {
 const text6 = {
   middle :"Kom i gang",
   button1: "BOOK STUDIO",
-  link1:"https://calendly.com/admitas/"
+  link1:"https://outlook.office365.com/owa/calendar/Vidrivermedforretningsutvikling@admit.no/bookings/"
   
 }
 

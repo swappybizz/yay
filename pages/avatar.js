@@ -39,7 +39,7 @@ const text5 ={
 const text6 ={
     
     button1 : "KOM I GANG",
-    link1: "https://calendly.com/admitas/"
+    link1: "https://outlook.office365.com/owa/calendar/Vidrivermedforretningsutvikling@admit.no/bookings/"
 }
 const ringText ={
     leftTop : "Samhandling",

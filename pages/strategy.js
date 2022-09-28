@@ -23,7 +23,7 @@ const text4 = {
   bottom:
     "Preferanser handler om å kartlegge «våre automatiserte vaner». Skal man tenke strategi må det legges til rette for kreativitet. For å få til det på en god måte, må det legges til rette for samtaler og refleksjoner. Admit’s teambygging baserer seg på Jungiansk typologi som karlegger preferanser og gir veiledning om hvilke funksjoner i et team som passer best for den enkelte. Et verktøy for å bygge effektive og velfungerende team, samt bedre samhandling mellom de ulike teamene i bedriften.",
   button1: "BOOK MØTE",
-  link1 : "https://calendly.com/admitas/"
+  link1 : "https://outlook.office365.com/owa/calendar/Vidrivermedforretningsutvikling@admit.no/bookings/"
 }
 
 const strategy = () => {

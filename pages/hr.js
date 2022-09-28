@@ -24,7 +24,7 @@ const text4 = {
   bottom:"Vi leverer systematisk helse, miljø og sikkerhetsarbeid (internkontroll) til bedrifter, inkludert kursing og opplæring.",
   
   button1: "BOOK MØTE",
-  link1:"https://calendly.com/admitas/"
+  link1:"https://outlook.office365.com/owa/calendar/Vidrivermedforretningsutvikling@admit.no/bookings/"
 }
 const hr = () => {
   return (

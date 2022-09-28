@@ -24,7 +24,7 @@ const midtext = {
 const text2 = {
   bottom: "Om du er klar for å møte endringene, men usikker på hvor du bør starte for å nå dine mål og visjoner; bestill tid her for en utforpliktende kartleggings-prat",
   button1: "KONTAKT OSS",
-  link1: "https://calendly.com/admitas/"
+  link1: "https://outlook.office365.com/owa/calendar/Vidrivermedforretningsutvikling@admit.no/bookings/"
  
   
 }

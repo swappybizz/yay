@@ -26,7 +26,7 @@ const text6 = {
   middle: "Bli medlem",
   // button1: "Bli Medlem",
   button1: "KONTAKT OSS",
-  link1: "https://calendly.com/admitas/",
+  link1: "https://outlook.office365.com/owa/calendar/Vidrivermedforretningsutvikling@admit.no/bookings/",
   bottom:
     "Møte likesinnede for input og inspirasjon​. Ta med dine ansatte eller ditt team, på våre events eller workshops der endringskompetanse står i fokus. Bli med i kompetansenettverket vårt !",
 };

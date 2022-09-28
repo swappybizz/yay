@@ -13,7 +13,7 @@ const Floating = () => {
         <div className="fab-wheel cursor-pointer">
           <a
            title="Avtale møte"
-            href="https://calendly.com/admitas/"
+            href="https://outlook.office365.com/owa/calendar/Vidrivermedforretningsutvikling@admit.no/bookings/"
             className="fab-action fab-action-1 hover:scale-150 flex items-center text-xl justify-center"
           >
             <i aria-label="asas" className="fas fa-question  ">

@@ -84,7 +84,7 @@ export default function Example() {
                 {/* <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://calendly.com/admitas/"
+                  href="https://outlook.office365.com/owa/calendar/Vidrivermedforretningsutvikling@admit.no/bookings/"
                   className="inline-flex items-center bg-gradient-to-l to-admit-blue from-admit-red  border-0 py-2 px-6 focus:outline-none hover:border-2  hover:bg-gradient-to-r hover:to-admit-blue hover:from-admit-red transition-all duration-700 active:bg-[rgba(0,40,86,0.37)] text-white rounded-full text-sm font-base mt-0 md:mt-0"
                 >
                   Snakk med oss

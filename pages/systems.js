@@ -24,7 +24,7 @@ const text4 = {
   bottom:
     "Admit har gjort et strategisk valg om å bruke Microsoft sin skybaserte løsning som vår prefererte samhandlingsplattform.",
   button1: "BOOK MØTE",
-  link1: "https://calendly.com/admitas/",
+  link1: "https://outlook.office365.com/owa/calendar/Vidrivermedforretningsutvikling@admit.no/bookings/",
 };
 
 const systems = () => {
