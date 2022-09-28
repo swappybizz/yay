@@ -63,7 +63,7 @@ export default function Home({ posts }) {
         <meta property="og:url" content="https://www.admit.no/" />
         <meta property="og:title" content="Admit AS" />
         <meta property="og:description" content="Velkommen til Admit AS " />
-        <meta property="og:image" content="/weadmit.webp" />
+        <meta property="og:image" content="https://i.ibb.co/vs2THv2/Frame-24.webp" />
 
         {/* twitter */}
         <meta property="twitter:card" content="summary_large_image" />
@@ -73,9 +73,17 @@ export default function Home({ posts }) {
           property="twitter:description"
           content="Velkommen til Admit AS "
         />
-        <meta property="twitter:image" content="https://svgshare.com/s/n03">
+        <meta property="twitter:image" content="https://i.ibb.co/vs2THv2/Frame-24.webp"/>
         <link rel="icon" href="/favicon.ico" />
-        </meta>
+
+        {/* google */}
+        <meta itemprop="name" content="Admit AS"/>
+<meta itemprop="description" content="Velkommen til Admit AS "
+/>
+<meta itemprop="image" content="https://i.ibb.co/vs2THv2/Frame-24.webp"/>
+
+
+        
       </Head>
       <Hero />
 
