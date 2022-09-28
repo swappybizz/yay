@@ -63,7 +63,7 @@ export default function Home({ posts }) {
         <meta property="og:url" content="https://www.admit.no/" />
         <meta property="og:title" content="Admit AS" />
         <meta property="og:description" content="Velkommen til Admit AS " />
-        <meta property="og:image" content="https://svgshare.com/s/n03" />
+        <meta property="og:image" content="/weadmit.webp" />
 
         {/* twitter */}
         <meta property="twitter:card" content="summary_large_image" />
