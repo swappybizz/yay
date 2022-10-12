@@ -24,6 +24,7 @@ const text4 = {
   middle: "Innovasjon",
   bottom:"Vi opplever at mange tenker på nye produkter når temaet innovasjon kommer på agendaen. Konkurransefortrinn og nye muligheter handler svært ofte om å gjøre ting smartere og enklere. Ikke nødvendigvis nye produkter, men videreutvikling av dine eksisterende produkter/tjenester. ",
   button1: "BOOK MØTE",
+  link1: "https://outlook.office365.com/owa/calendar/Vidrivermedforretningsutvikling@admit.no/bookings/"
 }
 const text5 = {
   middle: "Samskaping",
