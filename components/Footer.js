@@ -91,17 +91,17 @@ const Footer = () => {
                 </h2>
                 <nav className="list-none mb-10">
                   <li>
-                    <a href="/" className="text-white hover:text-gray-300 cursor-pointer text-sm">
+                    <a href="https://www.privacypolicytemplate.net/live.php?token=EIXXz3L3UVYBS9bKb5WKmUcvlDtJQRzH" className="text-white hover:text-gray-300 cursor-pointer text-sm">
                       Personvern{" "}
                     </a>
                   </li>
                   <li>
-                    <a href="/" className="text-white hover:text-gray-300 cursor-pointer text-sm">
+                    <a href="https://www.privacypolicytemplate.net/live.php?token=EIXXz3L3UVYBS9bKb5WKmUcvlDtJQRzH" className="text-white hover:text-gray-300 cursor-pointer text-sm">
                       Cookies
                     </a>
                   </li>
                   <li>
-                    <a href="/" className="text-white hover:text-gray-300 cursor-pointer text-sm">
+                    <a href="/conditions" className="text-white hover:text-gray-300 cursor-pointer text-sm hidden">
                       Betingelser
                     </a>
                   </li>
