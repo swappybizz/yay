@@ -75,7 +75,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a href="https://www.instagram.com/admit.no/" className="text-white hover:text-gray-300 cursor-pointer text-sm">
-                      instagram
+                      Instagram
                     </a>
                   </li>
                   <li>
