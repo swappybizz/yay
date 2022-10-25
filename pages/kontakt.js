@@ -17,8 +17,8 @@ const contact = () => {
   return (
     <>
       <section className="text-gray-600 body-font relative font-heroSubText text-xl">
-        <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
-          <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+        <div className="container px-5 py-0 mx-auto flex sm:flex-nowrap flex-wrap">
+          <div className="lg:w-full md:w-full h-[90vh] bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
             <iframe
               width="100%"
               height="100%"
@@ -47,9 +47,11 @@ const contact = () => {
                 <h2 className="title-font font-semibold font-admitTitle text-gray-900 tracking-widest text-s">
                   E-POST
                 </h2>
-                <a className="text-admit-blue leading-relaxed">
+                <button 
+                onClick={() => window.location = 'mailto:post@admit.com'}
+                className="text-admit-blue leading-relaxed cursor-pointer">
                   post@admit.no
-                </a>
+                </button>
                 <h2 className="title-font font-semibold font-admitTitle text-gray-900 tracking-widest text-s mt-4">
                   TELEFON
                 </h2>
@@ -58,7 +60,7 @@ const contact = () => {
             </div>
           </div>
 
-          <form ref={form} onSubmit={sendEmail} className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+          {/* <form ref={form} onSubmit={sendEmail} className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
             <h2 className="text-gray-900 text-3xl mb-1 font-admitTitle  font-semibold title-font">
             Kontakt oss
             </h2>
@@ -108,7 +110,7 @@ const contact = () => {
             <p className="text-xs text-gray-500 mt-3">
               Tusen takk
             </p>
-          </form>
+          </form> */}
         </div>
       </section>
     </>
