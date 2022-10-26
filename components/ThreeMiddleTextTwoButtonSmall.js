@@ -13,9 +13,9 @@ const ThreeMiddleTextTwoButtonSmall = props => {
             )}
 
             {props.props.middle && (
-              <h1 className="title-font font-admitTitle sm:text-6xl text-4xl mb-4 font-semibold  text-gray-900">
+              <h2 className="title-font font-admitTitle sm:text-6xl text-4xl mb-4 font-semibold  text-gray-900">
                 {props.props.middle}
-              </h1>
+              </h2>
             )}
 
             {props.props.bottom && (
