@@ -11,7 +11,7 @@ const UnitedNations = () => {
                 <img
                   alt="content"
                   class="object-contain object-center h-full w-full"
-                  src="https://i.ibb.co/87NjGpG/Frame-23.png"
+                  src="/mal8.webp"
                 />
               </div>
               {/* <h2 class="text-xl font-medium title-font text-gray-900 mt-5 font-admitTitle text-center">Shooting Stars</h2> */}
@@ -24,7 +24,7 @@ const UnitedNations = () => {
                 <img
                   alt="content"
                   class="object-contain object-center h-full w-full"
-                  src="https://i.ibb.co/r20d3J5/mal-9-bokmal.png"
+                  src="/mal9.webp"
                 />
               </div>
               {/* <h2 class="text-xl font-medium title-font text-gray-900 mt-5 font-admitTitle text-center">The Catalyzer</h2> */}
@@ -37,7 +37,7 @@ const UnitedNations = () => {
                 <img
                   alt="content"
                   class="object-contain object-center h-full w-full "
-                  src="https://i.ibb.co/yXmqQnm/mal-17-bokmal.png"
+                  src="mal17.webp"
                 />
               </div>
               {/* <h2 class="text-xl font-medium title-font text-gray-900 mt-5 font-admitTitle text-center">The 400 Blows</h2> */}
