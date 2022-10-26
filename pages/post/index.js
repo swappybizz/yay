@@ -50,9 +50,9 @@ export default function ({ posts }) {
                         </h2>
                         {/* ))} */}
 
-                        <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
+                        <h2 className="title-font text-xl font-medium text-gray-900 mb-3">
                           {post.node.title}
-                        </h1>
+                        </h2>
                         <p className="leading-relaxed mb-5">
                           {post.node.excerpt}
                         </p>
