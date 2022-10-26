@@ -53,7 +53,7 @@ export default function Home({ posts }) {
         <meta name="description" content="Velkommen til Admit AS. Vi tilbyr rådgivning innen ledelse og utvikling, HR, digitalisering, strategi, markedsføring, systemer og økonomi " />
 
         {/* primary */}
-        <title>Admit AS</title>
+        <title>Admit AS - Gi rådgiving innen ledelse og utvikling</title>
         <meta name="title" content="Admit AS" />
         <meta name="description" content="Velkommen til Admit AS. Vi tilbyr rådgivning innen ledelse og utvikling, HR, digitalisering, strategi, markedsføring, systemer og økonomi " />
 
