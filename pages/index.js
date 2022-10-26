@@ -49,19 +49,19 @@ export default function Home({ posts }) {
   return (
     <>
       <Head>
-        <title>Admit AS</title>
-        <meta name="description" content="Velkommen til Admit AS " />
+        <title>Admit AS - Gi rådgiving innen ledelse og utvikling</title>
+        <meta name="description" content="Velkommen til Admit AS. Vi tilbyr rådgivning innen ledelse og utvikling, HR, digitalisering, strategi, markedsføring, systemer og økonomi " />
 
         {/* primary */}
         <title>Admit AS</title>
         <meta name="title" content="Admit AS" />
-        <meta name="description" content="Velkommen til Admit AS " />
+        <meta name="description" content="Velkommen til Admit AS. Vi tilbyr rådgivning innen ledelse og utvikling, HR, digitalisering, strategi, markedsføring, systemer og økonomi " />
 
         {/* shitbook--fb */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.admit.no/" />
         <meta property="og:title" content="Admit AS" />
-        <meta property="og:description" content="Velkommen til Admit AS " />
+        <meta property="og:description" content="Vi tilbyr rådgivning innen ledelse og utvikling, HR, digitalisering, strategi, markedsføring, systemer og økonomi. " />
         <meta
           property="og:image"
           content="https://i.ibb.co/vs2THv2/Frame-24.webp"
@@ -73,17 +73,20 @@ export default function Home({ posts }) {
         <meta property="twitter:title" content="Admit AS" />
         <meta
           property="twitter:description"
-          content="Velkommen til Admit AS "
+          content="Vi tilbyr rådgivning innen ledelse og utvikling, HR, digitalisering, strategi, markedsføring, systemer og økonomi "
         />
         <meta
           property="twitter:image"
           content="https://i.ibb.co/vs2THv2/Frame-24.webp"
         />
+        <link rel="shotcut icon" href="/favicon.ico" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon-precomposed" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
 
         {/* google */}
         <meta itemprop="name" content="Admit AS" />
-        <meta itemprop="description" content="Velkommen til Admit AS " />
+        <meta itemprop="description" content="Vi tilbyr rådgivning innen ledelse og utvikling, HR, digitalisering, strategi, markedsføring, systemer og økonomi " />
         <meta
           itemprop="image"
           content="https://i.ibb.co/vs2THv2/Frame-24.webp"
