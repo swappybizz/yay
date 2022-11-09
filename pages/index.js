@@ -49,6 +49,27 @@ export default function Home({ posts }) {
   return (
     <>
       <Head>
+      
+ 
+
+{/* Global Site Tag (gtag.js) - Google Analytics */}
+<script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=UA-161447725-1`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-161447725-1', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />
+
         <title>Admit AS - Gi rådgiving innen ledelse og utvikling</title>
         <meta name="description" content="Velkommen til Admit AS. Vi tilbyr rådgivning innen ledelse og utvikling, HR, digitalisering, strategi, markedsføring, systemer og økonomi " />
 
