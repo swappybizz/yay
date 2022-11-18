@@ -11,7 +11,7 @@
 }
 .inputBox{
     position: relative;
-    width: 100px;
+    width: 120px;
     font-size: 0.85em;
     line-height: 1.8em;
 
@@ -46,14 +46,14 @@
     letter-spacing: 0.1em;
     transition: 0.5s;
     transform: translateY(-32px) translateX(-10px) ;
-    font-size: 0.85em;
+    font-size: 0.75em;
 }
 .inputBox input:valid ~ span,
 .inputBox input:focus ~ span
 {
     color: #FF595A;
     transform: translateX(-10px) translateY(-22.5px);
-    font-size: 0.85em;
+    font-size: 0.75em;
     background: #ededed;
 }
 .inputBox i
@@ -86,7 +86,7 @@ left: 0%;
 
     }
     100%{
-        background-position-x: 100px;
+        background-position-x: 120px;
 
     }
 }

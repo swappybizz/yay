@@ -43,7 +43,7 @@ export default function Home() {
   const es = evaluate(`${e}+15%`).toString();
   const ff = sum(bf, cf, df, ef).toString();
   const fs = sum(bs, cs, ds, es).toString();
-  const gf = subtract(af, ff).toString();
+  const gf = round(subtract(af, ff),2).toString();
   const gs = subtract(as, fs).toString();
   const hf = evaluate(`${h}+${hp ? hp : 0}%`).toString();
   const hs = evaluate(`${h}+50%`).toString();
@@ -68,7 +68,7 @@ export default function Home() {
   ).toString();
   return (
     <>
-      <div className="pt-4 font-admitTitle border-t-gray-300 border-t-2 bg-[#ededed]  overflow-hidden">
+      <div className="pt-4 pl-12 font-admitTitle border-t-gray-300 border-t-2 bg-[#ededed]  overflow-hidden">
         <Head>
           <title>Admit kampanje Activity Based Costing</title>
           <meta
@@ -86,10 +86,10 @@ export default function Home() {
           <main className="bg-[transparent] bg-opacity-25 w-full m-0 p-0 ">
             <div className="flex  ">
               <div className="min-w-[50%]  ">
-                <p className="font-semibold ml-6 pl-8 text-4xl text-admit-dark-blue">
+                <p className="font-semibold ml-[-1em] pl-0 text-4xl text-admit-dark-blue">
                   Regnskap
                 </p>
-                <p className="font-medium ml-6 pl-8 text-2xl text-admit-dark-blue">
+                <p className="font-medium ml-[-1.5em] pl-0 text-2xl text-admit-dark-blue">
                   2021
                 </p>
               </div>
@@ -121,31 +121,31 @@ export default function Home() {
                 </div>
                 <div className="flex-col">
                   <FormInputPercent
-                    props={"Din Prognose"}
+                    props={"Forutsagt endring %"}
                     setPercent={setAp}
                   />
                   <FormInputPercent
-                    props={"Din Prognose"}
+                    props={"Forutsagt endring %"}
                     setPercent={setBp}
                   />
                   <FormInputPercent
-                    props={"Din Prognose"}
+                    props={"Forutsagt endring %"}
                     setPercent={setCp}
                   />
                   <FormInputPercent
-                    props={"Din Prognose"}
+                    props={"Forutsagt endring %"}
                     setPercent={setDp}
                   />
                   <FormInputPercent
-                    props={"Din Prognose"}
+                    props={"Forutsagt endring %"}
                     setPercent={setEp}
                   />
                   <FormInputPercent
-                    props={"Din Prognose"}
+                    props={"Forutsagt endring %"}
                     setPercent={setHp}
                   />
                   <FormInputPercent
-                    props={"Din Prognose"}
+                    props={"Forutsagt endring %"}
                     setPercent={setIp}
                   />
                 </div>
