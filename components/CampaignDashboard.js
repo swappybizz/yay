@@ -73,7 +73,7 @@ export default function Home() {
           <title>Admit kampanje Activity Based Costing</title>
           <meta
             name="description"
-            content="My components use Tailwind css with plain css modules thrown here and there"
+            content="Legg inn dine tall i kalkulatoren vår og finn ut hvordan det ser ut for din bedrift:"
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>

@@ -2,9 +2,9 @@ import React from "react";
 
 const CallToSignUp = () => {
   return (
-    <section className="text-gray-600 body-font relative">
-      <div className="container ml-28 pl-2  py-2 mx-auto">
-        <div className="flex flex-col w-full mb-2">
+    <section className="text-gray-600 body-font relative ">
+      <div className="container ml-28 pl-2  py-2 mx-auto  ">
+        <div className="flex flex-col w-full mb-2 ">
           <h1 className="sm:text-3xl text-6xl font-admitTitle font-semibold mb-4 text-admit-blue">
             Register Her
           </h1>
@@ -23,7 +23,9 @@ const CallToSignUp = () => {
                   type="text"
                   id="name"
                   name="name"
-                  className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-admit-blue focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  disabled
+                  placeholder="Komer Snart"
+                  className="w-full shadow-md font-heroSubText bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-admit-blue focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
             </div>
@@ -36,14 +38,16 @@ const CallToSignUp = () => {
                   type="email"
                   id="email"
                   name="email"
-                  className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-admit-blue focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  disabled
+                  placeholder="Komer Snart"
+                  className="w-full shadow-md font-heroSubText bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-admit-blue focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
             </div>
             <div className="p-2 w-full"></div>
             <div className="p-2 w-full">
-              <button className="flex font-heroSubText text-white bg-gray-500 border-0 py-2 px-8 focus:outline-none hover:bg-gray-600 rounded text-lg">
-                Send Melding
+              <button disabled className="flex font-heroSubText text-white bg-gray-500 border-0 py-2 px-8 focus:outline-none hover:bg-gray-600 rounded text-lg">
+              🚧
               </button>
             </div>
           </div>
