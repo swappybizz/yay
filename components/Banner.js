@@ -1,6 +1,4 @@
 import React from "react";
-import Link from "next/link"
-
 const Banner = () => {
   return (
     <a className="cursor-pointer hidden" href="/camp">
