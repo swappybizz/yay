@@ -7,7 +7,7 @@ const YoutubeComponent = () => {
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/sqB5dZ35gqY?&rel=0&autoplay=1&showinfo=0&loop=1&controls=1"
+          src="https://www.youtube.com/embed/sqB5dZ35gqY?&rel=0&autoplay=1&showinfo=0&loop=1&controls=1&muted=1&mute=1"
           title="Activity Based Costing"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture,"
