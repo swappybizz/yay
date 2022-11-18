@@ -11,8 +11,9 @@ const Template = ({ children }) => {
 
   return (
     <div className="" style={{scrollBehavior:'smooth'}}>
-      <Banner/>
+      
       <div ref={ref}>
+      {/* <Banner/> */}
         <Navbar />
       </div>
       <AnimatePresence>
