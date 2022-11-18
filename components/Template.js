@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Floating from "./Floating";
+import Banner from "./banner";
 
 import { useInView } from "react-intersection-observer";
 import { motion, AnimatePresence } from "framer-motion";
@@ -10,6 +11,7 @@ const Template = ({ children }) => {
 
   return (
     <div className="" style={{scrollBehavior:'smooth'}}>
+      <Banner/>
       <div ref={ref}>
         <Navbar />
       </div>

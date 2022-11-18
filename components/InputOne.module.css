@@ -1,0 +1,107 @@
+.inputBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75px;
+    flex-direction: column;
+    gap: 30px;
+    background: #ededed;
+    max-width: 350px;
+}
+.inputBox{
+    position: relative;
+    width: 250px;
+    transition: 0.5s;
+
+
+}
+.inputBox input{
+    width: 100%;
+    background: transparent;
+    color: #002A3A;
+    border: 1px solid #00293a2a;
+    border-top-left-radius: 0em;
+    border-top-right-radius: 0.5em;
+    outline: none;
+    box-shadow: none;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    padding: 15px 10px 5px;
+    transition: 0.4s;
+
+
+}
+.inputBox input:focus{
+border: 2px solid transparent;
+}
+
+.inputBox span{
+    position: absolute;
+    left: 10px;
+    background: transparent;
+    padding: 10px 0 5px;
+    color: rgba(27, 27, 27, 0.5);
+    text-transform: uppercase;
+    pointer-events: none;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+    line-height: 1.75em;
+    transform: translateY(-32px) translateX(-10px) ;
+    font-size: 0.75em;
+    
+}
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span
+{
+    color: #FF595A;
+    transform: translateX(0px) translateY(-12px);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
+    background: #ededed;
+    line-height: 0.65em;
+    
+    font-size: 0.75em;
+}
+.inputBox i
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #002A3A;
+    overflow: hidden;
+}
+.inputBox i::before{
+    content: "";
+    position: absolute;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(90deg,red,aqua,yellow,blue,purple,red);
+    animation: animate 5s linear infinite;
+}
+.inputBox input:valid ~ i::before,
+.inputBox input:focus ~ i::before{
+left: 0%;
+}
+@keyframes animate{
+
+    0%{
+        background-position-x:0 ;
+
+    }
+    100%{
+        background-position-x: 250px;
+
+    }
+}
+.inputBox input::placeholder{
+    color: transparent;
+    transition: 0.4s;
+    animation-timing-function: cubic-bezier(0.8,0.2,1,1);
+    
+}
+.inputBox input:focus::placeholder{
+    color: #002A3A;
+    opacity: 0.5;
+}

@@ -49,17 +49,14 @@ export default function Home({ posts }) {
   return (
     <>
       <Head>
-      
- 
-
-{/* Global Site Tag (gtag.js) - Google Analytics */}
-<script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=UA-161447725-1`}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
+        {/* Global Site Tag (gtag.js) - Google Analytics */}
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=UA-161447725-1`}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
@@ -67,22 +64,31 @@ export default function Home({ posts }) {
               page_path: window.location.pathname,
             });
           `,
-            }}
-          />
+          }}
+        />
 
         <title>Admit AS - Gi rådgiving innen ledelse og utvikling</title>
-        <meta name="description" content="Velkommen til Admit AS. Vi tilbyr rådgivning innen ledelse og utvikling, HR, digitalisering, strategi, markedsføring, systemer og økonomi " />
+        <meta
+          name="description"
+          content="Velkommen til Admit AS. Vi tilbyr rådgivning innen ledelse og utvikling, HR, digitalisering, strategi, markedsføring, systemer og økonomi "
+        />
 
         {/* primary */}
         <title>Admit AS - Gi rådgiving innen ledelse og utvikling</title>
         <meta name="title" content="Admit AS" />
-        <meta name="description" content="Velkommen til Admit AS. Vi tilbyr rådgivning innen ledelse og utvikling, HR, digitalisering, strategi, markedsføring, systemer og økonomi " />
+        <meta
+          name="description"
+          content="Velkommen til Admit AS. Vi tilbyr rådgivning innen ledelse og utvikling, HR, digitalisering, strategi, markedsføring, systemer og økonomi "
+        />
 
         {/* shitbook--fb */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.admit.no/" />
         <meta property="og:title" content="Admit AS" />
-        <meta property="og:description" content="Vi tilbyr rådgivning innen ledelse og utvikling, HR, digitalisering, strategi, markedsføring, systemer og økonomi. " />
+        <meta
+          property="og:description"
+          content="Vi tilbyr rådgivning innen ledelse og utvikling, HR, digitalisering, strategi, markedsføring, systemer og økonomi. "
+        />
         <meta
           property="og:image"
           content="https://i.ibb.co/vs2THv2/Frame-24.webp"
@@ -107,7 +113,10 @@ export default function Home({ posts }) {
 
         {/* google */}
         <meta itemprop="name" content="Admit AS" />
-        <meta itemprop="description" content="Vi tilbyr rådgivning innen ledelse og utvikling, HR, digitalisering, strategi, markedsføring, systemer og økonomi " />
+        <meta
+          itemprop="description"
+          content="Vi tilbyr rådgivning innen ledelse og utvikling, HR, digitalisering, strategi, markedsføring, systemer og økonomi "
+        />
         <meta
           itemprop="image"
           content="https://i.ibb.co/vs2THv2/Frame-24.webp"
