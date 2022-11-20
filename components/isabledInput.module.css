@@ -82,13 +82,13 @@ left: 0%;
     }
 }
 .inputBox input::placeholder{
-    color:#002856;
+    color:black;
     opacity: 0.4;
     transition: 0.4s;
     animation-timing-function: cubic-bezier(0.8,0.2,1,1);
     
 }
 .inputBox input:focus::placeholder{
-    color: #002856;
+    color: black;
     opacity: 0.5;
 }

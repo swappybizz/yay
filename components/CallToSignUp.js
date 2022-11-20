@@ -6,7 +6,7 @@ const CallToSignUp = () => {
       <div className="container ml-28 pl-2  py-2 mx-auto  ">
         <div className="flex flex-col w-full mb-2 ">
           <h1 className="sm:text-3xl text-6xl font-admitTitle font-semibold mb-4 text-admit-blue">
-            Register Her
+          Registrer deg her
           </h1>
           <p className="lg:w-4/5  leading-relaxed text-base font-heroSubText">
             For å motta en kopi av simuleringen til din e-post, fyll ut her.
@@ -24,7 +24,7 @@ const CallToSignUp = () => {
                   id="name"
                   name="name"
                   disabled
-                  placeholder="Komer Snart 🚧"
+                  placeholder="Kommer snart 🚧"
                   className="w-full shadow-md font-heroSubText bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-admit-blue focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
@@ -39,7 +39,7 @@ const CallToSignUp = () => {
                   id="email"
                   name="email"
                   disabled
-                  placeholder="Komer Snart 🚧"
+                  placeholder="Kommer snart 🚧"
                   className="w-full shadow-md font-heroSubText bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-admit-blue focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>

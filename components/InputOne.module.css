@@ -18,7 +18,7 @@
 .inputBox input{
     width: 100%;
     background: transparent;
-    color: #002A3A;
+    color: black;
     border: 1px solid #00293a2a;
     border-top-left-radius: 0em;
     border-top-right-radius: 0.5em;
@@ -40,7 +40,7 @@ border: 2px solid transparent;
     left: 10px;
     background: transparent;
     padding: 10px 0 5px;
-    color: rgba(27, 27, 27, 0.5);
+    color: black;
     text-transform: uppercase;
     pointer-events: none;
     letter-spacing: 0.1em;
@@ -68,7 +68,7 @@ border: 2px solid transparent;
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: #002A3A;
+    background: black;
     overflow: hidden;
 }
 .inputBox i::before{
@@ -102,6 +102,6 @@ left: 0%;
     
 }
 .inputBox input:focus::placeholder{
-    color: #002A3A;
+    color: black;
     opacity: 0.5;
 }

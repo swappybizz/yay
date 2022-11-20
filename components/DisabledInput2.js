@@ -21,7 +21,7 @@ const DisabledInput2 = ({plc,prct,cmt }) => {
       >
         
       </input>
-      <span className='animate-pulse text-xs text-teal-400' >{plc}</span>
+      <span className=' text-xs text-teal-400' >{plc}</span>
       <i></i>
       
     </div>
