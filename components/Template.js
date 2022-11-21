@@ -14,7 +14,7 @@ const Template = ({ children }) => {
       
       <div ref={ref}>
       {/* <Banner/> */}
-      <a className="cursor-pointer hidden" href="/camp">
+      <a className="cursor-pointer" href="/camp">
     <div className="flex w-full h-12 bg-admit-red items-center justify-center cursor-pointer">
         <p className="font-medium">Har konkurranseevnen til bedriften din endret seg ?</p>
     </div>
