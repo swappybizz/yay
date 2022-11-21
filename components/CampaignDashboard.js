@@ -62,8 +62,14 @@ export default function Home() {
     chain(gf).subtract(g).divide(g).multiply(100).done(),
     2
   ).toString();
-  const predA = round(evaluate(`(${a}+5%) -((${b}+15%)+(${c}+10%)+(${d}+0%)+(${e}+15%))`),2).toString();
-  const predAFinal = round(evaluate(`(${a}+5%) -((${b}+15%)+(${c}+10%)+(${d}+0%)+(${e}+15%))`),2).toLocaleString();
+  const predA = round(
+    evaluate(`(${a}+5%) -((${b}+15%)+(${c}+10%)+(${d}+0%)+(${e}+15%))`),
+    2
+  ).toString();
+  const predAFinal = round(
+    evaluate(`(${a}+5%) -((${b}+15%)+(${c}+10%)+(${d}+0%)+(${e}+15%))`),
+    2
+  ).toLocaleString();
   const predB = round(
     evaluate(`(${predA}+(${h}+50%)-(${i}+100%)/(${a}+5%))`),
     2
@@ -117,6 +123,10 @@ export default function Home() {
                   <FormInput props={"Driftskostnader"} setTesty={setE} />
                   <FormInput props={"Finansinntekter"} setTesty={setH} />
                   <FormInput props={"Finanskostnader"} setTesty={setI} />
+                  <p className="font-semibold text-sm font-heroSubText text-slate-500">
+                    Resultat før skatt:{" "}
+                    <span className="text-admit-red">NOK {jFinal}</span>
+                  </p>
                 </div>
                 <div className="flex-col">
                   <FormInputPercent
@@ -241,16 +251,25 @@ export default function Home() {
                       "Med urolige børstall tror vi man vil søke tryggere havn = bankinnskudd for overskuddslikviditet"
                     }
                   />
+                  <p className="font-semibold text-sm font-heroSubText text-slate-500 ml-2">
+                    2023 Simulert:{" "}
+                    <span className="text-admit-red">NOK {jsFinal}</span>
+                  </p>
                 </div>
-
               </div>
-              
+
               <div
                 className=" min-w-[50%] mb-auto 
            "
               >
                 <div className="container max-w-[80%] ml-24">
-                  <MainOutput props={gFinal ? gFinal : 0} gp={gp} pred={predAFinal} skatt={jFinal} simuskatt={jsFinal} />
+                  <MainOutput
+                    props={gFinal ? gFinal : 0}
+                    gp={gp}
+                    pred={predAFinal}
+                    skatt={jFinal}
+                    simuskatt={jsFinal}
+                  />
                   <MainOutput2 props={kf ? kf : 0} pred={ks} />
                   {/* <AccordionOutput/> */}
                 </div>
