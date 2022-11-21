@@ -20,6 +20,7 @@ export default function Home() {
   const [h, setH] = useState(0);
   const [i, setI] = useState(0);
   const j = chain(g).add(h).subtract(i).done().toString();
+  const jFinal = chain(g).add(h).subtract(i).done().toLocaleString();
   const k = chain(j).divide(a).multiply(100).done().toString();
 
   const [ap, setAp] = useState(0);
@@ -44,6 +45,8 @@ export default function Home() {
   const ff = sum(bf, cf, df, ef).toString();
   const fs = sum(bs, cs, ds, es).toString();
   const gf = round(subtract(af, ff), 2).toString();
+  const gFinal = round(subtract(af, ff), 2).toLocaleString();
+
   const gs = subtract(as, fs).toString();
   const hf = evaluate(`${h}+${hp ? hp : 0}%`).toString();
   const hs = evaluate(`${h}+50%`).toString();
@@ -51,6 +54,7 @@ export default function Home() {
   const Is = evaluate(`${i}+100%`).toString();
   const jf = chain(gf).add(hf).subtract(If).done().toString();
   const js = chain(gs).add(hs).subtract(Is).done().toString();
+  const jsFinal = chain(gs).add(hs).subtract(Is).done().toLocaleString();
   const kf = round(chain(jf).divide(af).multiply(100).done(), 2).toString();
   const ks = round(chain(js).divide(as).multiply(100).done(), 2).toString();
   const fp = chain(ff).subtract(f).divide(f).multiply(100).done().toString();
@@ -58,10 +62,8 @@ export default function Home() {
     chain(gf).subtract(g).divide(g).multiply(100).done(),
     2
   ).toString();
-  const predA = round(
-    evaluate(`(${a}+5%) -((${b}+15%)+(${c}+10%)+(${d}+0%)+(${e}+15%))`),
-    2
-  ).toString();
+  const predA = round(evaluate(`(${a}+5%) -((${b}+15%)+(${c}+10%)+(${d}+0%)+(${e}+15%))`),2).toString();
+  const predAFinal = round(evaluate(`(${a}+5%) -((${b}+15%)+(${c}+10%)+(${d}+0%)+(${e}+15%))`),2).toLocaleString();
   const predB = round(
     evaluate(`(${predA}+(${h}+50%)-(${i}+100%)/(${a}+5%))`),
     2
@@ -248,7 +250,7 @@ export default function Home() {
            "
               >
                 <div className="container max-w-[80%] ml-24">
-                  <MainOutput props={gf ? gf : 0} gp={gp} pred={predA} skatt={j} simuskatt={js} />
+                  <MainOutput props={gFinal ? gFinal : 0} gp={gp} pred={predAFinal} skatt={jFinal} simuskatt={jsFinal} />
                   <MainOutput2 props={kf ? kf : 0} pred={ks} />
                   {/* <AccordionOutput/> */}
                 </div>
