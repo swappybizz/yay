@@ -24,7 +24,7 @@ const MainOutput = ({ props, gp, pred ,skatt,simuskatt}) => {
       <div className="w-full flex justify-start" >
           <p className="font-semibold text-sm font-heroSubText text-admit-red">Result for Skatt : {skatt}</p>
           <p className="font-semibold text-sm font-heroSubText text-admit-red ml-10">2023  
-simulert: {simuskatt} </p>
+Simulert: {simuskatt} </p>
 
 
       </div>
