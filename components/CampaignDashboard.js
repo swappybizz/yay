@@ -66,6 +66,7 @@ export default function Home() {
     chain(gf).subtract(g).divide(g).multiply(100).done(),
     2
   ).toLocaleString("no-NO");
+  
   const predA = round(
     evaluate(`(${a}+5%) -((${b}+15%)+(${c}+10%)+(${d}+0%)+(${e}+15%))`),
     2
