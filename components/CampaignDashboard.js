@@ -21,7 +21,7 @@ export default function Home() {
   const [i, setI] = useState(0);
   const j = chain(g).add(h).subtract(i).done().toString();
   const jFinal = chain(g).add(h).subtract(i).done().toLocaleString("no-NO");
-  const k = chain(j).divide(a).multiply(100).done().toString();
+  const k = round(chain(j).divide(a).multiply(100).done(),2).toString();
 
   const [ap, setAp] = useState(0);
   const [bp, setBp] = useState(0);
@@ -162,6 +162,11 @@ export default function Home() {
                     props={"Forutsagt endring %"}
                     setPercent={setIp}
                   />
+                  <p className="font-semibold text-sm font-heroSubText ml-2 text-slate-500">
+                  Resultatgrad: {" "}
+                    <span className="text-admit-red"> {k} %</span>
+                  </p>
+
                 </div>
                 <div className="Flex-col">
                   <DisabledInput
