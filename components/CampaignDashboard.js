@@ -43,7 +43,7 @@ export default function Home() {
   const es = evaluate(`${e}+15%`).toString();
   const ff = sum(bf, cf, df, ef).toString();
   const fs = sum(bs, cs, ds, es).toString();
-  const gf = round(subtract(af, ff),2).toString();
+  const gf = round(subtract(af, ff), 2).toString();
   const gs = subtract(as, fs).toString();
   const hf = evaluate(`${h}+${hp ? hp : 0}%`).toString();
   const hs = evaluate(`${h}+50%`).toString();
@@ -101,13 +101,10 @@ export default function Home() {
                   2023
                 </p>
               </div>
-              
             </div>
             <div className="flex p-5 pt-8 bg-transparent bg-opacity-25 min-w-[50%]  ">
-           
               <div className="flex min-w-[50%] mb-auto justify-around ">
                 <div className="flex-col">
-                    
                   <FormInput props={"Driftsinntekter"} setTesty={setA} />
                   <FormInput props={"Varekostnader"} setTesty={setB} />
                   <FormInput
@@ -243,13 +240,15 @@ export default function Home() {
                     }
                   />
                 </div>
+
               </div>
+              
               <div
                 className=" min-w-[50%] mb-auto 
            "
               >
                 <div className="container max-w-[80%] ml-24">
-                  <MainOutput props={gf ? gf : 0} gp={gp} pred={predA} />
+                  <MainOutput props={gf ? gf : 0} gp={gp} pred={predA} skatt={j} simuskatt={js} />
                   <MainOutput2 props={kf ? kf : 0} pred={ks} />
                   {/* <AccordionOutput/> */}
                 </div>
