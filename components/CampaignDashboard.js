@@ -66,7 +66,7 @@ export default function Home() {
     chain(gf).subtract(g).divide(g).multiply(100).done(),
     2
   ).toLocaleString("no-NO");
-  
+
   const predA = round(
     evaluate(`(${a}+5%) -((${b}+15%)+(${c}+10%)+(${d}+0%)+(${e}+15%))`),
     2
@@ -270,7 +270,7 @@ export default function Home() {
                 <div className="container max-w-[80%] ml-24">
                   <MainOutput
                     props={gFinal ? gFinal : 0}
-                    gp={gpFinal}
+                    gp={gp}
                     pred={predAFinal}
                     skatt={jFinal}
                     simuskatt={jsFinal}

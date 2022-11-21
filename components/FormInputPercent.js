@@ -10,7 +10,6 @@ const FormInputPercent = ({ props, setPercent }) => {
             title="Enter Percent"
             type={"number"}
             numeric
-            inputMode={"numeric"}
             required
             placeholder={"%"}
             onKeyDown={(e) => /[\+\-\.\,]$/.test(e.key) && e.preventDefault()}
