@@ -164,7 +164,7 @@ export default function Home() {
                   />
                   <p className="font-semibold text-sm font-heroSubText ml-2 text-slate-500">
                   Resultatgrad: {" "}
-                    <span className="text-admit-red"> {k} %</span>
+                    <span className="text-admit-red"> {isNaN(k) ? "" : k} %</span>
                   </p>
 
                 </div>
