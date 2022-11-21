@@ -30,6 +30,11 @@ const text5 = {
     "https://outlook.office365.com/owa/calendar/Vidrivermedforretningsutvikling@admit.no/bookings/",
 };
 
+const text6 = {
+
+  bottom : "Vi har tatt en titt på ca 1000 bedrifter i M&R som til sammen hadde 30 milliarder i omsetning og ca 1,8 milliard i overskudd. Frem mot 2023 vil vi alle oppleve en kostnadsøkning på rundt 15% og om vi skal se inn i krystallkula, må man enten øke prisene eller minske kostnadene for å kunne opprettholde sin konkurranseevne. Om vi ikke følger med eller velger å sitte stille i båten kan overskuddet snu til rundt 3 milliarder i minus."
+}
+
 const camp = () => {
   const ref = useRef(null);
   const vidEnd = () => {
@@ -54,6 +59,7 @@ const camp = () => {
         <ThreeMiddleTextTwoButtonSmall ref={ref} props={text1} />
         <CampaignDashboard />
       </div>
+      <ThreeMiddleTextTwoButtonSmall props={text6} />
       <ThreeMiddleTextTwoButtonSmall props={text2} />
       <ThreeMiddleTextTwoButtonSmall props={text3} />
       <ThreeMiddleTextTwoButtonSmall props={text4} />
