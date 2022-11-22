@@ -17,7 +17,7 @@ const Hero = () => {
                 </h2>
               </div>
               <div>
-                <p
+                <h1
                   // data-cursor-exclusion
                   className="mb-8 leading-relaxed sm:text-lg text-lg sm:font-normal font-medium text-gray-900 sm:p-12 p-6"
                 >
@@ -25,7 +25,7 @@ const Hero = () => {
                   kompetanse gjennom vårt støtte- og utviklingsmiljø og skape
                   bærekraftig vekst gjennom innovasjon og bruk av fremtidsrettet
                   verktøy.
-                </p>
+                </h1>
                 <div
                   // data-cursor-exclusion
                   // data-cursor-stick="#stick-title"
