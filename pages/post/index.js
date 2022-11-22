@@ -26,6 +26,7 @@ export default function ({ posts }) {
     // ))}
     // </>
     <>
+    
       {blogPost.map((post) => (
         <div key={post.node.title}>
           <section className="text-gray-600 body-font ">

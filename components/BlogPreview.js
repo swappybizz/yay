@@ -18,7 +18,7 @@ const BlogPreview = () => {
       <section className="text-gray-600 body-font ">
         <div className="container px-5 py-0 md:py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
-            {relatedPosts.map((post) => (
+            {relatedPosts.slice(0).reverse().map((post) => (
               <div key={post.title} className="p-4 md:w-1/3 hover:scale-105 hover:shadow-sm transition-all duration-500 cursor-pointer ">
                 <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                   <img
