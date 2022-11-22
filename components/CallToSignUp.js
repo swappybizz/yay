@@ -34,9 +34,9 @@ const CallToSignUp = () => {
     <form onSubmit={handleSubmit} className="text-gray-600 body-font relative ">
       <div className="container ml-28 pl-2  py-2 mx-auto  ">
         <div className="flex flex-col w-full mb-2 ">
-          <h1 className="sm:text-3xl text-6xl font-admitTitle font-semibold mb-4 text-admit-blue">
+          <h2 className="sm:text-3xl text-6xl font-admitTitle font-semibold mb-4 text-admit-blue">
             Registrer deg her
-          </h1>
+          </h2>
           <p className="lg:w-4/5  leading-relaxed text-base font-heroSubText">
             For å motta en kopi av simuleringen til din e-post, fyll ut her.
           </p>

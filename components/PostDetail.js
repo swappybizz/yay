@@ -67,7 +67,7 @@ const PostDetail = ({ post }) => {
               <span className="align-middle font-heroSubText text-lg font-semibold">{moment(post.createdAt).format('MMM DD, YYYY')}</span>
             </div>
           </div>
-          <h1 className="mb-8 text-6xl font-admitTitle font-semibold">{post.title}</h1>
+          <h2 className="mb-8 text-6xl font-admitTitle font-semibold">{post.title}</h2>
           {post.content.raw.children.map((typeObj, index) => {
             const children = typeObj.children.map((item, itemindex) => getContentFragment(itemindex, item.text, item));
 

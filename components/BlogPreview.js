@@ -28,9 +28,9 @@ const BlogPreview = () => {
                   />
                   <div className="p-6">
                     {/* <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">{post.author.name}</h2> */}
-                    <h1 className="title-font text-2xl  font-admitTitle font-semibold text-gray-900 mb-3">
+                    <h2 className="title-font text-2xl  font-admitTitle font-semibold text-gray-900 mb-3">
                       {post.title}{" "}
-                    </h1>
+                    </h2>
                     <p className="leading-relaxed font-heroSubText text-xl mb-3">{post.excerpt} </p>
                     <div className="flex items-center flex-wrap ">
                       <a

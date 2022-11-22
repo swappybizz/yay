@@ -83,9 +83,9 @@ const lounge = () => {
             )}
 
             {text2.middle && (
-              <h1 className="title-font font-admitTitle sm:text-6xl text-4xl mb-4 font-semibold  text-gray-900">
+              <h2 className="title-font font-admitTitle sm:text-6xl text-4xl mb-4 font-semibold  text-gray-900">
                 {text2.middle}
-              </h1>
+              </h2>
             )}
 
             {text2.bottom && (

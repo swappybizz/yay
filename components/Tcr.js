@@ -10,9 +10,9 @@ const Tcr = (props) => {
               <div className="flex relative ">
                 <div className="px-2 py-2 relative z-10 text-center flex flex-col w-52 h-52 p-5 md:w-[25rem] md:h-[25rem] items-center  pt-16 rounded-full border-4 transition-all duration-500 border-admit-blue bg-white ">
                   {/* <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2> */}
-                  <h1 className="title-font font-admitTitle text-3xl font-semibold text-gray-900 mb-2 mt-4 md:mt-0">
+                  <h2 className="title-font font-admitTitle text-3xl font-semibold text-gray-900 mb-2 mt-4 md:mt-0">
                     {props.props.leftTop}
-                  </h1>
+                  </h2>
                   <p className=" hidden md:flex font-heroSubText px-6 text-xl leading-relaxed">
                     {props.props.leftBottom}
                   </p>
@@ -22,9 +22,9 @@ const Tcr = (props) => {
             <div className="lg:w-1/3 sm:w-1/2 flex justify-center items-center mr-auto translate-x-[-0%] mb-12 md:translate-x-0">
               <div className="flex relative">
                 <div className="px-2 py-2 relative z-10 text-center flex flex-col w-52 h-52 p-5 md:w-[25rem] md:h-[25rem] items-center  pt-16 rounded-full border-4 transition-all duration-500 border-admit-red bg-white  ">
-                <h1 className="title-font font-admitTitle text-3xl font-semibold text-gray-900 mb-3 mt-4 md:mt-0">
+                <h2 className="title-font font-admitTitle text-3xl font-semibold text-gray-900 mb-3 mt-4 md:mt-0">
                     {props.props.middleTop}
-                  </h1>
+                  </h2>
                   <p className="leading-relaxed font-heroSubText px-6 text-xl hidden md:flex">
                     {props.props.middleBottom}
                   </p>
@@ -38,9 +38,9 @@ const Tcr = (props) => {
             >
               <div className="flex relative">
                 <div className="px-2 py-2 relative z-10 text-center flex flex-col w-52 h-52 p-5 md:w-[25rem] md:h-[25rem] items-center pt-16 rounded-full border-4 transition-all duration-500 border-[#73c3d5] bg-white  ">
-                  <h1 className="title-font font-admitTitle text-3xl font-semibold text-gray-900 mb-3 mt-4 md:mt-0">
+                  <h2 className="title-font font-admitTitle text-3xl font-semibold text-gray-900 mb-3 mt-4 md:mt-0">
                     {props.props.rightTop}
-                  </h1>
+                  </h2>
                   <p className="leading-relaxed font-heroSubText px-6 text-xl hidden md:flex">
                     {props.props.rightBottom}
                   </p>

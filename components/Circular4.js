@@ -20,9 +20,9 @@ const Circular4 = () => {
                 />
                 <div className="px-2 py-2 relative w-48 h-48 p-5 md:w-72 md:h-72 z-10 text-center flex flex-col items-center justify-center  rounded-full border-4 transition-all duration-500 border-admit-blue bg-white opacity-0 hover:opacity-100">
                   {/* <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2> */}
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Strategi
-                  </h1>
+                  </h2>
                   <p className="hidden md:block leading-relaxed font-heroSubText">
                     For å sette forretningsidéen og visjonen ut i livet må
                     bedriften jobbe frem en overordnet strategi.
@@ -45,9 +45,9 @@ const Circular4 = () => {
                 />
                 <div className="px-2 py-2 relative z-10 text-center flex flex-col w-48 h-48 p-5 md:w-72 md:h-72 items-center justify-center rounded-full border-4 transition-all duration-500 border-admit-blue bg-white opacity-0 hover:opacity-100">
                   {/* <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2> */}
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
                     HR/HMS
-                  </h1>
+                  </h2>
                   <p className="hidden md:block leading-relaxed font-heroSubText">
                   For oss i Admit handler HR og HMS om å bygge sterke og velfungerende team, sett i sammenheng med systemtenkning.
                     
@@ -70,9 +70,9 @@ const Circular4 = () => {
                 />
                 <div className="px-2 py-2 relative z-10 text-center flex flex-col items-center justify-center w-48 h-48 p-5 md:w-72 md:h-72 rounded-full border-4 transition-all duration-500 border-admit-blue bg-white opacity-0 hover:opacity-100">
                   {/* <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2> */}
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
                     System
-                  </h1>
+                  </h2>
                   <p className="hidden md:block leading-relaxed font-heroSubText">
                   Admit jobber med å utvikle lærende organisasjoner gjennom prosessledelse.
                     
@@ -100,9 +100,9 @@ const Circular4 = () => {
                 />
                 <div className="px-2 py-2 relative z-10 text-center flex flex-col items-center justify-center w-48 h-48 p-5 md:w-72 md:h-72 rounded-full border-4 transition-all duration-500 border-admit-blue bg-white opacity-0 hover:opacity-100">
                   {/* <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2> */}
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Digitalisering
-                  </h1>
+                  </h2>
                   <p className="hidden md:block leading-relaxed font-heroSubText">
                   Digitalisering handler om å bruke datamaskiner og annen digital teknologi til å fornye, forenkle og forbedre prosesser.
                   </p>
@@ -124,9 +124,9 @@ const Circular4 = () => {
                 />
                 <div className="px-2 py-2 relative z-10 text-center flex flex-col items-center justify-center w-48 h-48 p-5 md:w-72 md:h-72 rounded-full border-4 transition-all duration-500 border-admit-blue bg-white opacity-0 hover:opacity-100">
                   {/* <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2> */}
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Økonomi
-                  </h1>
+                  </h2>
                   <p className="hidden md:block leading-relaxed font-heroSubText">
                     Få bedre oversikt og kontroll over din økonomi og likviditet.
                   </p>
@@ -148,9 +148,9 @@ const Circular4 = () => {
                 />
                 <div className="px-2 py-2 relative z-10 text-center flex flex-col items-center justify-center w-48 h-48 p-5 md:w-72 md:h-72 rounded-full border-4 transition-all duration-500 border-admit-blue bg-white opacity-0 hover:opacity-100">
                   {/* <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2> */}
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                  <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
                     Markedsføring
-                  </h1>
+                  </h2>
                   <p className="hidden md:block leading-relaxed font-heroSubText">
                     Besøk vår markedsavdeling.
                   </p>

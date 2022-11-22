@@ -1,0 +1,44 @@
+# Query: <h1
+
+19 results - 11 files
+
+yay\components\Circular4.js:
+   73:                   <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
+  103:                   <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
+  127:                   <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
+  151:                   <h2 className="title-font text-lg font-medium text-gray-900 mb-3">
+
+yay\components\FullPageImage.js:
+  18:             <h2 className="title-font sm:text-8xl text-4xl font-admitTitle mb-4 font-semibold  text-white">
+
+yay\components\Hero.js:
+  14:                 <h2 className="title-font sm:text-9xl text-8xl mb-4 text-opacity-90 text-center text-gray-900">
+
+yay\components\Hero2.js:
+  13:         <h2 className="admitHeroText">#weadmit</h1>
+
+yay\components\Outro.js:
+  10:             <h2 className="title-font sm:text-6xl text-4xl mb-4 font-semibold font-admitTitle text-gray-900">
+
+yay\components\PostCard.js:
+  24:     <h2 className="transition duration-700 text-center mb-8 font-admitTitle cursor-pointer hover:text-pink-600 text-3xl font-semibold">
+
+yay\components\PostDetail.js:
+  70:           <h2 className="mb-8 text-6xl font-admitTitle font-semibold">{post.title}</h1>
+
+yay\components\Tcr.js:
+  13:                   <h2 className="title-font font-admitTitle text-3xl font-semibold text-gray-900 mb-2 mt-4 md:mt-0">
+  25:                 <h2 className="title-font font-admitTitle text-3xl font-semibold text-gray-900 mb-3 mt-4 md:mt-0">
+  41:                   <h2 className="title-font font-admitTitle text-3xl font-semibold text-gray-900 mb-3 mt-4 md:mt-0">
+
+yay\components\WeAdmit.js:
+  9:             {/* <h2 className="title-font sm:text-8xl font-admitTitle text-6xl mb-4 font-medium text-gray-900">
+
+yay\pages\avatar.js:
+  101:                   <h2 className="title-font font-admitTitle text-3xl font-semibold text-gray-900 mb-3 mt-3 md:mt-0">
+  113:                 <h2 className="title-font font-admitTitle text-3xl font-semibold text-gray-900 mb-3 mt-3 md:mt-0">
+  129:                   <h2 className="title-font font-admitTitle text-3xl font-semibold text-gray-900 mb-3 mt-3 md:mt-0">
+  163:               <h2 className="title-font font-admitTitle sm:text-6xl text-4xl mb-4 font-semibold  text-gray-900">
+
+yay\pages\lounge.js:
+  86:               <h2 className="title-font font-admitTitle sm:text-6xl text-4xl mb-4 font-semibold  text-gray-900">

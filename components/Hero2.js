@@ -10,7 +10,7 @@ const Hero2 = () => {
   return (
     <div>
       <div className="admitHero">
-        <h1 className="admitHeroText">#weadmit</h1>
+        <h2 className="admitHeroText">#weadmit</h2>
         <div className="admitHeroSubtext">
           Vi forplikter oss til: <br></br>Ved hjelp av vårt støtte- og
           utviklingsmiljø bidrar vi til vekst og bærekraftig utvikling <br></br>
