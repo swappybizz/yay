@@ -81,7 +81,7 @@ const PostDetail = ({ post }) => {
          target="_blank"
           rel="noopener noreferrer"
          
-         >Test våre Simuleringskalkulator</a>:"" }
+         >Test vår Simuleringskalkulator</a>:"" }
         
       </div>
 
