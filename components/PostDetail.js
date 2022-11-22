@@ -3,6 +3,7 @@ import React from 'react';
 import moment from 'moment';
 
 const PostDetail = ({ post }) => {
+  
 
   const getContentFragment = (index, text, obj, type) => {
     let modifiedText = text;
@@ -72,8 +73,16 @@ const PostDetail = ({ post }) => {
             const children = typeObj.children.map((item, itemindex) => getContentFragment(itemindex, item.text, item));
 
             return getContentFragment(index, children, typeObj, typeObj.type);
+            
           })}
         </div>
+        {post.title == "Hvordan unngå konkurs og nedbemanning ?" ?<a className='font-heroSubText font-semibold text-lg text-admit-red hover:scale-105 hover:text-admit-blue transition-all duration-500'
+         href="/camp"
+         target="_blank"
+          rel="noopener noreferrer"
+         
+         >Test våre Simuleringskalkulator</a>:"" }
+        
       </div>
 
     </>
