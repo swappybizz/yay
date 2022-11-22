@@ -3,6 +3,10 @@ import React from "react";
 const Hero = () => {
   return (
     <>
+      <h1 className="hidden" >#weadmit pil vi innrømmer, vi forplikter oss til; å dele
+                  kompetanse gjennom vårt støtte- og utviklingsmiljø og skape
+                  bærekraftig vekst gjennom innovasjon og bruk av fremtidsrettet
+                  verktøy.</h1>
       <section className="text-gray-600 body-font bg-gradient-to-b from-white to-admit-red via-slate-400 ">
         <div className="container sm:p-48 mx-auto flex px-5 py-24 items-center justify-center flex-col">
           <div className="text-center lg:w-2/3 w-full">
