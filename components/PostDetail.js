@@ -76,7 +76,8 @@ const PostDetail = ({ post }) => {
             
           })}
         </div>
-        <div className='flex-col '>
+        <div className='flex-col mt-24'>
+          
         {post.title == "Hvordan unngå konkurs og nedbemanning ?" ?<a className='font-heroSubText font-semibold text-lg text-admit-red hover:scale-105 hover:text-admit-blue transition-all duration-500'
          href="/camp"
          target="_blank"
@@ -89,6 +90,12 @@ const PostDetail = ({ post }) => {
           rel="noopener noreferrer"
          
          >Blir det svarte år for SMB bedrifter på Vestlandet ?</a>:"" }
+        {post.title == "Blir det svarte år for SMB bedrifter på Vestlandet ?" ?<a className='ml-4 font-heroSubText font-semibold text-lg text-admit-blue hover:scale-105 hover:text-admit-red transition-all duration-500'
+         href="/post/nedbemanning"
+         target="_blank"
+          rel="noopener noreferrer"
+         
+         >Hvordan unngå konkurs og nedbemanning ?</a>:"" }
         </div>
       </div>
 
