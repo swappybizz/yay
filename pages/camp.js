@@ -20,7 +20,7 @@ const text3 = {
 const text4 = {
   middle: " Hvordan? ",
   bottom:
-    " Prinsippet går ut på å identifisere ressurser som aktiviteten krever, kalkulerer faste og variable kostnader og vurderer dette opp mot inntektene. På den måten får man fram det såkalte dekningsbidraget (salg – variable kostnader). Vurdert opp mot faste kostnader kan man beregne hva som skal til av omsetning for at aktiviteten skal gå med over- eller underskudd. Det kan godt være at aktiviteten isolert går med underskudd, men at intern avhengighet gjør at man likevel tar med den ulønnsomme aktiviteten. For å avgjøre hva som er faste og variable kostnader, benytter vi egne regnemodeller. ",
+    " Prinsippet går ut på å identifisere ressurser som aktiviteten krever, kalkulere faste og variable kostnader og vurderer dette opp mot inntektene. På den måten får man fram det såkalte dekningsbidraget (salg – variable kostnader). Vurdert opp mot faste kostnader kan man beregne hva som skal til av omsetning for at aktiviteten skal gå med over- eller underskudd. Det kan godt være at aktiviteten isolert går med underskudd, men at intern avhengighet gjør at man likevel tar med den ulønnsomme aktiviteten. For å avgjøre hva som er faste og variable kostnader, benytter vi egne regnemodeller. ",
 };
 const text5 = {
   middle: "Få oversikt",
@@ -32,7 +32,7 @@ const text5 = {
 
 const text6 = {
 
-  bottom : "Vi har tatt en titt på ca 1000 bedrifter i M&R som til sammen hadde 30 milliarder i omsetning og ca 1,8 milliard i overskudd. Frem mot 2023 vil vi alle oppleve en kostnadsøkning på rundt 15% og om vi skal se inn i krystallkula, må man enten øke prisene eller minske kostnadene for å kunne opprettholde sin konkurranseevne. Om vi ikke følger med eller velger å sitte stille i båten kan overskuddet snu til rundt 3 milliarder i minus."
+  bottom : "Vi har tatt en titt på ca 1000 SMB bedrifter i M&R som til sammen hadde 30 milliarder i omsetning og ca 1,8 milliard i overskudd. Frem mot 2023 vil vi alle oppleve en kostnadsøkning på rundt 15% og om vi skal se inn i krystallkula, må man enten øke prisene eller minske kostnadene for å kunne opprettholde sin konkurranseevne. Om vi ikke følger med eller velger å sitte stille i båten kan overskuddet snu til rundt 3 milliarder i minus."
 }
 
 const camp = () => {
