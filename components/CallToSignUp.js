@@ -38,7 +38,7 @@ const CallToSignUp = () => {
             Registrer deg her
           </h2>
           <p className="lg:w-4/5  leading-relaxed text-base font-heroSubText">
-            For å motta en kopi av simuleringen til din e-post, fyll ut her.
+          Interessert i å lære mer om temaet og få utført flere simuleringer ? Fyll ut her.
           </p>
         </div>
         <div className="lg:w-5/6 md:w-2/3 ">
