@@ -116,7 +116,7 @@ const PostDetail = ({ post }) => {
           {post.title == "Hvordan unngå konkurs og nedbemanning ?" ? (
             <a
               className="font-heroSubText font-semibold text-lg text-admit-red hover:scale-105 hover:text-admit-blue transition-all duration-500"
-              href="/camp"
+              href="/abc"
               target="_blank"
               rel="noopener noreferrer"
             >
