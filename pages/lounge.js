@@ -21,7 +21,6 @@ const text3 = {
   bottom:
     "Høyhastighets wifi​--Printer/scanner​--Ekstra skjerm​Kaffe/te​ Rabatterte priser på studiotid og eventer ​",
 };
-
 const text6 = {
   middle: "Bli medlem",
   // button1: "Bli Medlem",
