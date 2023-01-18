@@ -29,7 +29,7 @@ function Rig({ children }) {
 
 export default function Camp2() {
   return (
-    <>
+    <div className="  ">
       <div className="flex h-screen align-middle items-center pr-5 transition-all duration-1000">
         <Canvas
           className="max-h-[100%] overflow-visible"
@@ -164,6 +164,6 @@ export default function Camp2() {
           <p className="font-heroSubText font-semibold mt-5">Noe for din bedrift? </p>
         </div>
       </div>
-    </>
+    </div>
   );
 }
