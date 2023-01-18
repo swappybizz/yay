@@ -516,3 +516,21 @@ input[type=number] {
     font-size: 0.5rem;
     line-height: 0.6rem;
 }
+
+#sms{
+stroke-dasharray:5705;
+stroke-dasoffset:5705;
+animation : 3s fill linear ;
+
+
+}
+
+@keyframes fill{
+  0% {
+  stroke-dasoffset:5705;
+  }
+  100%{
+  stroke-dasoffset:0;
+  }
+
+}

@@ -4,7 +4,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { ContactShadows } from "@react-three/drei";
 import Model from "../components/Model";
 import Content from "../components/Content";
-import ThreeMiddleTextTwoButtonSmall from "../components/ThreeMiddleTextTwoButtonSmall";
+import Samskape from "../components/Samskape";
 
 const text1 = {
   bottom:
@@ -123,6 +123,46 @@ export default function Camp2() {
         </div>
 
         <div className="justify-center items-center "></div>
+      </div>
+      <div className="flex h-screen align-middle items-center pr-5 transition-all duration-1000">
+        <Samskape/>
+        <div className="w-1/2 pr-10">
+          
+          <b className="text-6xl font-admitTitle ">
+            <p className="group transition duration-300 overflow-hiddens">
+                
+              <span class="block max-w-0 group-hover:max-w-[80%] transition-all duration-500 h-0.5 bg-admit-red"></span>
+            </p>
+            <p className="group transition duration-300">
+              Markedsteam til leie
+              <span class="block max-w-0 group-hover:max-w-[80%] transition-all duration-500 h-0.5 bg-admit-dark-blue"></span>
+            </p>
+          </b>
+
+          <p className="pt-10 font-heroSubText">
+            Våre markedsteam består av både in house-kompetanse og eksterne
+            leverandører som settes sammen til team etter hvilke behov og
+            utfordringer kunden har. Team som har fokus på å forstå kundens
+            behov og produkter for å kunne markedsføres i relevante kanaler på
+            en optimal måte. Samskapingsteam, som våre, har den ekstra fordelen
+            at deltagerne ofte har ulike idéer og perspektiver, som igjen kan
+            lede til bedre og mer innovative markedsføringsstrategier og
+            kampanjer. Første steg i samarbeidet, er at vi setter av, minimum, 3
+            timer til en workshop, der både ledelse og produktutviklere er med
+            for å gi nødvendig innsikt om bedriften, produktene, kundebehov og
+            hvilke marked en skal bevege seg i. En kvalitetssikring av det
+            videre samarbeidet, der alle har lik forståelse for oppdraget. Ved å
+            leie inn markedsteam, får en tilgang på riktig kompetanse til riktig
+            tid, uten å ha en hel markedsavdeling fast ansatt i bedriften.
+            Ressursene blir brukt i hold til både bedrifts- og markedsstrategien
+            og gir effektiv bruk av din verdifulle tid og kapasitet. I tillegg
+            er våre team vant til å jobbe på tvers av de store fagområder, som
+            del av Product management teams, noe som gir større forståelse for
+            helheten av en bedrift og hva de ulike avdelinger kan og bør bidra
+            med.
+          </p>
+          <p className="font-heroSubText font-semibold mt-5">Noe for din bedrift? </p>
+        </div>
       </div>
     </>
   );
