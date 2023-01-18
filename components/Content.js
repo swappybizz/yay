@@ -6,7 +6,7 @@ import { Reflector, Text, useTexture, useGLTF } from '@react-three/drei'
 export default function App() {
   return (
     <div className='h-screen pt-11 overflow-visible'>
-    <Canvas concurrent gl={{ alpha: false }} pixelRatio={[1, 1.5]} camera={{ position: [0, 3, 100], fov: 25 }}>
+    <Canvas concurrent gl={{ alpha: false }} pixelRatio={[1, 1.5]} camera={{ position: [0, 3, 100], fov: 50 }}>
       <color attach="background" args={['#fff']} />
       <fog attach="fog" args={['black', 15, 20]} />
       <Suspense fallback={null}>
@@ -15,8 +15,19 @@ export default function App() {
           <VideoText position={[0, 1.3, -2]} />
           <Ground />
         </group>
-        <ambientLight intensity={0.5} />
-        <spotLight position={[0, 10, 0]} intensity={0.3} />
+        <pointLight position={[100, 100, 100]} intensity={0.8} />
+          <hemisphereLight
+            color="#002A3A"
+            groundColor="#b9b9b9"
+            position={[-7, 2, 13]}
+            intensity={0.95}
+          />
+          <hemisphereLight
+            color="#FF595A"
+            groundColor="#b9b9b9"
+            position={[7, -2, -13]}
+            intensity={0.95}
+          />
         <directionalLight position={[-50, 0, -40]} intensity={0.7} />
         <Intro />
       </Suspense>
@@ -34,7 +45,7 @@ function VideoText(props) {
   const [video] = useState(() => Object.assign(document.createElement('video'), { src: '/drei.mp4', crossOrigin: 'Anonymous', loop: true, muted: true }))
   useEffect(() => void video.play(), [video])
   return (
-    <Text font="/Inter-Bold.woff" fontSize={2} letterSpacing={-0.06} {...props}>
+    <Text font="/Syncopate-Bold.ttf" fontSize={2} letterSpacing={-0.06} {...props}>
       ADMIT
       <meshBasicMaterial toneMapped={false}>
         <videoTexture attach="map" args={[video]} encoding={THREE.sRGBEncoding} />
@@ -44,10 +55,10 @@ function VideoText(props) {
 }
 
 function Ground() {
-  const [floor, normal] = useTexture(['/SurfaceImperfections003_1K_var1.jpg', '/SurfaceImperfections003_1K_Normal.jpg'])
+  
   return (
     <Reflector blur={[400, 100]} resolution={512} args={[10, 10]} mirror={0.5} mixBlur={6} mixStrength={1.5} rotation={[-Math.PI / 2, 0, Math.PI / 2]}>
-      {(Material, props) => <Material color="#fff" metalness={0.4} roughnessMap={floor} normalMap={normal} normalScale={[2, 2]} {...props} />}
+      {(Material, props) => <Material color="#fff" metalness={0.9}  normalScale={[2, 2]} {...props} />}
     </Reflector>
   )
 }
