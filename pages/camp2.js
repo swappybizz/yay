@@ -125,8 +125,11 @@ export default function Camp2() {
         <div className="justify-center items-center "></div>
       </div>
       <div className="flex h-screen align-middle items-center pr-5 transition-all duration-1000">
+        
+        <div className="w-1/2 ml-12 ">
         <Samskape/>
-        <div className="w-1/2 pr-10">
+        </div>
+        <div className="w-1/2 mr-12">
           
           <b className="text-6xl font-admitTitle ">
             <p className="group transition duration-300 overflow-hiddens">
