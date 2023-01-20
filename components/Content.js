@@ -1,19 +1,20 @@
-import * as THREE from 'three'
+
+import { Vector3 } from 'three'
 import React, { Suspense, useEffect, useState } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
-import { Reflector, Text, useGLTF } from '@react-three/drei'
+import { Text, useGLTF } from '@react-three/drei'
 
 export default function App() {
   return (
     <div className='h-screen pt-11 overflow-visible'>
-    <Canvas concurrent gl={{ alpha: false }} pixelRatio={[1, 1.5]} camera={{ position: [0, 3, 100], fov: 50 }}>
+    <Canvas concurrent gl={{ alpha: false }} pixelRatio={[1, 1.5]} camera={{ position: [50, 3, 100], fov: 30 }}>
       <color attach="background" args={['#fff']} />
       <fog attach="fog" args={['black', 15, 20]} />
       <Suspense fallback={null}>
         <group position={[0, -1, 0]}>
-          <Carla rotation={[0, Math.PI - 0.4, 0]} position={[-1.2, 0, 0.6]} scale={[0.26, 0.26, 0.26]} />
+          <Carla rotation={[0, Math.PI + 0.4, 0]} position={[2.2, 0, 0.6]} scale={[0.26, 0.26, 0.26]} />
           <VideoText position={[0, 1.3, -2]} />
-          <Ground />
+          
         </group>
         <pointLight position={[100, 100, 100]} intensity={0.8} />
           <hemisphereLight
@@ -48,23 +49,18 @@ function VideoText(props) {
     <Text font="/Syncopate-Bold.ttf" fontSize={2} letterSpacing={-0.06} {...props}>
       ADMIT
       <meshBasicMaterial toneMapped={false}>
-        <videoTexture attach="map" args={[video]} encoding={THREE.sRGBEncoding} />
+        <videoTexture attach="map" args={[video]} 
+        // encoding={THREE.sRGBEncoding} 
+        />
       </meshBasicMaterial>
     </Text>
   )
 }
 
-function Ground() {
-  
-  return (
-    <Reflector blur={[400, 100]} resolution={512} args={[10, 10]} mirror={0.5} mixBlur={6} mixStrength={1.5} rotation={[-Math.PI / 2, 0, Math.PI / 2]}>
-      {(Material, props) => <Material color="#fff" metalness={0.9}  normalScale={[2, 2]} {...props} />}
-    </Reflector>
-  )
-}
+
 
 function Intro() {
-  const [vec] = useState(() => new THREE.Vector3())
+  const [vec] = useState(() => new Vector3())
   return useFrame((state) => {
     state.camera.position.lerp(vec.set(state.mouse.x * 5, 3 + state.mouse.y * 2, 14), 0.05)
     state.camera.lookAt(0, 0, 0)

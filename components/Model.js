@@ -8,22 +8,17 @@ export default function Model({ url, ...props }) {
   const { nodes, materials } = useGLTF(url)
   useFrame((state) => {
     group.current.children.forEach((child, index) => {
-      child.position.y += Math.sin(index * 1000 + state.clock.elapsedTime) / 50
-      child.rotation.x += (Math.sin(index * 1000 + state.clock.elapsedTime) * Math.PI) / 2000
-      child.rotation.y += (Math.cos(index * 1000 + state.clock.elapsedTime) * Math.PI) / 3000
-      child.rotation.z += (Math.sin(index * 1000 + state.clock.elapsedTime) * Math.PI) / 4000
+      child.position.y += Math.sin(index * 900 + state.clock.elapsedTime) / 50
+      child.rotation.x += (Math.sin(index * 900 + state.clock.elapsedTime) * Math.PI) / 2000
+      child.rotation.y += (Math.cos(index * 900 + state.clock.elapsedTime) * Math.PI) / 3000
+      child.rotation.z += (Math.sin(index * 900 + state.clock.elapsedTime) * Math.PI) / 4000
     })
   })
   return (
     <group ref={group} {...props} dispose={null}>
       
       
-      <mesh
-        material={materials.M_Headphone}
-        geometry={nodes.Headphones.geometry}
-        position={[20.22, 1.99, 4.03]}
-        rotation={[1.55, 0.32, -0.76]}
-      />
+      
       <mesh
         material={materials.M_Notebook}
         geometry={nodes.Notebook.geometry}
@@ -33,17 +28,26 @@ export default function Model({ url, ...props }) {
       <mesh
         material={materials.M_Rocket}
         geometry={nodes.Rocket003.geometry}
-        position={[7.58, 10.26, -25.21]}
+        position={[17.58, 10.26, -25.21]}
         rotation={[1.14, 0.81, 0.44]}
       />
       <mesh
         material={materials.M_Roundcube}
         geometry={nodes.Roundcube001.geometry}
-        position={[-21.17, 4.1, -12.07]}
+        position={[0.59, -3.79, -27.84]}
         rotation={[1.55, 0.05, 0.45]}
         scale={[0.5, 0.5, 0.5]}
+        />
+      <mesh
+        position={[-21.17, -4.1, -12.07]}
+        // material={materials.M_Table}
+        // geometry={nodes.Table.geometry}
+        material={materials.M_Headphone}
+        geometry={nodes.Headphones.geometry}
+        
+        rotation={[0.98, 0.15, -1.24]}
+        scale={[0.5, 0.5, 0.5]}
       />
-      
       <mesh
         material={materials.M_Headset}
         geometry={nodes.VR_Headset.geometry}
