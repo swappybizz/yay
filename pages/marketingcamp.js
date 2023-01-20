@@ -14,7 +14,7 @@ const marketingcamp = () => {
           <Floatings />
         </div>
         <div class="container px-5 py-16 mx-auto flex font-admitTitle">
-          <div class="lg:w-2/5 md:w-1/2 bg-transparent rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-none md:shadow-none">
+          <div class="lg:w-2/5 md:w-1/2 bg-transparent rounded-lg p-0 md:p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-none md:shadow-none">
             <div className="font-heroSubText font-semibold mb-5">
               Er du klar for å ta din markedsføring et skritt videre?
             </div>
@@ -58,7 +58,7 @@ const marketingcamp = () => {
       </section>
       <section class="text-gray-600 body-font relative">
         <div class="container px-5 py-2 md:py-16 mx-auto flex">
-          <div class="lg:w-1/2 md:w-1/2 bg-white bg-opacity-60 rounded-lg p-8 flex flex-col md:mr-auto w-full mt-10 md:mt-0 relative z-10 shadow-none md:shadow-none">
+          <div class="lg:w-1/2 md:w-1/2 bg-white bg-opacity-60 rounded-lg p-0 md:p-8 flex flex-col md:mr-auto w-full mt-10 md:mt-0 relative z-10 shadow-none md:shadow-none">
             <div className="font-heroSubText font-semibold mb-5"></div>
 
             <b class=" text-6xl font-admitTitle mb-6 text-gray-600 ">
@@ -127,7 +127,7 @@ const marketingcamp = () => {
           src="./team.gif"
         />
         <div class="container px-5  font-admitTitle flex-col md:flex ">
-          <div class="lg:w-1/2 md:w-1/2 bg-transparent rounded-lg p-8 flex flex-col md:ml-auto w-full md:mt-24 relative z-10 shadow-none md:shadow-none">
+          <div class="lg:w-1/2 md:w-1/2 bg-transparent rounded-lg p-0 md:p-8 flex flex-col md:ml-auto w-full md:mt-24 relative z-10 shadow-none md:shadow-none">
             <div className="font-heroSubText font-semibold mb-5"></div>
 
             <b class=" text-6xl font-admitTitle mb-6 text-gray-600">
