@@ -53,7 +53,7 @@ export default function Model({ url, ...props }) {
         geometry={nodes.VR_Headset.geometry}
         position={[6.92, -15.17, 27.59]}
         rotation={[1.29, 0.08, -0.64]}
-        scale={[5, 5, 5]}
+        scale={[2.5, 2.5, 2.5]}
       />
       
     </group>
