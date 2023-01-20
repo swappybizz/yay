@@ -1,7 +1,7 @@
 import * as THREE from "three";
 import React, { Suspense, useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
-import { ContactShadows } from "@react-three/drei";
+import { ContactShadows,Text } from "@react-three/drei";
 import Model from "../components/Model";
 import Content from "../components/Content";
 import Samskape from "../components/Samskape";
@@ -49,7 +49,7 @@ export default function Camp2() {
             position={[7, -2, -13]}
             intensity={0.95}
           />
-          <Suspense fallback={null}>
+          <Suspense fallback={<Text className="text-6xl font-extralight">Laster magiske bønner vent..</Text>}>
             <group position={[0, 10, 0]}>
               <Rig>
                 <Model url="/compressed.glb" />
@@ -67,9 +67,9 @@ export default function Camp2() {
           </Suspense>
         </Canvas>
         <div className="w-1/2 pr-10">
-          <p className="font-heroSubText font-semibold mb-5">
+          <div className="font-heroSubText font-semibold mb-5">
             Er du klar for å ta din markedsføring et skritt videre?
-          </p>
+          </div>
           <b className="text-6xl font-admitTitle ">
             Når du frem med{" "}
             <p className="group transition duration-300 overflow-hiddens">
@@ -119,7 +119,11 @@ export default function Camp2() {
           </p>
         </div>
         <div className="w-full">
-          <Content />
+          <Suspense fallback= {
+            <Text className="text-6xl font-extralight">Laster magiske bønner vent..</Text>
+          }><Content />
+          </Suspense>
+          
         </div>
 
         <div className="justify-center items-center "></div>
@@ -127,7 +131,11 @@ export default function Camp2() {
       <div className="flex h-screen align-middle items-center pr-5 transition-all duration-1000">
         
         <div className="w-1/2 ml-12 ">
-        <Samskape/>
+        <Suspense fallback= {
+            <Text className="text-6xl font-extralight">Laster magiske bønner vent..</Text>
+          }><Samskape/>
+          </Suspense>
+        
         </div>
         <div className="w-1/2 mr-12">
           
