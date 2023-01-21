@@ -13,7 +13,7 @@ export default function Asci() {
       <pointLight position={[-10, -10, -15]} />
       <Torusknot />
       {/* <OrbitControls /> */}
-      <AsciiRenderer fgColor="black" bgColor="white" />
+      <AsciiRenderer fgColor="#FF595A" bgColor="white" />
     </Canvas>
   )
 }
