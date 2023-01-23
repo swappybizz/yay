@@ -25,9 +25,9 @@ export default function aicamp() {
         <Sphere scale={0.25} position={[-3, 0, 2]} />
         <Sphere scale={0.25} position={[-4, 0, -2]} />
         <Sphere scale={0.65} position={[3.5, 0, -2]} />
-        <Text position={[-0, 6, -10]} font="/Inter-Regular.woff" fontSize={1}>
+        <Text position={[-0, 6, -9]} font="/Inter-Regular.woff" fontSize={1}>
         Hvordan forstå og bruke 
-          <meshStandardMaterial color="#aaa" toneMapped={false} />
+          <meshStandardMaterial color="#002856" toneMapped={false} />
         </Text>
         <Text position={[1, 2, -10]} font="/Inter-Regular.woff" fontSize={10}>
          AI

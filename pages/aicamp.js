@@ -17,15 +17,14 @@ const aicamp = () => {
                 for="email"
                 class="leading-7 text-lg text-gray-800 font-heroSubText"
               >
-                I dagens jungel av ulike og lett tilgjengelige kanaler og
-                muligheter for markedsføring, kan det være vanskelig å velge ut
-                de mest relevante for sin bedrift og sine produkter.
-                Markedsføringsfaget og markedskompetanse har forandret seg mye
-                de siste årene og er, i økende grad, mer spisset inn i ulike små
-                fagfelt som søkemotoroptimalisering, tekstredigering, webdesign,
-                sosiale medier, videoredigering, digital annonsering mm..
-                Kompetansefelt som er nødvendig for å kunne fortsette å være
-                konkurransedyktig og ha bærekraftig utvikling.
+                AI er et av de feltene innenfor teknologi som det snakkes mest
+                om og har størst vekst i dag. Kunstig intelligens, eller
+                informasjonsteknologi, som blir brukt til alt fra selvkjørende
+                biler til søkemotorer. Til å skape nye innovative løsninger som
+                forandrer måten vi lever og jobber på. Men hva ER egentlig AI og
+                hvordan fungerer det? I denne bloggen skal vi ta en nærmere titt
+                på grunnlaget for AI og noen av nøkkelfunksjonene og teknologien
+                som driver utviklingen av den.
               </label>
             </div>
             <div class="relative mb-4">
@@ -169,9 +168,8 @@ const aicamp = () => {
             </p>
             <span class="inline-block h-1 w-10 rounded bg-admit-red mt-8 mb-6"></span>
             <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
-            Konklusjon 
+              Konklusjon
             </h2>
-            
           </div>
         </div>
       </section>
