@@ -67,7 +67,7 @@ const marketingcamp = () => {
                 <span class="block max-w-0 group-hover:max-w-[80%] transition-all duration-500 h-0.5 bg-admit-red"></span>
               </p>
               <p className="group transition text-gray-800 duration-300 text-2xl md:text-6xl">
-                markedsføringsinnhold
+              medieinnhold
                 <span class="block max-w-0 group-hover:max-w-[80%] transition-all duration-500 h-0.5 bg-admit-dark-blue"></span>
               </p>
             </b>
@@ -101,7 +101,7 @@ const marketingcamp = () => {
                 </span>
                 <a
                   href="/aicamp"
-                  class="flex ml-auto text-white bg-admit-blue border-0 py-2 px-6 focus:outline-none hover:bg-admit-dark-blue rounded"
+                  class="flex mr-auto ml-10 text-white bg-admit-blue border-0 py-2 px-6  focus:outline-none hover:bg-admit-dark-blue rounded"
                 >
                   Se Mer
                 </a>
