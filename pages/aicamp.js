@@ -15,7 +15,7 @@ const aicamp = () => {
             <div class="relative mb-4">
               <label
                 for="email"
-                class="leading-7 text-sm text-gray-800 font-heroSubText"
+                class="leading-7 text-lg text-gray-800 font-heroSubText"
               >
                 I dagens jungel av ulike og lett tilgjengelige kanaler og
                 muligheter for markedsføring, kan det være vanskelig å velge ut
@@ -47,7 +47,7 @@ const aicamp = () => {
             <div class="relative mb-4 md:mt-48">
               <label
                 for="email"
-                class="leading-7 text-sm text-gray-800 font-heroSubText"
+                class="leading-7 text-lg text-gray-800 font-heroSubText"
               >
                 <div>
                   På sitt mest grunnleggende nivå, er AI en simulering av
@@ -100,7 +100,7 @@ const aicamp = () => {
             <div class="relative mb-4">
               <label
                 for="email"
-                class="leading-7 text-sm text-gray-800 font-heroSubText"
+                class="leading-7 text-lg text-gray-800 font-heroSubText"
               >
                 Kjernen av AI er maskinlæring. Maskinlæring er en metode for å
                 la datamaskiner lære fra en stor mengde data, uten at den blir
@@ -125,7 +125,7 @@ const aicamp = () => {
             <div class="relative mb-4">
               <label
                 for="email"
-                class="leading-7 text-sm text-gray-800 font-heroSubText"
+                class="leading-7 text-lg text-gray-800 font-heroSubText"
               >
                 AI blir brukt til et vidt spekter av applikasjoner, fra helse
                 til finans, fra transport til industri. Noen av de mest brukte
