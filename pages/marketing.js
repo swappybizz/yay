@@ -144,10 +144,10 @@ const marketingcamp = () => {
           src="./team.gif"
         />
         <div class="container px-5 md:px-0 md:pr-24  md:ml-auto font-admitTitle flex-col md:flex ">
-          <div class="lg:w-1/2 md:w-1/2 bg-transparent rounded-lg p-0 md:p-8 flex flex-col md:ml-auto w-full md:mt-24 relative z-10 shadow-none md:shadow-none">
+          <div class="lg:w-[42%] md:w-1/2 bg-transparent rounded-lg p-0 md:p-8 flex flex-col  md:ml-auto w-full md:mt-24 relative z-10 shadow-none md:shadow-none">
             <div className="font-heroSubText font-semibold mb-5"></div>
 
-            <b class=" text-6xl font-admitTitle mb-6 text-gray-600">
+            <b class=" text-6xl font-admitTitle mb-6 text-gray-600 ">
               <p className="group transition duration-300 text-gray-800 overflow-hiddens">
                 Markedsteam
                 <span class="block max-w-0 group-hover:max-w-[80%] transition-all duration-500 h-0.5 bg-admit-red"></span>
