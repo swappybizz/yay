@@ -199,6 +199,7 @@ const marketingcamp = () => {
           </div>
         </div>
       </section>
+      <p className="text-xs font-heroSubText">res:pmnd.rs</p>
     </>
   );
 };
