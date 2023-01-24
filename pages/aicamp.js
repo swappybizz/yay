@@ -22,7 +22,7 @@ const aicamp = () => {
                 informasjonsteknologi, som blir brukt til alt fra selvkjørende
                 biler til søkemotorer. Til å skape nye innovative løsninger som
                 forandrer måten vi lever og jobber på. Men hva ER egentlig AI og
-                hvordan fungerer det? I denne bloggen skal vi ta en nærmere titt
+                hvordan fungerer det? Vi tar en nærmere titt
                 på grunnlaget for AI og noen av nøkkelfunksjonene og teknologien
                 som driver utviklingen av den.
               </label>
@@ -128,11 +128,17 @@ const aicamp = () => {
               >
                 AI blir brukt til et vidt spekter av applikasjoner, fra helse
                 til finans, fra transport til industri. Noen av de mest brukte
-                områdene er: Bildegjenkjennelse: analysere og klassifisere
-                bilder, som å gjenkjenne ansikter i foto. Talegjenkjenning:
+                områdene er:
+                <br></br>
+                Bildegjenkjennelse: analysere og klassifisere
+                bilder, som å gjenkjenne ansikter i foto. 
+                <br></br>
+                Talegjenkjenning:
                 gjenkjenning av tale og reagere på det, slik som Siri og Alexa.
-                Robotisering: AI brukes til å kontrollere robåter og
-                automatiserte oppgaver. Avsløre svindel: AI brukes til å
+                <br></br>
+                Robotisering: AI brukes til å kontrollere roboter og
+                automatiserte oppgaver.<br></br>
+                 Avsløre svindel: AI brukes til å
                 identifisere og forhindre svindelaktivitet innen bla.a. finans.
               </label>
             </div>
