@@ -55,6 +55,8 @@ const BannerOverlay = () => {
             <video
               className="fixed md:flex hidden rounded-lg opacity-50 mr-auto top-0 left-0 right-0 bottom-0 h-[75vh] -z-10 ml-auto w-[65vw] my-auto"
               loop
+              muted
+              playsinline
               autoPlay
             >
               <source src="./holeyai.webm" type="video/webm" />
