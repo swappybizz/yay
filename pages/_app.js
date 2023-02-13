@@ -1,11 +1,11 @@
 import "../styles/globals.css";
 import Template from "../components/Template";
 import { motion, AnimatePresence } from "framer-motion";
-import { ParallaxProvider } from 'react-scroll-parallax'
+// import { ParallaxProvider } from 'react-scroll-parallax'
 
 function MyApp({ Component, pageProps, router }) {
   return (
-    <ParallaxProvider>
+    // <ParallaxProvider>
     <AnimatePresence>
       <motion.div
         key={router.route}
@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps, router }) {
         </Template>
       </motion.div>
     </AnimatePresence>
-    </ParallaxProvider>
+    // </ParallaxProvider>
   );
 }
 
