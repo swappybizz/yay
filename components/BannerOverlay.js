@@ -6,7 +6,7 @@ const BannerOverlay = () => {
   return (
     <>
       {showBanner ? (
-        <div className="fixed  top-0 left-0 right-0 bottom-0 h-screen w-screen mx-auto my-auto p-8 bg-gradient-to-r from-black to-transparent shadow-lg flex items-center justify-center">
+        <div className="fixed  top-0 left-0 right-0 bottom-0 h-screen w-screen mx-auto my-auto p-8 md:bg-gradient-to-r from-black to-transparent shadow-lg flex items-center justify-center">
           <div className="fixed overflow-hidden top-0 left-0 right-0 bottom-0 md:h-[75vh] h-[80vh] md:w-[65vw]  w-[90vw] mx-auto my-auto p-8 bg-black  rounded-lg shadow-lg flex items-center justify-center">
             <button
               onClick={() => setBanner(false)}
