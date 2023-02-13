@@ -42,8 +42,8 @@ const BannerOverlay = () => {
               Date : 28 feb 2023 <br></br>
               Venue: ÅKP, Rotunden <br></br>
               <br></br>
-              0900: coffee and registration <br></br>
-              0930-1130: workshop <br></br>
+              0900: Coffee and registration <br></br>
+              0930-1130: Workshop <br></br>
               1130: Lunch
             </p>
             <a href="https://forms.gle/Xius8ixVsEvJZEYEA" target="_blank">
