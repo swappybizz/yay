@@ -12,6 +12,7 @@ import BlogPreview from "../components/BlogPreview";
 // import {Cursor}from "react-creative-cursor"
 
 import "react-creative-cursor/dist/styles.css";
+import BannerOverlay from "../components/BannerOverlay";
 const toptext = {
   top: "Fremtidsrettet forretningsutvikling",
   middle: "Vi er  endringsarkitekter",
@@ -139,6 +140,7 @@ export default function Home({ posts }) {
       <FullPageImage />
 
       <Outro />
+      <BannerOverlay/>
     </>
   );
 }

@@ -14,11 +14,12 @@ const Template = ({ children }) => {
       
       <div ref={ref}>
       {/* <Banner/> */}
-      {/* <a className="cursor-pointer" href="/abc">
+      <a className="cursor-pointer" href="/">
     <div className="flex w-full h-12 bg-admit-red items-center justify-center cursor-pointer">
-        <p className="font-medium">Har konkurranseevnen til bedriften din endret seg ?</p>
+        <p className="font-medium">[EVENT-28 FEB '23] The state of AI 🤖: We look into the current events around AI. 
+        Where do we stand on current updates? </p>
     </div>
-    </a> */}
+    </a>
         <Navbar />
       </div>
       <AnimatePresence>
