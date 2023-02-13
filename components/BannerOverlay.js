@@ -6,11 +6,11 @@ const BannerOverlay = () => {
   return (
     <>
       {showBanner ? (
-        <div className="fixed top-0 left-0 right-0 bottom-0 h-screen w-screen mx-auto my-auto p-8 bg-gradient-to-r from-neutral-500 to-neutral-700 opacity-95 shadow-lg flex items-center justify-center">
-          <div className="fixed top-0 left-0 right-0 bottom-0 h-[50vh] w-[75vw] mx-auto my-auto p-8 bg-gradient-to-r from-black to-neutral-900 bg-blend-multiply opacity-95 rounded-lg shadow-lg flex items-center justify-center">
+        <div className="fixed  top-0 left-0 right-0 bottom-0 h-screen w-screen mx-auto my-auto p-8 bg-gradient-to-r from-black to-transparent shadow-lg flex items-center justify-center">
+          <div className="fixed overflow-hidden top-0 left-0 right-0 bottom-0 md:h-[75vh] h-[80vh] md:w-[65vw]  w-[90vw] mx-auto my-auto p-8 bg-black  rounded-lg shadow-lg flex items-center justify-center">
             <button
               onClick={() => setBanner(false)}
-              className="bg-white text-admit-red p-2 rounded-full absolute top-0 right-0 mt-4 mr-4 hover:bg-admit-red hover:text-white"
+              className="bg-white text-admit-red p-2 rounded-full absolute top-0 left-0 mt-1 scale-75 ml-1 hover:bg-admit-red hover:text-white"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -23,17 +23,17 @@ const BannerOverlay = () => {
                 <path d="M0 0h24v24H0z" fill="none" />
               </svg>
             </button>
-            <h1 className="text-white text-6xl font-semibold font-heroSubText absolute top-0 left-0 w-3/4 ml-8 mt-10 ">
+            <h1 className="text-white md:text-6xl text-2xl font-semibold font-heroSubText absolute top-0 left-0 md:w-3/4 w-full ml-8 mt-10 ">
               Event: The state of AI 🤖 <br></br> 2023
             </h1>
-            <p className="text-white text-xl absolute font-light left-0 ml-8 font-heroSubText top-48 w-3/4">
+            <p className="text-white md:text-xl text-base absolute font-light left-0 ml-8 font-heroSubText md:top-48 top-32 w-3/4">
               We look into the current events around AI. <br></br>
               Where do we stand on current updates and how to enhance our daily
               work by it? <br></br>
               How to put into good use - it it worthwhile, and more than just a
               fancy trick? <br></br>
               <br></br>
-              <b className="text-2xl font-medium">
+              <b className="md:text-2xl  font-medium">
                 Gone is the era of finding good answers, now is the era of
                 asking good questions.{" "}
               </b>
@@ -46,22 +46,21 @@ const BannerOverlay = () => {
               0930-1130: workshop <br></br>
               1130: Lunch
             </p>
-            <a href="https://forms.gle/Xius8ixVsEvJZEYEA"
-            target= "_blank"
-            
-            >
-            <button className="absolute bottom-12 px-6 py-3 shadow-2xl rounded-xl hover:text-neutral-700 bg-neutral-100 hover:shadow-inner font-heroSubText text-xl bg-opacity-80 text-black hover:bg-opacity-100  border-white">
-              {" "}
-              Register
-            </button>
+            <a href="https://forms.gle/Xius8ixVsEvJZEYEA" target="_blank">
+              <button className="absolute md:bottom-12 bottom-4 right-6 md:right-auto px-6 py-3 shadow-2xl rounded-xl hover:text-neutral-700 bg-neutral-100 hover:shadow-inner font-heroSubText text-xl bg-opacity-80 text-black hover:bg-opacity-100  border-white">
+                {" "}
+                Register
+              </button>
             </a>
             <video
-              className="fixed top-0 left-0 right-0 bottom-0 h-[60vh] -z-10  w-[75vw] mx-auto my-auto"
+              className="fixed md:flex hidden rounded-lg opacity-50 mr-auto top-0 left-0 right-0 bottom-0 h-[75vh] -z-10 ml-auto w-[65vw] my-auto"
               loop
               autoPlay
             >
               <source src="./holeyai.webm" type="video/webm" />
             </video>
+            
+          
           </div>
         </div>
       ) : (
