@@ -30,7 +30,7 @@ const BannerOverlay = () => {
               We look into the current events around AI. <br></br>
               Where do we stand on current updates and how to enhance our daily
               work by it? <br></br>
-              How to put into good use - it it worthwhile, and more than just a
+              How to put into good use - is it worthwhile, and more than just a
               fancy trick? <br></br>
               <br></br>
               <b className="md:text-2xl  font-medium">
