@@ -38,7 +38,7 @@ const BannerOverlay = () => {
                 asking good questions.{" "}
               </b>
             </p>
-            <p className="absolute bottom-0 mb-12  left-0 ml-8 text-neutral-100 font-heroSubText text-medium">
+            <p className="absolute bottom-0 mb-8  left-0 ml-8 text-neutral-100 font-heroSubText text-medium">
               Date : 28 feb 2023 <br></br>
               Venue: ÅKP, Rotunden <br></br>
               <br></br>
