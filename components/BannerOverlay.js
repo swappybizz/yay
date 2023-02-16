@@ -47,7 +47,7 @@ const BannerOverlay = () => {
               1130: Lunch<br></br>
               price: 550,-
             </p>
-            <a href="https://forms.gle/Xius8ixVsEvJZEYEA" target="_blank">
+            <a href="https://forms.office.com/e/DrFATy3Cvv" target="_blank">
               <button className="absolute md:bottom-12 bottom-4 right-6 md:right-auto px-6 py-3 shadow-2xl rounded-xl hover:text-neutral-700 bg-neutral-100 hover:shadow-inner font-heroSubText text-xl bg-opacity-80 text-black hover:bg-opacity-100  border-white">
                 {" "}
                 Register
