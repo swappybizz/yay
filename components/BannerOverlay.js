@@ -44,7 +44,8 @@ const BannerOverlay = () => {
               <br></br>
               0900: Coffee and registration <br></br>
               0930-1130: Workshop <br></br>
-              1130: Lunch
+              1130: Lunch<br></br>
+              price: 550,-
             </p>
             <a href="https://forms.gle/Xius8ixVsEvJZEYEA" target="_blank">
               <button className="absolute md:bottom-12 bottom-4 right-6 md:right-auto px-6 py-3 shadow-2xl rounded-xl hover:text-neutral-700 bg-neutral-100 hover:shadow-inner font-heroSubText text-xl bg-opacity-80 text-black hover:bg-opacity-100  border-white">
@@ -61,7 +62,6 @@ const BannerOverlay = () => {
             >
               <source src="./holeyai.webm" type="video/webm" />
             </video>
-            
           
           </div>
         </div>
