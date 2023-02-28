@@ -17,7 +17,7 @@ const Template = ({ children }) => {
       <a className="cursor-pointer" href="/">
     <div className="flex w-full h-12 bg-admit-red items-center justify-center cursor-pointer">
         <p className=" md:text-base text-xs font-semibold px-2
-        ">[EVENT-28 FEB '23] The state of AI 🤖: We look into the current events around AI. 
+        ">[EVENT-14Mar'23]The state of AI 🤖: We look into the current events around AI. 
         Where do we stand on current updates? </p>
     </div>
     </a>

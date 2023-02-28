@@ -39,7 +39,7 @@ const BannerOverlay = () => {
               </b>
             </p>
             <p className="absolute bottom-0 mb-8  left-0 ml-8 text-neutral-100 font-heroSubText text-medium">
-              Date : 28 feb 2023 <br></br>
+              Date : 14 Mar 2023 <br></br>
               Venue: ÅKP, Rotunden <br></br>
               <br></br>
               0900: Coffee and registration <br></br>
